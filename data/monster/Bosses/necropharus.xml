@@ -62,7 +62,7 @@
 		<item id="5809" chance="100000"/><!-- soul stone -->
 		<item id="2186" chance="500"/><!-- moonlight rod -->
 		<item id="1987" chance="100000"><!-- bag -->
-			
+			<inside>
 				<item id="2483" countmax="1" chance="8500"/><!-- scale armor -->
 				<item id="2796" countmax="1" chance="22500"/><!-- green mushroom -->
 				<item id="2231" countmax="1" chance="6000"/><!-- big bone -->
@@ -76,7 +76,7 @@
 				<item id="2663" chance="909"/><!-- mystic turban -->
 				<item id="2195" chance="666"/><!-- boots of haste -->
 				<item id="2423" chance="5000"/><!-- clerical mace -->
-			
+			</inside>
 		</item>
 	</loot>
 </monster>

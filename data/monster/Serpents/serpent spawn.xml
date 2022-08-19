@@ -78,12 +78,13 @@
 		<item id="2177" chance="650"/><!-- life crystal -->
 		<item id="2168" chance="5750"/><!-- life ring -->
 		<item id="1987" chance="100000"><!-- bag -->
-			
+			<inside>
 		<item id="7386" chance="2070"/><!-- mercenary sword -->
 		<item id="7456" chance="750"/><!-- noble axe -->
 		<item id="2148" countmax="3" chance="1000"/><!-- onyx arrow -->
 		<item id="2547" chance="6500"/><!-- power bolt -->
 		<item id="2498" chance="100"/><!-- royal helmet -->
+		<item id="2146" chance="12000"/><!-- small sapphire -->
 		<item id="2182" chance="880"/><!-- snakebite rod -->
 		<item id="8902" chance="130"/><!-- spellbook of mind control -->
 		<item id="2479" chance="670"/><!-- strange helmet -->
@@ -91,7 +92,7 @@
 		<item id="2528" chance="830"/><!-- tower shield -->
 		<item id="2475" chance="1000"/><!-- warrior helmet -->
 		<item id="2473" chance="15400"/><!-- viking helmet -->		
-			
+			</inside>
 		</item>
 	</loot>
 </monster>

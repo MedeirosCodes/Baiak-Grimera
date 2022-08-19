@@ -1,62 +1,47 @@
-local function getArticle(str)
-	return str:find("[AaEeIiOoUuYy]") == 1 and "an" or "a"
+-- [( Created by: GT Thionix, edited by: DoidinMapper for XTibia.com )] --
+function onSay(cid, words, param, channel)
+local config = {displayLimit = 10}
+local target = db.getResult("SELECT `name`, `id` FROM `players` WHERE `name` = " .. db.escapeString(param) .. ";")
+if(target:getID() == -1) then
+doPlayerSendCancel(cid, "A player with that name does not exist.")
+return TRUE
 end
-
-local function getMonthDayEnding(day)
-	if day == "01" or day == "21" or day == "31" then
-		return "st"
-	elseif day == "02" or day == "22" then
-		return "nd"
-	elseif day == "03" or day == "23" then
-		return "rd"
-	else
-		return "th"
-	end
+local targetName = target:getDataString("name")
+local targetGUID = target:getDataInt("id")
+target:free()
+local str = ""
+local deaths = db.getResult("SELECT `time`, `level`, `killed_by`, `altkilled_by` FROM `player_deaths` WHERE `player_id` = " .. targetGUID .. " ORDER BY `time` DESC;")
+if(deaths:getID() ~= -1) then
+local n = 0
+local breakline = ""
+repeat
+n = n + 1
+if(str ~= "") then
+breakline = "\n"
 end
-
-local function getMonthString(m)
-	return os.date("%B", os.time{year = 1970, month = m, day = 1})
+local time = os.date("%d %B %Y %X ", deaths:getDataInt("time"))
+local level = deaths:getDataInt("level")
+local lastHitKiller = deaths:getDataString("killed_by")
+local mostDamageKiller = deaths:getDataString("altkilled_by")
+local killed = ""
+if(tonumber(lastHitKiller)) then
+killed = getPlayerNameByGUID(tonumber(lastHitKiller))
+else
+killed = getArticle(lastHitKiller) .. " " .. string.lower(lastHitKiller)
 end
-
-function onSay(player, words, param)
-	local resultId = db.storeQuery("SELECT `id`, `name` FROM `players` WHERE `name` = " .. db.escapeString(param))
-	if resultId ~= false then
-		local targetGUID = result.getNumber(resultId, "id")
-		local targetName = result.getString(resultId, "name")
-		result.free(resultId)
-		local str = ""
-		local breakline = ""
-
-		local resultId = db.storeQuery("SELECT `time`, `level`, `killed_by`, `is_player` FROM `player_deaths` WHERE `player_id` = " .. targetGUID .. " ORDER BY `time` DESC")
-		if resultId ~= false then
-			repeat
-				if str ~= "" then
-					breakline = "\n"
-				end
-				local date = os.date("*t", result.getNumber(resultId, "time"))
-
-				local article = ""
-				local killed_by = result.getString(resultId, "killed_by")
-				if result.getNumber(resultId, "is_player") == 0 then
-					article = getArticle(killed_by) .. " "
-					killed_by = string.lower(killed_by)
-				end
-
-				if date.day < 10 then date.day = "0" .. date.day end
-				if date.hour < 10 then date.hour = "0" .. date.hour end
-				if date.min < 10 then date.min = "0" .. date.min end
-				if date.sec < 10 then date.sec = "0" .. date.sec end
-				str = str .. breakline .. " " .. date.day .. getMonthDayEnding(date.day) .. " " .. getMonthString(date.month) .. " " .. date.year .. " " .. date.hour .. ":" .. date.min .. ":" .. date.sec .. "   Died at Level " .. result.getNumber(resultId, "level") .. " by " .. article .. killed_by .. "."
-			until not result.next(resultId)
-			result.free(resultId)
-		end
-
-		if str == "" then
-			str = "No deaths."
-		end
-		player:popupFYI("Deathlist for player, " .. targetName .. ".\n\n" .. str)
-	else
-		player:sendCancelMessage("A player with that name does not exist.")
-	end
-	return false
+if(mostDamageKiller ~= "") thenif(tonumber(mostDamageKiller)) then
+if(tonumber(mostDamageKiller)) then
+killed = killed .. " and by " .. getPlayerNameByGUID(tonumber(mostDamageKiller))
+else
+killed = killed .. " and by " .. getArticle(mostDamageKiller) .. " " .. string.lower(mostDamageKiller)
+end
+end
+str = str .. breakline .. " " .. time .. " Died at Level " .. level .. " by " .. killed .. "."
+until not(deaths:next()) or n > config.displayLimit
+deaths:free()
+else
+str = "No deaths recorded."
+end
+doPlayerPopupFYI(cid, "Deathlist for player: " .. targetName .. ".\n\n" .. str)
+return TRUE
 end

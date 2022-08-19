@@ -1,25 +1,41 @@
-local maxPlayersPerMessage = 10
+local config = {
+	showGamemasters = getBooleanFromString(getConfigValue('displayGamemastersWithOnlineCommand'))
+}
 
-function onSay(player, words, param)
-	local hasAccess = player:getGroup():getAccess()
-	local players = Game.getPlayers()
-	local onlineList = {}
+function onSay(cid, words, param, channel)
+	local players = getPlayersOnline()
+	local strings = {""}
 
-	for _, targetPlayer in ipairs(players) do
-		if hasAccess or not targetPlayer:isInGhostMode() then
-			table.insert(onlineList, ("%s [%d]"):format(targetPlayer:getName(), targetPlayer:getLevel()))
+	local i, position = 1, 1
+	local added = false
+	for _, pid in ipairs(players) do
+		if(added) then
+			if(i > (position * 7)) then
+				strings[position] = strings[position] .. ","
+				position = position + 1
+				strings[position] = ""
+			else
+				strings[position] = i == 1 and "" or strings[position] .. ", "
+			end
+		end
+
+		if((config.showGamemasters or getPlayerCustomFlagValue(cid, PLAYERCUSTOMFLAG_GAMEMASTERPRIVILEGES) or not getPlayerCustomFlagValue(pid, PLAYERCUSTOMFLAG_GAMEMASTERPRIVILEGES)) and (not isPlayerGhost(pid) or getPlayerGhostAccess(cid) >= getPlayerGhostAccess(pid))) then
+			strings[position] = strings[position] .. getCreatureName(pid) .. " [" .. getPlayerLevel(pid) .. "]"
+			i = i + 1
+			added = true
+		else
+			added = false
 		end
 	end
 
-	local playersOnline = #onlineList
-	player:sendTextMessage(MESSAGE_STATUS_BLUE_LIGHT, ("%d players online."):format(playersOnline))
-
-	if player:getAccountType() >= ACCOUNT_TYPE_GOD then
-		for i = 1, playersOnline, maxPlayersPerMessage do
-			local j = math.min(i + maxPlayersPerMessage - 1, playersOnline)
-			local msg = table.concat(onlineList, ", ", i, j) .. "."
-			player:sendTextMessage(MESSAGE_STATUS_BLUE_LIGHT, msg)
+	doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, (i - 1) .. " player(s) online:")
+	for i, str in ipairs(strings) do
+		if(str:sub(str:len()) ~= ",") then
+			str = str .. "."
 		end
+
+		doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, str)
 	end
-	return false
+
+	return true
 end

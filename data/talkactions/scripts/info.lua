@@ -1,37 +1,26 @@
-function onSay(player, words, param)
-	if not player:getGroup():getAccess() then
-		return true
+--Cyber's Reputation System Rev5.0 
+function onSay(cid, words, param, channel)
+	local points, lastName, action = rep.getPoints(cid), getPlayerStorageValue(cid, rep.lastName), false
+	doPlayerSendTextMessage(cid, 19, 'You have ' .. rep.formatNum(points, ",")  .. ' reputation points. You are ' .. rep.getRank(points) .. '\nYour Rep Power is ' .. rep.getPower(points) ..'. ' .. (getPlayerStorageValue(cid, rep.lastName) ~= -1 and 'You last reputed ' .. getPlayerNameByGUID(lastName) .. '.' or ''))
+ 
+	if points > 4999 then --female rep+++ queen outfit
+		disguise, text, action = (getPlayerSex(cid) == 0 and {lookType = 331} or {lookType = 332}), (getPlayerSex(cid) == 0 and 'Queen!!' or 'King!!'), true
+	elseif points > 1999 then --rep++ cm outfit
+		disguise, text, action = {lookType = 73}, 'Hero!!', true
+	elseif points > 1499 then --rep+ hero outfit
+		disguise, text, action = {lookType = 63}, 'Acclaimed!!', true
+	elseif points < -4999 then --rep*** devil outfit
+		disguise, text, action = {lookType = 334}, 'P.O.!', true
+	elseif points < -1999  then --rep** pig outfit 
+		disguise, text, action = {lookType = 306}, 'Evil!!', true
+	elseif points < -1499 then --rep* orc outfit 
+		disguise, text, action = {lookType = 5}, "Slayer!!", true   
 	end
-
-	local target = Player(param)
-	if not target then
-		player:sendCancelMessage("Player not found.")
-		return false
-	end
-
-	if target:getAccountType() > player:getAccountType() then
-		player:sendCancelMessage("You can not get info about this player.")
-		return false
-	end
-
-	local targetIp = target:getIp()
-	player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Name: " .. target:getName())
-	player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Access: " .. (target:getGroup():getAccess() and "1" or "0"))
-	player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Level: " .. target:getLevel())
-	player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Magic Level: " .. target:getMagicLevel())
-	player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Speed: " .. target:getSpeed())
-	player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Position: " .. string.format("(%0.5d / %0.5d / %0.3d)", target:getPosition().x, target:getPosition().y, target:getPosition().z))
-	player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "IP: " .. Game.convertIpToString(targetIp))
-
-	local players = {}
-	for _, targetPlayer in ipairs(Game.getPlayers()) do
-		if targetPlayer:getIp() == targetIp and targetPlayer ~= target then
-			players[#players + 1] = targetPlayer:getName() .. " [" .. targetPlayer:getLevel() .. "]"
-		end
-	end
-
-	if #players > 0 then
-		player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Other players on same IP: " .. table.concat(players, ", ") .. ".")
-	end
-	return false
+	
+	if action and getCreatureOutfit(cid).lookType ~= disguise.lookType then
+		doSetCreatureOutfit(cid, disguise, -1)
+		doSendAnimatedText(getCreaturePosition(cid), text, math.random(1,255))
+	return true
+	end	
+return true
 end

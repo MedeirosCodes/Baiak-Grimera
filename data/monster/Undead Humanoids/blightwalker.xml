@@ -60,7 +60,7 @@
 		<item id="5944" chance="15500"/><!-- soul orb -->
 		<item id="2550" chance="5000"/><!-- scythe -->
 		<item id="1987" chance="100000"><!-- bag -->
-			
+			<inside>
 		<item id="9810" chance="7800"/><!-- rusty armor -->
 		<item id="2183" chance="700"/><!-- hailstorm rod -->
 		<item id="7885" chance="1550"/><!-- terra legs -->
@@ -70,7 +70,7 @@
 		<item id="6300" chance="100"/><!-- death ring -->		
 		<item id="9971" chance="150"/><!-- gold ingot -->		
 		<item id="2436" chance="500"/><!-- skull staff -->		
-			
+			</inside>
 		</item>
 	</loot>
 </monster>

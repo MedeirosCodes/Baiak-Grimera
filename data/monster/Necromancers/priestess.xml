@@ -4,6 +4,9 @@
 	<look type="58" corpse="6081"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
+	<script>
+        <event name="KillingInTheNameOf"/>
+</script>
 	<flags>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
@@ -59,7 +62,7 @@
 		<item id="2379" chance="22750"/><!-- dagger -->
 		<item id="2760" chance="14250"/><!-- goat grass -->
 		<item id="1987" chance="100000"><!-- bag -->
-			
+			<inside>
 				<item id="2183" chance="1100"/><!-- hailstorm rod -->
 				<item id="7620" chance="1300"/><!-- mana potion -->
 				<item id="2803" chance="6500"/><!-- powder herb -->
@@ -69,7 +72,7 @@
 				<item id="2791" chance="2600"/><!-- wood mushroom -->
 				<item id="2070" chance="1800"/><!-- flute -->
 				<item id="2114" chance="200"/><!-- piggy bank -->
-			
+			</inside>
 		</item>
 	</loot>
 </monster>
