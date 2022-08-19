@@ -1,6 +1,6 @@
 /**
  * The Forgotten Server - a free and open-source MMORPG server emulator
- * Copyright (C) 2019  Mark Samman <mark.samman@gmail.com>
+ * Copyright (C) 2017  Mark Samman <mark.samman@gmail.com>
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -31,7 +31,7 @@ NpcScriptInterface* Npc::scriptInterface = nullptr;
 
 void Npcs::reload()
 {
-	const auto& npcs = g_game.getNpcs();
+	const std::map<uint32_t, Npc*>& npcs = g_game.getNpcs();
 	for (const auto& it : npcs) {
 		it.second->closeAllShopWindows();
 	}
@@ -99,20 +99,17 @@ void Npc::reset()
 {
 	loaded = false;
 	walkTicks = 1500;
-	pushable = true;
 	floorChange = false;
 	attackable = false;
-	ignoreHeight = false;
+	ignoreHeight = true;
+	speechBubble = SPEECHBUBBLE_NONE;
 	focusCreature = 0;
-
-	moneyType = 0;
 
 	delete npcEventHandler;
 	npcEventHandler = nullptr;
 
 	parameters.clear();
 	shopPlayerSet.clear();
-	spectators.clear();
 }
 
 void Npc::reload()
@@ -156,10 +153,6 @@ bool Npc::loadFromXml()
 		baseSpeed = 100;
 	}
 
-	if ((attr = npcNode.attribute("pushable"))) {
-		pushable = attr.as_bool();
-	}
-
 	if ((attr = npcNode.attribute("walkinterval"))) {
 		walkTicks = pugi::cast<uint32_t>(attr.value());
 	}
@@ -171,7 +164,11 @@ bool Npc::loadFromXml()
 	if ((attr = npcNode.attribute("ignoreheight"))) {
 		ignoreHeight = attr.as_bool();
 	}
-
+	
+	if ((attr = npcNode.attribute("speechbubble"))) {
+		speechBubble = pugi::cast<uint32_t>(attr.value());
+	}
+	
 	if ((attr = npcNode.attribute("skull"))) {
 		setSkull(getSkullType(asLowerCaseString(attr.as_string())));
 	}
@@ -206,10 +203,6 @@ bool Npc::loadFromXml()
 		}
 
 		currentOutfit = defaultOutfit;
-	}
-
-  if ((attr = npcNode.attribute("money"))) {
-		moneyType = pugi::cast<uint16_t>(attr.value());
 	}
 
 	for (auto parameterNode : npcNode.child("parameters").children()) {
@@ -393,7 +386,7 @@ bool Npc::getNextStep(Direction& dir, uint32_t& flags)
 		return true;
 	}
 
-	if (walkTicks == 0) {
+	if (walkTicks <= 0) {
 		return false;
 	}
 
@@ -458,40 +451,37 @@ bool Npc::canWalkTo(const Position& fromPos, Direction dir) const
 
 bool Npc::getRandomStep(Direction& dir) const
 {
-	std::array<Direction, 4> dirList;
-	size_t directions = static_cast<size_t>(-1);
-
+	std::vector<Direction> dirList;
 	const Position& creaturePos = getPosition();
 
 	if (canWalkTo(creaturePos, DIRECTION_NORTH)) {
-		dirList[++directions] = DIRECTION_NORTH;
+		dirList.push_back(DIRECTION_NORTH);
 	}
 
 	if (canWalkTo(creaturePos, DIRECTION_SOUTH)) {
-		dirList[++directions] = DIRECTION_SOUTH;
+		dirList.push_back(DIRECTION_SOUTH);
 	}
 
 	if (canWalkTo(creaturePos, DIRECTION_EAST)) {
-		dirList[++directions] = DIRECTION_EAST;
+		dirList.push_back(DIRECTION_EAST);
 	}
 
 	if (canWalkTo(creaturePos, DIRECTION_WEST)) {
-		dirList[++directions] = DIRECTION_WEST;
+		dirList.push_back(DIRECTION_WEST);
 	}
 
-	if (directions <= 4) {
-		dir = dirList[uniform_random(0, directions)];
-		return true;
+	if (dirList.empty()) {
+		return false;
 	}
 
-	return false;
+	dir = dirList[uniform_random(0, dirList.size() - 1)];
+	return true;
 }
 
-void Npc::doMoveTo(const Position& pos)
+void Npc::doMoveTo(const Position& target)
 {
-	std::vector<Direction> listDir;
-
-	if (getPathTo(pos, listDir, 1, 1, true, true)) {
+	std::forward_list<Direction> listDir;
+	if (getPathTo(target, listDir, 1, 1, true, true)) {
 		startAutoWalk(listDir);
 	}
 }
@@ -840,7 +830,7 @@ int NpcScriptInterface::luaOpenShopWindow(lua_State* L)
 
 	npc->addShopPlayer(player);
 	player->setShopOwner(npc, buyCallback, sellCallback);
-	player->openShopWindow(items);
+	player->openShopWindow(npc, items);
 
 	pushBoolean(L, true);
 	return 1;
@@ -1045,7 +1035,7 @@ int NpcScriptInterface::luaNpcOpenShopWindow(lua_State* L)
 	npc->addShopPlayer(player);
 
 	player->setShopOwner(npc, buyCallback, sellCallback);
-	player->openShopWindow(items);
+	player->openShopWindow(npc, items);
 
 	pushBoolean(L, true);
 	return 1;
@@ -1122,7 +1112,6 @@ void NpcEventsHandler::onCreatureAppear(Creature* creature)
 	//onCreatureAppear(creature)
 	if (!scriptInterface->reserveScriptEnv()) {
 		std::cout << "[Error - NpcScript::onCreatureAppear] Call stack overflow" << std::endl;
-		return;
 	}
 
 	ScriptEnvironment* env = scriptInterface->getScriptEnv();
@@ -1209,7 +1198,7 @@ void NpcEventsHandler::onCreatureSay(Creature* creature, SpeakClasses type, cons
 	scriptInterface->callFunction(3);
 }
 
-void NpcEventsHandler::onPlayerTrade(Player* player, int32_t callback, uint16_t itemId,
+void NpcEventsHandler::onPlayerTrade(Player* player, int32_t callback, uint16_t itemid,
                               uint8_t count, uint8_t amount, bool ignore, bool inBackpacks)
 {
 	if (callback == -1) {
@@ -1230,7 +1219,7 @@ void NpcEventsHandler::onPlayerTrade(Player* player, int32_t callback, uint16_t 
 	LuaScriptInterface::pushCallback(L, callback);
 	LuaScriptInterface::pushUserdata<Player>(L, player);
 	LuaScriptInterface::setMetatable(L, -1, "Player");
-	lua_pushnumber(L, itemId);
+	lua_pushnumber(L, itemid);
 	lua_pushnumber(L, count);
 	lua_pushnumber(L, amount);
 	LuaScriptInterface::pushBoolean(L, ignore);
