@@ -826,12 +826,32 @@
   </spawn>
   <spawn centerx="146" centery="47" centerz="7" radius="5">
     <npc name="Riona" x="0" y="0" z="7" spawntime="60"/>
+    <npc name="Riona" x="0" y="1" z="7" spawntime="60"/>
+    <npc name="Athan" x="1" y="5" z="7" spawntime="60"/>
+    <npc name="Blesser Man" x="3" y="5" z="7" spawntime="60"/>
+    <npc name="Dark Rodo" x="5" y="5" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="164" centery="47" centerz="7" radius="1">
     <npc name="Henricus" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="127" centery="48" centerz="7" radius="5">
     <npc name="Lector" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="154" centery="54" centerz="7" radius="8">
+    <npc name="Dufi" x="-2" y="-3" z="7" spawntime="60"/>
+    <npc name="Eremo" x="-1" y="-2" z="7" spawntime="60"/>
+    <npc name="Especialista of Soft" x="1" y="-2" z="7" spawntime="60"/>
+    <npc name="Frodo" x="-7" y="0" z="7" spawntime="60"/>
+    <npc name="Henricus" x="-5" y="0" z="7" spawntime="60"/>
+    <npc name="Lector" x="-3" y="0" z="7" spawntime="60"/>
+    <npc name="Lola" x="-1" y="0" z="7" spawntime="60"/>
+    <npc name="Mad" x="1" y="0" z="7" spawntime="60"/>
+    <npc name="Obi" x="-7" y="2" z="7" spawntime="60"/>
+    <npc name="Perac" x="-5" y="2" z="7" spawntime="60"/>
+    <npc name="Rashid" x="4" y="2" z="7" spawntime="60"/>
+    <npc name="Roy" x="-7" y="4" z="7" spawntime="60"/>
+    <npc name="Seller" x="-5" y="4" z="7" spawntime="60"/>
+    <npc name="Varkhal" x="-3" y="4" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="127" centery="57" centerz="7" radius="5">
     <npc name="Dufi" x="0" y="0" z="7" spawntime="60"/>
