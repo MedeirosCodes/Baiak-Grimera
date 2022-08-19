@@ -4,6 +4,9 @@
 	<look type="25" corpse="5969"/>
 	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>
+	<script>
+        <event name="KillingInTheNameOf"/>
+</script>
 	<flags>
 		<flag summonable="1"/>
 		<flag attackable="1"/>
@@ -37,7 +40,7 @@
 		<item id="2398" chance="8500"/><!-- mace -->
 		<item id="2376" chance="9500"/><!-- sword -->
 		<item id="1987" chance="100000"><!-- bag -->
-				
+			<inside>	
 			<item id="2464" chance="9200"/><!-- chain armor -->
 			<item id="2666" chance="9000"/><!-- meat -->
 			<item id="2460" chance="7250"/><!-- brass helmet -->
@@ -46,7 +49,7 @@
 			<item id="2554" chance="2400"/><!-- shovel -->
 			<item id="5878" chance="850"/><!-- minotaur leather -->
 			<item id="2172" chance="250"/><!-- bronze amulet -->
-			
+			</inside>
 		</item>
 	</loot>
 </monster>

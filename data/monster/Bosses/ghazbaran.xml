@@ -16,7 +16,6 @@
 		<flag staticattack="98"/>
 		<flag targetdistance="1"/>
 		<flag runonhealth="3500"/>
-		<flag isboss="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="-500" max="-2191"/>
@@ -78,11 +77,11 @@
 		<item id="6300" chance="12000"/><!-- death ring -->
 		<item id="5943" chance="7000"/><!-- Morgaroth's heart -->
 		<item id="2003" chance="100000"><!-- grey backpack -->
-			
+			<inside>
 				<item id="7431" chance="6000"/><!-- demonbone -->
 				<item id="2393" chance="60000"/><!-- giant sword -->
 				<item id="2195" chance="14033"/><!-- boots of haste -->
-			
+			</inside>
 		</item>
 	</loot>
 </monster>

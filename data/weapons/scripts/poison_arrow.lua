@@ -1,14 +1,14 @@
-local combat = Combat()
-combat:setParameter(COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
-combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_POISONARROW)
-combat:setParameter(COMBAT_PARAM_BLOCKARMOR, true)
-combat:setFormula(COMBAT_FORMULA_SKILL, 0, 0, 1, 0)
+local combat = createCombatObject()
+setCombatParam(combat, COMBAT_PARAM_BLOCKARMOR, 1)
+setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_POISONDAMAGE)
+setCombatParam(combat, COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_POISONARROW)
+setCombatFormula(combat, COMBAT_FORMULA_SKILL, 1, 0, 1, 0)
 
-function onUseWeapon(player, variant)
-	if not combat:execute(player, variant) then
-		return false
-	end
+local condition = createConditionObject(CONDITION_POISON)
+setConditionParam(condition, CONDITION_PARAM_DELAYED, 1)
+addDamageCondition(condition, 10, 2000, -1)
+setCombatCondition(combat, condition)
 
-	player:addDamageCondition(Creature(variant:getNumber()), CONDITION_POISON, DAMAGELIST_LOGARITHMIC_DAMAGE, 3)
-	return true
+function onUseWeapon(cid, var)
+	return doCombat(cid, combat, var)
 end

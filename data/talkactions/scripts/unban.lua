@@ -1,21 +1,23 @@
-function onSay(player, words, param)
-	if not player:getGroup():getAccess() then
+function onSay(cid, words, param, channel)
+	if(param == '') then
+		doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Command param required.")
 		return true
 	end
-	
-	if param == "" then
-		player:popupFYI("----- [Ban System] -----\n\n/unban Name\n\nExemple:\n/unban Movie")
-		return false
+
+	local tmp = getAccountIdByName(param)
+	if(tmp == 0) then
+		tmp = getAccountIdByAccount(param)
+		if(tmp == 0) then
+			doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Player or account '" .. param .. "' does not exists.")
+			return true
+		end
 	end
 
-	local resultId = db.storeQuery("SELECT `account_id`, `lastip` FROM `players` WHERE `name` = " .. db.escapeString(param))
-	if resultId == false then
-		return false
+	if(isAccountBanished(tmp)) then
+	 db.executeQuery("DELETE FROM bans WHERE value= " .. tmp .. " LIMIT 1;")
+		doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, tmp .. " has been unbanned.")
 	end
 
-	db.asyncQuery("DELETE FROM `account_bans` WHERE `account_id` = " .. result.getNumber(resultId, "account_id"))
-	db.asyncQuery("DELETE FROM `ip_bans` WHERE `ip` = " .. result.getNumber(resultId, "lastip"))
-	result.free(resultId)
-	player:sendTextMessage(MESSAGE_EVENT_ADVANCE, param .. " has been unbanned.")
-	return false
+
+	return true
 end

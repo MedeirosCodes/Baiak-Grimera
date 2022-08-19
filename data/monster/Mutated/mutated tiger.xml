@@ -24,7 +24,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="30" defense="30">
-		<defense name="invisible" interval="1000" chance="25" duration="9000">
+		<defense name="invisible" interval="1000" chance="80" duration="900">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 		<defense name="healing" interval="1000" chance="25" min="150" max="300">
@@ -53,13 +53,13 @@
 		<item id="2666" countmax="4" chance="15000"/><!-- meat -->
 		<item id="2509" chance="7000"/><!-- steel shield -->
 		<item id="1987" chance="100000"><!-- bag -->
-			
+			<inside>
 				<item id="2168" chance="2000"/><!-- life ring -->
 				<item id="7588" chance="900"/><!-- strong health potion -->	
 				<item id="2515" chance="500"/><!-- guardian shield -->
 				<item id="7454" chance="300"/><!-- glorius axe -->
 				<item id="7436" chance="200"/><!-- angelic axe -->
-			
+			</inside>
 		</item>
 	</loot>
 </monster>

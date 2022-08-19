@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Swamp Troll" nameDescription="um swamp troll" race="venom" experience="65" speed="128" manacost="320">
+<monster name="Swamp Troll" nameDescription="a swamp troll" race="venom" experience="65" speed="128" manacost="320">
 	<health now="55" max="55"/>
 	<look type="76" corpse="6018"/>
 	<targetchange interval="5000" chance="0"/>
 	<strategy attack="100" defense="0"/>
+	<script>
+        <event name="KillingInTheNameOf"/>
+</script>
 	<flags>
 		<flag summonable="1"/>
 		<flag attackable="1"/>
@@ -35,12 +38,12 @@
 		<item id="2667" chance="63500"/><!-- fish -->
 		<item id="2379" chance="27500"/><!-- dagger -->
 		<item id="1987" chance="100000"><!-- bag -->
-			
+			<inside>
 				<item id="2050" chance="15750"/><!-- torch -->
 				<item id="2389" chance="14700"/><!-- spear -->
 				<item id="2643" chance="9500"/><!-- leather boots -->
 				<item id="2580" chance="150"/><!-- fishing rod -->
-			
+			</inside>
 		</item>
 	</loot>
 </monster>

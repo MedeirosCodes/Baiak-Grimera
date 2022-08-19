@@ -1,11 +1,8 @@
-function onSay(player, words, param)
-	if not player:hasFlag(PlayerFlag_CanBroadcast) then
+function onSay(cid, words, param, channel)
+	if(param == '') then
 		return true
 	end
 
-	print("> " .. player:getName() .. " broadcasted: \"" .. param .. "\".")
-	for _, targetPlayer in ipairs(Game.getPlayers()) do
-		targetPlayer:sendPrivateMessage(player, param, TALKTYPE_BROADCAST)
-	end
-	return false
+	doPlayerBroadcastMessage(cid, param)
+	return true
 end
