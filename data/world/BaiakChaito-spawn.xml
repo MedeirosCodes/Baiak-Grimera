@@ -704,9 +704,12 @@
   <spawn centerx="174" centery="44" centerz="7" radius="1">
     <npc name="Heitor" x="1" y="1" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="150" centery="46" centerz="7" radius="2"/>
+  <spawn centerx="150" centery="46" centerz="7" radius="2">
+    <npc name="Soft Changer" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="146" centery="47" centerz="7" radius="5">
     <npc name="Riona" x="0" y="0" z="7" spawntime="60"/>
+    <npc name="Riona" x="0" y="1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="164" centery="47" centerz="7" radius="1">
     <npc name="Bank" x="0" y="0" z="7" spawntime="60"/>
@@ -714,19 +717,56 @@
   <spawn centerx="127" centery="48" centerz="7" radius="5">
     <npc name="Raimunda" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="127" centery="57" centerz="7" radius="5"/>
-  <spawn centerx="175" centery="65" centerz="7" radius="1"/>
+  <spawn centerx="127" centery="57" centerz="7" radius="5">
+    <npc name="Dufi" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="175" centery="65" centerz="7" radius="1">
+    <npc name="Addoner" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="64" centery="68" centerz="7" radius="12">
     <monster name="Demon Skeleton" x="8" y="-8" z="7" spawntime="60"/>
     <monster name="Demon Skeleton" x="-11" y="-2" z="7" spawntime="40"/>
     <monster name="Demon Skeleton" x="-8" y="8" z="7" spawntime="60"/>
     <monster name="Demon Skeleton" x="5" y="8" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="235" centery="70" centerz="7" radius="1">
+    <npc name="Frodo" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="167" centery="75" centerz="7" radius="5">
     <monster name="Amazon" x="-2" y="-1" z="7" spawntime="60"/>
     <monster name="Amazon" x="3" y="0" z="7" spawntime="60"/>
     <monster name="Amazon" x="-3" y="1" z="7" spawntime="60"/>
     <monster name="Amazon" x="3" y="5" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="212" centery="75" centerz="7" radius="1">
+    <npc name="Dark Rodo" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="235" centery="75" centerz="7" radius="1">
+    <npc name="Gordo" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="230" centery="76" centerz="7" radius="1">
+    <npc name="Dimral" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="250" centery="76" centerz="7" radius="10">
+    <npc name="A Wandering Soul" x="-10" y="-5" z="7" spawntime="60"/>
+    <npc name="banker" x="-7" y="-5" z="7" spawntime="60"/>
+    <npc name="bankman billy" x="-4" y="-5" z="7" spawntime="60"/>
+    <npc name="Blesser Man" x="-1" y="-5" z="7" spawntime="60"/>
+    <npc name="Breno" x="2" y="-5" z="7" spawntime="60"/>
+    <npc name="Bruce" x="5" y="-5" z="7" spawntime="60"/>
+    <npc name="Bulma" x="8" y="-5" z="7" spawntime="60"/>
+    <npc name="Cael" x="-9" y="-1" z="7" spawntime="60"/>
+    <npc name="Capitao coruja" x="-10" y="4" z="7" spawntime="60"/>
+    <npc name="Chuckles" x="-1" y="8" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="226" centery="77" centerz="7" radius="1">
+    <npc name="Deruno" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="216" centery="78" centerz="7" radius="1">
+    <npc name="Death" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="221" centery="78" centerz="7" radius="1">
+    <npc name="Dennis" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="116" centery="80" centerz="7" radius="5">
     <monster name="Stone Golem" x="4" y="-1" z="7" spawntime="60"/>
@@ -736,6 +776,10 @@
     <monster name="Bear" x="-2" y="-2" z="7" spawntime="30"/>
     <monster name="Bear" x="2" y="0" z="7" spawntime="30"/>
   </spawn>
+  <spawn centerx="231" centery="80" centerz="7" radius="1">
+    <npc name="Donald" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="235" centery="80" centerz="7" radius="1"/>
   <spawn centerx="167" centery="82" centerz="7" radius="5">
     <monster name="Amazon" x="-3" y="-1" z="7" spawntime="60"/>
     <monster name="Polar Bear" x="-3" y="2" z="7" spawntime="60"/>
