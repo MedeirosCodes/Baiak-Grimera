@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Trainer" nameDescription="a trainer" race="blood" experience="0" speed="0" manacost="0">
+<monster name="Training Monk" nameDescription="a trainer" race="blood" experience="0" speed="0" manacost="0">
 	<health now="1000000" max="1000000"/>
 	<look type="57" corpse="6080"/>
 	<targetchange interval="0" chance="0"/>
