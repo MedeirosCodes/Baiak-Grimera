@@ -62,7 +62,7 @@
 		<item id="2744" chance="20000"/><!-- red rose -->
 		<item id="2121" chance="6775"/><!-- wedding ring -->
 		<item id="1987" chance="100000"><!-- bag -->
-			<inside>
+			
 				<item id="2377" chance="7550"/><!-- two handed sword -->
 				<item id="7364" countmax="6" chance="2000"/><!-- sniper arrow -->
 				<item id="2391" chance="2500"/><!-- war hammer -->
@@ -75,7 +75,7 @@
 				<item id="2114" chance="200"/><!-- piggy bank -->
 				<item id="2164" chance="175"/><!-- might ring -->
 				<item id="2488" chance="400"/><!-- crown legs -->		
-			</inside>
+			
 		</item>
 	</loot>
 </monster>

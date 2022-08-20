@@ -57,13 +57,10 @@
 		<item id="2387" chance="10000"/><!-- double axe -->
 		<item id="2666" countmax="6" chance="6500"/><!-- meat -->
 		<item id="5893" chance="1300"/><!-- perfect behemoth fang -->
-		<item id="2553" chance="6400"/><!-- pick -->
 		<item id="1987" chance="100000"><!-- bag -->
-			<inside>
+			
 				<item id="2463" chance="2000"/><!-- plate armor -->
-				<item id="2150" countmax="4" chance="1750"/><!-- small amethyst -->
 				<item id="2645" chance="250"/><!-- steel boots -->
-					    <item id="2429" chance="600"/><!-- Barbarian Axe -->
 				<item id="2377" chance="3200"/><!-- two handed sword -->
 				<item id="2393" chance="900"/><!-- giant sword -->
 				<item id="7591" chance="925"/><!-- great health potion  -->
@@ -73,7 +70,7 @@
 				<item id="7396" chance="100"/><!-- behemoth trophy -->
 				<item id="2125" chance="450"/><!-- crystal necklace -->	
 				<item id="7413" chance="150"/><!-- titan axe-->
-			</inside>
+			
 		</item>
 	</loot>
 </monster>

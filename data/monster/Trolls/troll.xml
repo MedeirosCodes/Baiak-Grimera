@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Troll" nameDescription="a troll" race="blood" experience="20" speed="126" manacost="290">
+<monster name="Troll" nameDescription="um troll" race="blood" experience="20" speed="126" manacost="290">
 	<health now="50" max="50"/>
 	<look type="15" corpse="5960"/>
 	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>
-	<script>
-        <event name="KillingInTheNameOf"/>
-</script>
 	<flags>
 		<flag summonable="1"/>
 		<flag attackable="1"/>
@@ -45,12 +42,12 @@
 		<item id="2666" chance="11750"/><!-- meat -->
 		<item id="2120" chance="8750"/><!-- rope -->
 		<item id="1987" chance="100000"><!-- bag -->
-			<inside>
+			
 				<item id="2389" chance="12000"/><!-- spear -->
 				<item id="2512" chance="15000"/><!-- wooden shield -->
 				<item id="2448" chance="4500"/><!-- studded club -->
 				<item id="2170" chance="50"/><!-- silver amulet -->
-			</inside>
+			
 		</item>
 	</loot>
 </monster>

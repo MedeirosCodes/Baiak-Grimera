@@ -76,9 +76,8 @@
 		<item id="2442" chance="5000"/><!-- heavy machete -->
 		<item id="2063" chance="20000"/><!-- small oil lamp -->
 		<item id="1987" chance="100000"><!-- bag -->
-			<inside>
+			
 		<item id="1872" chance="1000"/><!-- blue tapestry -->
-		<item id="2146" countmax="4" chance="1000"/><!-- small sapphire -->
 		<item id="7589" chance="3500"/><!-- strong mana potion -->
 		<item id="5912" chance="5000"/><!-- blue piece of cloth -->
 		<item id="2374" chance="5000"/><!-- wooden flute -->
@@ -86,8 +85,7 @@
 		<item id="2183" chance="900"/><!-- hailstorm rod -->
 		<item id="2663" chance="750"/><!-- mystic turban -->
 	 	<item id="7900" chance="100"/><!-- magma monocle -->
-		<item id="2158" chance="200"/><!-- blue gem -->
-			</inside>
+			
 		</item>
 	</loot>
 </monster>

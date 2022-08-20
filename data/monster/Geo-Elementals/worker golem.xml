@@ -51,7 +51,6 @@
 	<loot>
 		<item id="2148" countmax="70" chance="34000"/><!-- gold coin -->
 		<item id="2148" countmax="61" chance="34000"/><!-- gold coin -->
-		<item id="2145" countmax="3" chance="5000"/><!-- small diamond -->
 		<item id="8309" countmax="5" chance="2000"/><!-- nails -->
 		<item id="5880" chance="850"/><!-- iron ore -->
 		<item id="9690" countmax="2" chance="500"/><!-- gear wheel -->
@@ -60,7 +59,7 @@
 		<item id="8472" chance="1600"/><!-- great spirit potion -->
 		<item id="7591" chance="1900"/><!-- great health potion -->
 		<item id="1987" chance="100000"><!-- bag -->
-			<inside>
+			
 				<item id="7439" chance="1350"/><!-- berserk potion -->
 				<item id="9976" chance="1000"/><!-- crystal pedestal -->	
 				<item id="7452" chance="1500"/><!-- spiked squelcher -->	
@@ -69,7 +68,7 @@
 				<item id="2164" chance="650"/><!-- might ring -->
 				<item id="7428" chance="200"/><!-- bonebreaker -->
 				<item id="7590" chance="1500"/><!-- great mana potion -->
-			</inside>
+			
 		</item>
 	</loot>
 </monster>

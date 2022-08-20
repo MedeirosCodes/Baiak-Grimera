@@ -19,11 +19,11 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="80" attack="60"/>
-		<attack name="speed" interval="2000" chance="17" range="7" radius="4" target="1" speedchange="-600" duration="15000">
+		<attack name="speed" interval="1000" chance="17" range="7" radius="4" target="1" speedchange="-600" duration="15000">
 			<attribute key="shootEffect" value="poison"/>
 			<attribute key="areaEffect" value="greenbubble"/>
 		</attack>
-		<attack name="physical" interval="2000" chance="17" length="8" spread="3" min="-150" max="-250">
+		<attack name="physical" interval="3000" chance="17" length="8" spread="3" min="-150" max="-250">
 			<attribute key="areaEffect" value="bluebubble"/>
 		</attack>
 		<attack name="poison" interval="2000" chance="20" length="8" spread="3" min="-60" max="-300">
@@ -31,7 +31,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="25" defense="35">
-		<defense name="healing" interval="2000" chance="25" min="200" max="400">
+		<defense name="healing" interval="1000" chance="25" min="200" max="400">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
@@ -60,9 +60,8 @@
 		<item id="7589" chance="200"/><!-- strong mana potion -->
 		<item id="2177" chance="500"/><!-- life crystal -->
 		<item id="2197" chance="900"/><!-- stone skin amulet -->
-		<item id="2146" chance="5000"/><!-- small sapphire -->
 		<item id="1987" chance="100000"><!-- bag -->
-			<inside>
+			
 		<item id="4850" chance="600"/><!-- hydra egg -->
 		<item id="2214" chance="1050"/><!-- ring of healing -->
 		<item id="2475" chance="1000"/><!-- warrior helmet -->
@@ -70,7 +69,7 @@
 		<item id="2536" chance="200"/><!-- medusa shield -->
 		<item id="2498" chance="200"/><!-- royal helmet -->
 		<item id="2195" chance="120"/><!-- boots of haste -->
-			</inside>
+			
 		</item>
 	</loot>
 </monster>

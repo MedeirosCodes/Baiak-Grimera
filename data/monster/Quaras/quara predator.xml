@@ -4,9 +4,6 @@
 	<look type="20" corpse="6067"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
-	<script>
-        <event name="KillingInTheNameOf"/>
-</script>
 	<flags>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
@@ -53,17 +50,16 @@
 		<item id="2226" chance="2000"/><!-- fishbone -->
 		<item id="2387" chance="2000"/><!-- double axe -->
 		<item id="2473" chance="3333"/><!-- viking helmet -->
-		<item id="2145" chance="1429"/><!-- small diamond -->
 		<item id="2670" countmax="5" chance="20000"/><!-- shrimp -->
 		<item id="1987" chance="100000"><!-- bag -->
-			<inside>
+			
 		<item id="7591" chance="2000"/><!-- great health potion -->
 		<item id="5895" chance="2000"/><!-- fish fin -->
 		<item id="5741" chance="956"/><!-- skull helmet -->
 		<item id="7368" countmax="2" chance="956"/><!-- assassin star -->
 		<item id="7383" chance="2000"/><!-- relic sword -->
 		<item id="7897" chance="800"/><!-- glacier robe -->
-			</inside>
+			
 		</item>
 	</loot>
 </monster>

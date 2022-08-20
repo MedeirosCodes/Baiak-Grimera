@@ -4,9 +4,6 @@
 	<look type="77" corpse="6063"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
-	<script>
-        <event name="KillingInTheNameOf"/>
-</script>
 	<flags>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
@@ -53,11 +50,10 @@
 		<item id="2394" chance="5000"/><!-- morning star -->
 		<item id="2381" chance="2222"/><!-- halberd -->
 		<item id="1987" chance="100000"><!-- bag -->
-			<inside>
-				<item id="2147" chance="1538"/><!-- small ruby -->
+			
 				<item id="2177" chance="1538"/><!-- life crystal -->
 				<item id="5895" chance="2000"/><!-- fish fin -->
-			</inside>
+			
 		</item>
 	</loot>
 </monster>

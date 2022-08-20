@@ -55,7 +55,6 @@
 		<item id="2148" countmax="60" chance="11250"/><!-- gold coin -->
 		<item id="2148" countmax="40" chance="11250"/><!-- gold coin -->
 		<item id="2144" chance="2000"/><!-- black pearl -->
-		<item id="2656" chance="650"/><!-- blue robe -->
 		<item id="2047" chance="70000"/><!-- candle stick -->
 		<item id="2237" chance="19000"/><!-- dirty cape -->
 		<item id="2177" chance="50"/><!-- life crystal -->
@@ -63,7 +62,7 @@
 		<item id="2560" chance="7250"/><!-- mirror -->
 		<item id="2411" chance="1600"/><!-- poison dagger -->
 		<item id="1987" chance="100000"><!-- bag -->
-			<inside>
+			
 		<item id="2655" chance="800"/><!-- red robe -->
 		<item id="2214" chance="860"/><!-- ring of healing -->
 		<item id="2170" chance="8300"/><!-- silver amulet -->	
@@ -76,7 +75,7 @@
 		<item id="7884" chance="240"/><!-- terra mantle -->
 		<item id="2121" chance="410"/><!-- wedding ring -->
 		<item id="2124" chance="100"/><!-- crystal ring -->
-			</inside>
+			
 		</item>
 	</loot>
 </monster>
