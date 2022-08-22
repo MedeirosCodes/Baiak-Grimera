@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Breno" script="onlineseller.lua" walkinterval="2000" floorchange="0" money="12543">
-    <health now="100" max="100"/>
-    <look type="130" head="0" body="114" legs="88" feet="0" addons="3"/>
-    <parameters>
-        <parameter key="message_greet" value="Olá |PLAYERNAME|, eu troco {online tokens} por {itens}, diga {troca} ou {trocar}." />
-        <parameter key="module_keywords" value="1" />
-    </parameters>
+<npc name="Breno" script="promotion.lua" walkinterval="2000" floorchange="0">
+	<mana now="800" max="800"/>
+	<health now="200" max="200"/>
+	<look type="130" head="0" body="114" legs="88" feet="0" addons="3"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello pequeno padawan |PLAYERNAME| gostaria de uma {promotion}." />
+	</parameters>
 </npc>
+
+
+

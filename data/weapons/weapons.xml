@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <weapons>
 	<!-- Custom -->
-	<wand id="2184" mana="5" min="50" max="100" type="holy"> <!-- Inicial Wand -->
+	<wand id="2184" mana="15" min="10" max="35" type="holy"> <!-- Inicial Wand -->
 		<vocation name="Druid" />
 		<vocation name="Sorcerer" />
 	</wand>
@@ -87,7 +87,7 @@
 		<vocation name="Knight" />
 	</melee>
 	<melee id="7408" level="25" unproperly="1" />
-	<melee id="7449" level="25" unproperly="1">
+	<melee id="7449" level="10" unproperly="1">
 		<vocation name="Knight" />
 	</melee>
 	<melee id="2392" level="30" unproperly="1" />

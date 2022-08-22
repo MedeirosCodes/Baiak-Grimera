@@ -1,4 +1,4 @@
-Baiak Grimera
+Baiak Thunder
 ===============
 This repository uses version 1.3 of The Forgotten Server (TFS) in a downgrade to version 8.60.
 

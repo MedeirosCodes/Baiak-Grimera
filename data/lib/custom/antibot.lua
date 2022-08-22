@@ -19,7 +19,7 @@ ANTIBOT = {
 	},
 	punishment = {
 		try = {
-			max = 3,
+			max = 30,
 			reason = "Quantidade excessiva de tentativas.",
 			timePunishment = 1, -- In days
 			players = {},
@@ -27,7 +27,7 @@ ANTIBOT = {
 		time = {
 			maxTime = 180, -- In seconds
 			reason = "Não respondeu a pergunta dentro do tempo estipulado.",
-			timePunishment = 2, -- In days
+			timePunishment = 0, -- In days
 			players = {},
 		},
 	},

@@ -1,0 +1,7 @@
+<npc name="Dimral" script="bootmaker.lua" access="5" lookdir="1">
+<health now="1000" max="1000"/>
+<look type="133" head="95" body="86" legs="86" feet="38" addons="3"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|.Olá amigo, eu tenho trabalhado duro estes dias mas agora eu posso agora reparar as suas {boots}." />
+	</parameters>
+</npc>
