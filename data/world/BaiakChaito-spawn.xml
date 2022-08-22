@@ -289,11 +289,13 @@
   <spawn centerx="122" centery="85" centerz="6" radius="5">
     <monster name="Cyclops" x="0" y="1" z="6" spawntime="30"/>
     <monster name="Cyclops" x="-2" y="3" z="6" spawntime="15"/>
+    <monster name="Cyclops Drone" x="-1" y="3" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="113" centery="87" centerz="6" radius="5">
     <monster name="Cyclops" x="-3" y="-1" z="6" spawntime="60"/>
     <monster name="Cyclops" x="1" y="-1" z="6" spawntime="60"/>
     <monster name="Cyclops" x="-2" y="4" z="6" spawntime="60"/>
+    <monster name="Cyclops Drone" x="2" y="4" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="141" centery="88" centerz="6" radius="5">
     <monster name="Valkyrie" x="-2" y="-1" z="6" spawntime="60"/>
@@ -333,6 +335,7 @@
   <spawn centerx="121" centery="94" centerz="6" radius="5">
     <monster name="Cyclops" x="4" y="0" z="6" spawntime="60"/>
     <monster name="Cyclops" x="1" y="1" z="6" spawntime="30"/>
+    <monster name="Cyclops Drone" x="0" y="2" z="6" spawntime="60"/>
     <monster name="Bandit" x="2" y="4" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="77" centery="96" centerz="6" radius="5">
@@ -361,6 +364,7 @@
     <npc name="Mad" x="-1" y="0" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="104" centery="108" centerz="6" radius="10">
+    <monster name="Cyclops Smith" x="4" y="-7" z="6" spawntime="60"/>
     <monster name="Cyclops" x="-2" y="4" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="223" centery="109" centerz="6" radius="1">
@@ -3979,7 +3983,7 @@
     <monster name="Hellspawn" x="3" y="-2" z="8" spawntime="30"/>
     <monster name="Warlock" x="5" y="-2" z="8" spawntime="30"/>
     <monster name="Fury" x="-2" y="0" z="8" spawntime="20"/>
-    <monster name="Hellgorak" x="-2" y="2" z="8" spawntime="60"/>
+    <monster name="Hellgorak" x="1" y="2" z="8" spawntime="60"/>
     <monster name="Medusa" x="-2" y="4" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="219" centery="174" centerz="8" radius="8"/>
@@ -4522,6 +4526,17 @@
   </spawn>
   <spawn centerx="220" centery="334" centerz="8" radius="2">
     <monster name="Ferumbras" x="0" y="-1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="427" centery="382" centerz="8" radius="1">
+    <monster name="Demodras" x="0" y="0" z="8" spawntime="3000"/>
+  </spawn>
+  <spawn centerx="418" centery="391" centerz="8" radius="7">
+    <monster name="Dragon Lord" x="-5" y="-7" z="8" spawntime="60"/>
+    <monster name="Dragon Lord" x="-6" y="-1" z="8" spawntime="60"/>
+    <monster name="Dragon Lord" x="3" y="0" z="8" spawntime="30"/>
+    <monster name="Dragon Lord Hatchling" x="-5" y="2" z="8" spawntime="60"/>
+    <monster name="Dragon Lord" x="3" y="6" z="8" spawntime="60"/>
+    <monster name="Dragon Lord Hatchling" x="5" y="6" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="291" centery="394" centerz="8" radius="30">
     <monster name="Warlock" x="2" y="-24" z="8" spawntime="25"/>
