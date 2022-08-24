@@ -3978,17 +3978,17 @@
     <monster name="Orc Warlord" x="3" y="2" z="8" spawntime="60"/>
     <monster name="Orc Berserker" x="0" y="4" z="8" spawntime="60"/>
   </spawn>
-  <spawn centerx="305" centery="173" centerz="8" radius="5">
-    <monster name="Serpent Spawn" x="1" y="-2" z="8" spawntime="30"/>
-    <monster name="Hellspawn" x="3" y="-2" z="8" spawntime="30"/>
-    <monster name="Warlock" x="5" y="-2" z="8" spawntime="30"/>
-    <monster name="Fury" x="-2" y="0" z="8" spawntime="20"/>
-    <monster name="Hellgorak" x="1" y="2" z="8" spawntime="60"/>
-    <monster name="Medusa" x="-2" y="4" z="8" spawntime="60"/>
-  </spawn>
   <spawn centerx="219" centery="174" centerz="8" radius="8"/>
+  <spawn centerx="304" centery="174" centerz="8" radius="5">
+    <monster name="Serpent Spawn" x="2" y="-3" z="8" spawntime="30"/>
+    <monster name="Hellspawn" x="4" y="-3" z="8" spawntime="30"/>
+    <monster name="Fury" x="-1" y="-1" z="8" spawntime="20"/>
+    <monster name="Hellgorak" x="-1" y="1" z="8" spawntime="60"/>
+    <monster name="Medusa" x="-1" y="3" z="8" spawntime="60"/>
+    <monster name="Demon" x="-1" y="5" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="305" centery="176" centerz="8" radius="5">
-    <monster name="Demon" x="-2" y="3" z="8" spawntime="60"/>
+    <monster name="Warlock" x="5" y="-5" z="8" spawntime="30"/>
     <monster name="Frost Dragon" x="-2" y="5" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="101" centery="178" centerz="8" radius="5">
@@ -6101,10 +6101,14 @@
     <monster name="Ancient Scarab" x="5" y="17" z="9" spawntime="60"/>
     <monster name="Hero" x="-80" y="19" z="9" spawntime="60"/>
     <monster name="Hero" x="-78" y="19" z="9" spawntime="60"/>
+    <monster name="Hero" x="-85" y="22" z="9" spawntime="60"/>
+    <monster name="Hero" x="-79" y="24" z="9" spawntime="60"/>
     <monster name="Hero" x="-77" y="24" z="9" spawntime="60"/>
     <monster name="Hero" x="-98" y="26" z="9" spawntime="60"/>
     <monster name="Hero" x="-94" y="26" z="9" spawntime="60"/>
     <monster name="Hero" x="-91" y="27" z="9" spawntime="60"/>
+    <monster name="Hero" x="-87" y="29" z="9" spawntime="60"/>
+    <monster name="Hero" x="-83" y="29" z="9" spawntime="60"/>
     <monster name="Fire Elemental" x="48" y="29" z="9" spawntime="60"/>
     <monster name="Hero" x="-98" y="30" z="9" spawntime="60"/>
     <monster name="Fire Elemental" x="45" y="30" z="9" spawntime="60"/>
@@ -6120,6 +6124,7 @@
     <monster name="Fire Elemental" x="48" y="36" z="9" spawntime="60"/>
     <monster name="Monk" x="-98" y="37" z="9" spawntime="60"/>
     <monster name="Monk" x="-97" y="37" z="9" spawntime="60"/>
+    <monster name="Hero" x="-89" y="37" z="9" spawntime="60"/>
     <monster name="Priestess" x="-99" y="38" z="9" spawntime="60"/>
     <monster name="Priestess" x="-96" y="38" z="9" spawntime="60"/>
     <monster name="Hero" x="-82" y="40" z="9" spawntime="60"/>
@@ -6312,6 +6317,7 @@
   <spawn centerx="139" centery="82" centerz="9" radius="10"/>
   <spawn centerx="159" centery="82" centerz="9" radius="10"/>
   <spawn centerx="147" centery="100" centerz="9" radius="8"/>
+  <spawn centerx="161" centery="104" centerz="9" radius="5"/>
   <spawn centerx="145" centery="120" centerz="9" radius="10"/>
   <spawn centerx="237" centery="125" centerz="9" radius="10"/>
   <spawn centerx="141" centery="126" centerz="9" radius="10"/>
