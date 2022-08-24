@@ -1,22 +1,22 @@
-local config = {
-	[ITEM_GOLD_COIN] = {changeTo = ITEM_PLATINUM_COIN},
-	[ITEM_PLATINUM_COIN] = {changeBack = ITEM_GOLD_COIN, changeTo = ITEM_CRYSTAL_COIN},
-	[ITEM_CRYSTAL_COIN] = {changeBack = ITEM_PLATINUM_COIN, changeTo = ITEM_GOLD_INGOT},
-	[ITEM_GOLD_INGOT] = {changeBack = ITEM_CRYSTAL_COIN}
-}
-
-function onUse(player, item, fromPosition, target, toPosition, isHotkey)
-	local coin = config[item:getId()]
-	if coin.changeTo and item.type == 100 then
-		item:remove()
-		player:addItem(coin.changeTo, 1)
-		player:say("$$$", TALKTYPE_MONSTER_SAY, true)
-	elseif coin.changeBack then
-		item:remove(1)
-		player:addItem(coin.changeBack, 100)
-		player:say("$$$", TALKTYPE_MONSTER_SAY, true)
+function onUse(cid, item, fromPosition, itemEx, toPosition)
+	if item.itemid == ITEM_GOLD_COIN and item.type == ITEMCOUNT_MAX then
+		doChangeTypeItem(item.uid, item.type - item.type)
+		doPlayerAddItem(cid, ITEM_PLATINUM_COIN, 1)
+		doSendAnimatedText(fromPosition, "$$$", TEXTCOLOR_PLATINUMBLUE)
+	elseif item.itemid == ITEM_PLATINUM_COIN and item.type == ITEMCOUNT_MAX then
+		doChangeTypeItem(item.uid, item.type - item.type)
+		doPlayerAddItem(cid, ITEM_CRYSTAL_COIN, 1)
+		doSendAnimatedText(fromPosition, "$$$", TEXTCOLOR_TEAL)
+	elseif item.itemid == ITEM_PLATINUM_COIN and item.type < ITEMCOUNT_MAX then
+		doChangeTypeItem(item.uid, item.type - 1)
+		doPlayerAddItem(cid, ITEM_GOLD_COIN, ITEMCOUNT_MAX)
+		doSendAnimatedText(fromPosition, "$$$", TEXTCOLOR_YELLOW)
+	elseif item.itemid == ITEM_CRYSTAL_COIN then
+		doChangeTypeItem(item.uid, item.type - 1)
+		doPlayerAddItem(cid, ITEM_PLATINUM_COIN, ITEMCOUNT_MAX)
+		doSendAnimatedText(fromPosition, "$$$", TEXTCOLOR_PLATINUMBLUE)
 	else
-		return false
+		return FALSE
 	end
-	return true
+	return TRUE
 end

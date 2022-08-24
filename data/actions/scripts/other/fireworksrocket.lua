@@ -1,14 +1,13 @@
-function onUse(player, item, fromPosition, target, toPosition, isHotkey)
+function onUse(cid, item, fromPosition, itemEx, toPosition)
 	if fromPosition.x ~= CONTAINER_POSITION then
-		fromPosition:sendMagicEffect(math.random(CONST_ME_FIREWORK_YELLOW, CONST_ME_FIREWORK_BLUE))
+		fireworksEffect = math.random(CONST_ME_FIREWORK_YELLOW, CONST_ME_FIREWORK_BLUE)
+		doSendMagicEffect(fromPosition, fireworksEffect)
 	else
-		local position = player:getPosition()
-		position:sendMagicEffect(CONST_ME_HITBYFIRE)
-		position:sendMagicEffect(CONST_ME_EXPLOSIONAREA)
-		player:say("Ai! Em vez disso, coloque-o no chão da próxima vez.", TALKTYPE_MONSTER_SAY)
-		player:addHealth(-10)
+		doSendMagicEffect(fromPosition, CONST_ME_HITBYFIRE)
+		doSendMagicEffect(fromPosition, CONST_ME_EXPLOSIONAREA)
+		doCreatureSay(cid, "Ouch! Rather place it on the ground next time.", TALKTYPE_ORANGE_1)
+		doCreatureAddHealth(cid, -10)
 	end
-
-	item:remove()
-	return true
+	doRemoveItem(cid, item.uid, 1)
+	return TRUE
 end
