@@ -1,75 +1,29 @@
-config = {
-        quests = {
-            [46571] = {
-                name = { active = false, value = "do Crusader Helmet."},
-                rewards = {
-                    {id = 2497, count = 1},
-                },
-                level = { active = false, min = 150,},
-                storage = { active = true, key = 91143,},
-                effect = { active = false, effectWin = 30,},
-            },
-            [46572] = {
-                name = { active = false, value = "do Crusader Helmet."},
-                rewards = {
-                    {id = 9693, count = 1},
-                },
-                level = { active = false, min = 150,},
-                storage = { active = true, key = 91146,},
-                effect = { active = true, effectWin = 30,},
-            },
-            [46573] = {
-                name = { active = false, value = "do Crusader Helmet."},
-                rewards = {
-                    {id = 9971, count = 20},
-                },
-                level = { active = false, min = 150,},
-                storage = { active = true, key = 91147,},
-                effect = { active = true, effectWin = 30,},
-            },
-        },
-    messages = {
-        notExist = "Essa quest não existe.",
-        win = "Você fez a quest %s.",
-        notWin = "Você já fez essa quest.",
-        level = "Você precisa de level %d ou maior para fazer essa quest.",
-    },
-}
+-- simple quests based on uniqueId
+-- to make quest create chest on map and set its uniqueId to id of quest item
 
-function onUse(player, item, fromPosition, target, toPosition, isHotkey)
-    local choose = config.quests[item.actionid]
+function onUse(cid, item, frompos, item2, topos)
+	prize = item.uid
+	count = item.actionid
 
-    if not choose then
-        player:sendCancelMessage(config.messages.notExist)
-        player:getPosition():sendMagicEffect(CONST_ME_POFF)
-        return true
-    end
+	if prize > 0 and prize < 9000 then
+		queststatus = getPlayerStorageValue(cid,prize)
 
-    if choose.level.active and player:getLevel() < choose.level.min then
-        player:sendCancelMessage(config.messages.level:format(choose.level.min))
-        player:getPosition():sendMagicEffect(CONST_ME_POFF)
-        return true
-    end
+		if queststatus == -1 then
+			if count > 1 then
+				doPlayerSendTextMessage(cid,22,'You have found '.. count ..' of ' .. getItemName(prize) .. '.')
+				doPlayerAddItem(cid,prize,count)
+				setPlayerStorageValue(cid,prize,1)
+			else
+				doPlayerSendTextMessage(cid,22,'You have found a ' .. getItemName(prize) .. '.')
+				doPlayerAddItem(cid,prize,1)
+				setPlayerStorageValue(cid,prize,1)
+			end
+		else
+			doPlayerSendTextMessage(cid,22,"It is empty.")
+		end
 
-    if choose.storage.active and player:getStorageValue(choose.storage.key) >= 0 then
-        player:sendCancelMessage(config.messages.notWin)
-        player:getPosition():sendMagicEffect(CONST_ME_POFF)
-        return true
-    end
-
-    for i = 1, #choose.rewards do
-        player:addItem(choose.rewards[i].id, choose.rewards[i].count)
-    end
-
-    player:setStorageValue(choose.storage.key, 1)
-
-    if choose.effect.active then
-        player:getPosition():sendMagicEffect(choose.effectWin)
-    end
-
-    if choose.name.active then
-        player:sendCancelMessage(config.messages.win:format(choose.name.value))
-    end
-
-    return true
+		return 1
+	else
+		return 0
+	end
 end
