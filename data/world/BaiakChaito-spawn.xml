@@ -833,6 +833,9 @@
   <spawn centerx="174" centery="44" centerz="7" radius="1">
     <npc name="Obi" x="0" y="1" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="154" centery="46" centerz="7" radius="1">
+    <npc name="Bank" x="0" y="1" z="7" spawntime="3000"/>
+  </spawn>
   <spawn centerx="146" centery="47" centerz="7" radius="5">
     <npc name="Riona" x="0" y="0" z="7" spawntime="60"/>
     <npc name="Dimral" x="3" y="0" z="7" spawntime="60"/>
@@ -1222,10 +1225,11 @@
     <monster name="Morgaroth" x="3" y="4" z="7" spawntime="30"/>
   </spawn>
   <spawn centerx="226" centery="302" centerz="7" radius="5">
+    <monster name="Demon (Goblin)" x="3" y="-4" z="7" spawntime="3000"/>
     <monster name="Orshabaal" x="1" y="-2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="211" centery="307" centerz="7" radius="5">
-    <monster name="Orshabaal" x="-3" y="2" z="7" spawntime="60"/>
+    <monster name="Orshabaal" x="-4" y="2" z="7" spawntime="60"/>
     <monster name="Orshabaal" x="4" y="3" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="342" centery="343" centerz="7" radius="10">
@@ -1968,7 +1972,8 @@
     <monster name="Dark Torturer" x="5" y="6" z="7" spawntime="20"/>
     <monster name="Dark Torturer" x="0" y="7" z="7" spawntime="20"/>
     <monster name="Demon" x="3" y="7" z="7" spawntime="20"/>
-    <monster name="Minishabaal" x="10" y="7" z="7" spawntime="3600"/>
+    <monster name="Infernatil" x="10" y="7" z="7" spawntime="3009"/>
+    <monster name="Demon (Goblin)" x="1" y="9" z="7" spawntime="3009"/>
   </spawn>
   <spawn centerx="81" centery="558" centerz="7" radius="5">
     <monster name="Dark Torturer" x="-1" y="-5" z="7" spawntime="20"/>
@@ -3320,6 +3325,7 @@
     <monster name="Poison spider" x="0" y="-3" z="8" spawntime="60"/>
     <monster name="Bug" x="0" y="0" z="8" spawntime="10"/>
     <monster name="Poison spider" x="-2" y="1" z="8" spawntime="60"/>
+    <monster name="Coral Frog" x="0" y="4" z="8" spawntime="3009"/>
   </spawn>
   <spawn centerx="149" centery="41" centerz="8" radius="5">
     <monster name="Poison spider" x="-4" y="0" z="8" spawntime="60"/>
@@ -3704,7 +3710,7 @@
     <monster name="Banshee" x="-1" y="-6" z="8" spawntime="60"/>
     <monster name="Banshee" x="1" y="-6" z="8" spawntime="60"/>
     <monster name="Demodras" x="-5" y="-5" z="8" spawntime="60"/>
-    <monster name="Demodras" x="6" y="-5" z="8" spawntime="60"/>
+    <monster name="Morgaroth" x="-4" y="-4" z="8" spawntime="60"/>
     <monster name="Grorlam" x="-2" y="-4" z="8" spawntime="60"/>
     <monster name="Grorlam" x="3" y="-4" z="8" spawntime="60"/>
     <monster name="Behemoth" x="-6" y="-3" z="8" spawntime="60"/>
@@ -3718,27 +3724,31 @@
     <monster name="Ancient Scarab" x="6" y="-1" z="8" spawntime="60"/>
     <monster name="Hydra" x="-8" y="0" z="8" spawntime="60"/>
     <monster name="Bat" x="-4" y="0" z="8" spawntime="60"/>
+    <monster name="Undead Dragon" x="0" y="0" z="8" spawntime="3000"/>
     <monster name="Hydra" x="9" y="0" z="8" spawntime="60"/>
     <monster name="Demon Skeleton" x="-1" y="1" z="8" spawntime="60"/>
     <monster name="Demon Skeleton" x="1" y="1" z="8" spawntime="60"/>
     <monster name="Giant Spider" x="-6" y="2" z="8" spawntime="60"/>
     <monster name="Giant Spider" x="6" y="2" z="8" spawntime="60"/>
+    <monster name="The Pit Lord" x="9" y="2" z="8" spawntime="3000"/>
     <monster name="Black Knight" x="-8" y="3" z="8" spawntime="60"/>
     <monster name="Bat" x="3" y="3" z="8" spawntime="60"/>
     <monster name="Black Knight" x="9" y="3" z="8" spawntime="60"/>
     <monster name="Bat" x="-4" y="4" z="8" spawntime="60"/>
     <monster name="Bat" x="-1" y="4" z="8" spawntime="60"/>
     <monster name="Marid" x="0" y="4" z="8" spawntime="60"/>
+    <monster name="The Old Widow" x="7" y="4" z="8" spawntime="3000"/>
     <monster name="Efreet" x="-1" y="5" z="8" spawntime="60"/>
     <monster name="Efreet" x="1" y="5" z="8" spawntime="60"/>
     <monster name="Bat" x="5" y="5" z="8" spawntime="60"/>
     <monster name="Blue Djinn" x="-2" y="6" z="8" spawntime="60"/>
     <monster name="Blue Djinn" x="2" y="6" z="8" spawntime="60"/>
-    <monster name="Morgaroth" x="7" y="6" z="8" spawntime="60"/>
     <monster name="Green Djinn" x="0" y="7" z="8" spawntime="60"/>
+    <monster name="Ghazbaran" x="1" y="10" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="368" centery="112" centerz="8" radius="5">
     <monster name="Juggernaut" x="0" y="-1" z="8" spawntime="60"/>
+    <monster name="Son of Verminor" x="-1" y="1" z="8" spawntime="3000"/>
     <monster name="Orshabaal" x="4" y="2" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="146" centery="113" centerz="8" radius="5">
@@ -3753,9 +3763,9 @@
   </spawn>
   <spawn centerx="353" centery="113" centerz="8" radius="5">
     <monster name="Juggernaut" x="-5" y="-4" z="8" spawntime="60"/>
+    <monster name="Demodras" x="1" y="-1" z="8" spawntime="60"/>
     <monster name="Orshabaal" x="4" y="-1" z="8" spawntime="60"/>
     <monster name="Juggernaut" x="3" y="1" z="8" spawntime="60"/>
-    <monster name="Ghazbaran" x="-5" y="2" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="394" centery="113" centerz="8" radius="4">
     <monster name="Hellhound" x="4" y="-4" z="8" spawntime="60"/>
@@ -4032,14 +4042,14 @@
   <spawn centerx="305" centery="191" centerz="8" radius="5">
     <monster name="Ghastly Dragon" x="-2" y="0" z="8" spawntime="60"/>
     <monster name="Lizard Chosen" x="-2" y="2" z="8" spawntime="60"/>
-    <monster name="Lizard Sentinel" x="-2" y="4" z="8" spawntime="60"/>
+    <monster name="Demon (Goblin)" x="-2" y="4" z="8" spawntime="3009"/>
   </spawn>
-  <spawn centerx="313" centery="193" centerz="8" radius="5">
-    <monster name="Medusa" x="0" y="-4" z="8" spawntime="60"/>
-    <monster name="Hydra" x="0" y="-2" z="8" spawntime="60"/>
-    <monster name="Hydra" x="0" y="0" z="8" spawntime="60"/>
-    <monster name="Vampire" x="0" y="2" z="8" spawntime="60"/>
-    <monster name="Hero" x="0" y="4" z="8" spawntime="60"/>
+  <spawn centerx="311" centery="193" centerz="8" radius="5">
+    <monster name="Medusa" x="2" y="-4" z="8" spawntime="60"/>
+    <monster name="Hydra" x="2" y="-2" z="8" spawntime="60"/>
+    <monster name="Hydra" x="2" y="0" z="8" spawntime="60"/>
+    <monster name="Vampire" x="2" y="2" z="8" spawntime="60"/>
+    <monster name="Hero" x="2" y="4" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="225" centery="195" centerz="8" radius="5"/>
   <spawn centerx="56" centery="197" centerz="8" radius="5">
@@ -4183,22 +4193,32 @@
     <monster name="Ghastly Dragon" x="18" y="25" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="1952" centery="263" centerz="8" radius="30">
+    <monster name="Demon (Goblin)" x="-4" y="-17" z="8" spawntime="3009"/>
+    <monster name="Demon (Goblin)" x="5" y="-17" z="8" spawntime="3009"/>
     <monster name="Lizard Sentinel" x="8" y="-17" z="8" spawntime="60"/>
+    <monster name="Demon (Goblin)" x="14" y="-17" z="8" spawntime="3009"/>
     <monster name="Lizard Sentinel" x="-1" y="-16" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="18" y="-16" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="-10" y="-15" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="-5" y="-15" z="8" spawntime="60"/>
+    <monster name="Demon (Goblin)" x="25" y="-15" z="8" spawntime="3009"/>
     <monster name="Lizard Sentinel" x="27" y="-15" z="8" spawntime="60"/>
+    <monster name="Demon (Goblin)" x="-19" y="-13" z="8" spawntime="3009"/>
     <monster name="Lizard Sentinel" x="-16" y="-13" z="8" spawntime="60"/>
+    <monster name="Demon (Goblin)" x="-12" y="-13" z="8" spawntime="3009"/>
     <monster name="Lizard Sentinel" x="-22" y="-12" z="8" spawntime="60"/>
+    <monster name="Demon (Goblin)" x="-29" y="-11" z="8" spawntime="3009"/>
     <monster name="Lizard Sentinel" x="-28" y="-11" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="4" y="-8" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="-28" y="-5" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="5" y="3" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="-28" y="4" z="8" spawntime="60"/>
+    <monster name="Demon (Goblin)" x="-3" y="6" z="8" spawntime="3009"/>
     <monster name="Lizard Sentinel" x="-5" y="8" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="-16" y="9" z="8" spawntime="60"/>
+    <monster name="Demon (Goblin)" x="-25" y="12" z="8" spawntime="3009"/>
     <monster name="Lizard Sentinel" x="-26" y="14" z="8" spawntime="60"/>
+    <monster name="Demon (Goblin)" x="30" y="16" z="8" spawntime="3009"/>
     <monster name="Lizard Sentinel" x="29" y="17" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="-25" y="20" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="24" y="21" z="8" spawntime="60"/>
@@ -4240,6 +4260,7 @@
     <monster name="Hydra" x="16" y="0" z="8" spawntime="60"/>
     <monster name="Hydra" x="0" y="8" z="8" spawntime="60"/>
     <monster name="Hydra" x="0" y="15" z="8" spawntime="60"/>
+    <monster name="Demon (Goblin)" x="99" y="45" z="8" spawntime="3009"/>
     <monster name="Orshabaal" x="96" y="48" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="506" centery="264" centerz="8" radius="5"/>
@@ -4289,12 +4310,15 @@
     <monster name="Ghastly Dragon" x="-25" y="26" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="2015" centery="265" centerz="8" radius="30">
+    <monster name="Demon (Goblin)" x="-29" y="-10" z="8" spawntime="3009"/>
     <monster name="Lizard Sentinel" x="-28" y="-9" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="-25" y="-5" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="-25" y="0" z="8" spawntime="60"/>
+    <monster name="Demon (Goblin)" x="-24" y="3" z="8" spawntime="3009"/>
     <monster name="Lizard Sentinel" x="-25" y="9" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="-24" y="11" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="-29" y="12" z="8" spawntime="60"/>
+    <monster name="Demon (Goblin)" x="-24" y="19" z="8" spawntime="3009"/>
     <monster name="Lizard Sentinel" x="-26" y="21" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="-25" y="29" z="8" spawntime="60"/>
   </spawn>
@@ -4384,6 +4408,7 @@
     <monster name="Grim Reaper" x="-3" y="4" z="8" spawntime="30"/>
   </spawn>
   <spawn centerx="216" centery="313" centerz="8" radius="5">
+    <monster name="Demon (Goblin)" x="1" y="1" z="8" spawntime="3009"/>
     <monster name="Orshabaal" x="4" y="5" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="296" centery="319" centerz="8" radius="30">
@@ -4428,6 +4453,7 @@
     <monster name="Lizard Sentinel" x="-14" y="-24" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="13" y="-24" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="-22" y="-23" z="8" spawntime="60"/>
+    <monster name="Demon (Goblin)" x="-24" y="-22" z="8" spawntime="3009"/>
     <monster name="Lizard Sentinel" x="16" y="-20" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="19" y="-16" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="-24" y="-15" z="8" spawntime="60"/>
@@ -4437,16 +4463,21 @@
     <monster name="Lizard Sentinel" x="-17" y="-2" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="-9" y="-2" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="0" y="-2" z="8" spawntime="60"/>
+    <monster name="Demon (Goblin)" x="-23" y="3" z="8" spawntime="3009"/>
     <monster name="Lizard Sentinel" x="1" y="3" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="-23" y="5" z="8" spawntime="60"/>
+    <monster name="Demon (Goblin)" x="3" y="8" z="8" spawntime="3009"/>
     <monster name="Lizard Sentinel" x="3" y="11" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="-23" y="15" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="5" y="21" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="-22" y="24" z="8" spawntime="60"/>
+    <monster name="Demon (Goblin)" x="-23" y="27" z="8" spawntime="3009"/>
     <monster name="Lizard Sentinel" x="-15" y="29" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="-3" y="29" z="8" spawntime="60"/>
+    <monster name="Demon (Goblin)" x="0" y="29" z="8" spawntime="3009"/>
     <monster name="Lizard Sentinel" x="8" y="29" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="19" y="29" z="8" spawntime="60"/>
+    <monster name="Demon (Goblin)" x="22" y="29" z="8" spawntime="3009"/>
     <monster name="Lizard Sentinel" x="28" y="29" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="1704" centery="328" centerz="8" radius="30">
@@ -4499,12 +4530,16 @@
     <monster name="Lizard Legionnaire" x="21" y="30" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="2015" centery="328" centerz="8" radius="30">
+    <monster name="Demon (Goblin)" x="-25" y="-29" z="8" spawntime="3009"/>
     <monster name="Lizard Sentinel" x="-27" y="-24" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="-26" y="-15" z="8" spawntime="60"/>
+    <monster name="Demon (Goblin)" x="-25" y="-10" z="8" spawntime="3009"/>
     <monster name="Lizard Sentinel" x="-26" y="-5" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="-27" y="4" z="8" spawntime="60"/>
+    <monster name="Demon (Goblin)" x="-24" y="12" z="8" spawntime="3009"/>
     <monster name="Lizard Sentinel" x="-24" y="14" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="-23" y="25" z="8" spawntime="60"/>
+    <monster name="Demon (Goblin)" x="-26" y="27" z="8" spawntime="3009"/>
     <monster name="Lizard Sentinel" x="-27" y="28" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="1880" centery="329" centerz="8" radius="30">
@@ -4520,12 +4555,20 @@
     <monster name="Lizard Chosen" x="-22" y="24" z="8" spawntime="60"/>
     <monster name="Lizard Legionnaire" x="-28" y="28" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="220" centery="333" centerz="8" radius="1">
+    <monster name="Hellfire Fighter" x="-1" y="-1" z="8" spawntime="3009"/>
+    <monster name="Hand of Cursed Fate" x="1" y="-1" z="8" spawntime="3009"/>
+    <monster name="Ferumbras" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="294" centery="333" centerz="8" radius="30">
     <monster name="Warlock" x="-2" y="23" z="8" spawntime="25"/>
     <monster name="Warlock" x="-1" y="23" z="8" spawntime="25"/>
   </spawn>
-  <spawn centerx="220" centery="334" centerz="8" radius="2">
-    <monster name="Ferumbras" x="0" y="-1" z="8" spawntime="60"/>
+  <spawn centerx="220" centery="337" centerz="8" radius="1">
+    <monster name="Infernalist" x="-1" y="-1" z="8" spawntime="3009"/>
+    <monster name="Infernalist" x="1" y="-1" z="8" spawntime="3009"/>
+    <monster name="Infernatil" x="0" y="0" z="8" spawntime="3009"/>
+    <monster name="Juggernaut" x="1" y="1" z="8" spawntime="3009"/>
   </spawn>
   <spawn centerx="427" centery="382" centerz="8" radius="1">
     <monster name="Demodras" x="0" y="0" z="8" spawntime="3000"/>
@@ -6282,6 +6325,7 @@
     <monster name="Warlock" x="32" y="25" z="9" spawntime="60"/>
     <monster name="Fire Devil" x="15" y="26" z="9" spawntime="60"/>
     <monster name="Demon Skeleton" x="17" y="26" z="9" spawntime="60"/>
+    <monster name="Defiler" x="15" y="28" z="9" spawntime="3009"/>
     <monster name="Elder Beholder" x="17" y="28" z="9" spawntime="60"/>
     <monster name="Dwarf Guard" x="54" y="36" z="9" spawntime="60"/>
     <monster name="Dwarf Guard" x="54" y="41" z="9" spawntime="60"/>
@@ -6416,6 +6460,20 @@
     <monster name="Warlock" x="6" y="-13" z="9" spawntime="25"/>
     <monster name="Warlock" x="7" y="-1" z="9" spawntime="25"/>
     <monster name="Warlock" x="7" y="1" z="9" spawntime="25"/>
+  </spawn>
+  <spawn centerx="1951" centery="348" centerz="9" radius="1">
+    <monster name="Minishabaal" x="-1" y="-1" z="9" spawntime="3"/>
+    <monster name="Orshabaal" x="1" y="-1" z="9" spawntime="3"/>
+  </spawn>
+  <spawn centerx="1930" centery="353" centerz="9" radius="5">
+    <monster name="Demon (Goblin)" x="-3" y="-3" z="9" spawntime="3"/>
+    <monster name="Minishabaal" x="-2" y="1" z="9" spawntime="3"/>
+    <monster name="Demon (Goblin)" x="0" y="5" z="9" spawntime="3"/>
+  </spawn>
+  <spawn centerx="1940" centery="358" centerz="9" radius="5">
+    <monster name="Demon (Goblin)" x="5" y="-5" z="9" spawntime="3"/>
+    <monster name="Minishabaal" x="3" y="-3" z="9" spawntime="3"/>
+    <monster name="Demon (Goblin)" x="5" y="3" z="9" spawntime="3"/>
   </spawn>
   <spawn centerx="489" centery="393" centerz="9" radius="30">
     <monster name="Demon" x="6" y="-12" z="9" spawntime="30"/>
