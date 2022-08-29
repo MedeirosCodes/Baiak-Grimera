@@ -836,6 +836,10 @@
   <spawn centerx="154" centery="46" centerz="7" radius="1">
     <npc name="Bank" x="0" y="1" z="7" spawntime="3000"/>
   </spawn>
+  <spawn centerx="130" centery="47" centerz="7" radius="5">
+    <npc name="Lector" x="-2" y="0" z="7" spawntime="60"/>
+    <npc name="Dufi" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="146" centery="47" centerz="7" radius="5">
     <npc name="Riona" x="0" y="0" z="7" spawntime="60"/>
     <npc name="Dimral" x="3" y="0" z="7" spawntime="60"/>
@@ -844,14 +848,9 @@
   <spawn centerx="164" centery="47" centerz="7" radius="1">
     <npc name="Henricus" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="127" centery="48" centerz="7" radius="5">
-    <npc name="Lector" x="0" y="0" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="152" centery="53" centerz="7" radius="2">
-    <npc name="Alissow" x="0" y="0" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="127" centery="57" centerz="7" radius="5">
-    <npc name="Dufi" x="0" y="0" z="7" spawntime="60"/>
+  <spawn centerx="127" centery="48" centerz="7" radius="5"/>
+  <spawn centerx="164" centery="55" centerz="7" radius="2">
+    <npc name="Alissow" x="-1" y="-1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="175" centery="65" centerz="7" radius="1">
     <npc name="Breno" x="0" y="-1" z="7" spawntime="60"/>
@@ -3426,7 +3425,9 @@
     <monster name="Grim Reaper" x="2" y="0" z="8" spawntime="25"/>
   </spawn>
   <spawn centerx="151" centery="61" centerz="8" radius="8">
+    <monster name="Carrion Worm" x="-7" y="-6" z="8" spawntime="60"/>
     <monster name="Rotworm" x="-5" y="-3" z="8" spawntime="60"/>
+    <monster name="Carrion Worm" x="-1" y="-2" z="8" spawntime="60"/>
     <monster name="Rotworm" x="-1" y="4" z="8" spawntime="60"/>
     <monster name="Rotworm" x="-6" y="7" z="8" spawntime="60"/>
   </spawn>
