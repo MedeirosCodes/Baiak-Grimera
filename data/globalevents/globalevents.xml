@@ -2,6 +2,7 @@
 <globalevents>
 
 	<!-- Custom -->
+	<globalevent name="texto" interval="1500" script="texto.lua" />
 	<globalevent name="Bosses" interval="198000000" script="custom/bosses.lua" />
 	<globalevent name="TextEffect" interval="3550" script="custom/textEffect.lua" />
 	<globalevent name="EventsShow" interval="5000" script="custom/eventsShow.lua" />

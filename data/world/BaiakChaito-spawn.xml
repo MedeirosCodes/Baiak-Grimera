@@ -935,6 +935,7 @@
   </spawn>
   <spawn centerx="93" centery="93" centerz="7" radius="5">
     <monster name="Giant Spider" x="0" y="1" z="7" spawntime="60"/>
+    <monster name="Giant Spider" x="3" y="4" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="77" centery="95" centerz="7" radius="5">
     <monster name="Dragon" x="1" y="1" z="7" spawntime="60"/>
@@ -964,14 +965,16 @@
   <spawn centerx="457" centery="104" centerz="7" radius="3">
     <monster name="Frost Dragon" x="-1" y="1" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="32" centery="108" centerz="7" radius="5">
-    <monster name="Elder Beholder" x="2" y="-3" z="7" spawntime="60"/>
-    <monster name="Elder Beholder" x="-2" y="2" z="7" spawntime="60"/>
+  <spawn centerx="33" centery="107" centerz="7" radius="2">
+    <monster name="The Old Widow" x="1" y="0" z="7" spawntime="540"/>
   </spawn>
   <spawn centerx="81" centery="108" centerz="7" radius="2">
     <monster name="Giant Spider" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="Giant Spider" x="1" y="2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="102" centery="109" centerz="7" radius="5">
+    <monster name="Dragon" x="2" y="-5" z="7" spawntime="60"/>
+    <monster name="Giant Spider" x="-3" y="-4" z="7" spawntime="60"/>
     <monster name="Dragon" x="-3" y="-1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="430" centery="109" centerz="7" radius="4">
@@ -992,9 +995,8 @@
     <monster name="Frost Dragon" x="-1" y="2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="30" centery="117" centerz="7" radius="5">
-    <monster name="Kongra" x="3" y="2" z="7" spawntime="60"/>
-    <monster name="Kongra" x="-3" y="3" z="7" spawntime="60"/>
-    <monster name="Kongra" x="-1" y="5" z="7" spawntime="60"/>
+    <monster name="Giant Spider" x="-1" y="-4" z="7" spawntime="60"/>
+    <monster name="Giant Spider" x="1" y="5" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="167" centery="117" centerz="7" radius="7">
     <monster name="Goblin" x="-1" y="-3" z="7" spawntime="60"/>
@@ -1008,7 +1010,9 @@
     <monster name="Goblin" x="1" y="6" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="59" centery="119" centerz="7" radius="5">
+    <monster name="Giant Spider" x="3" y="-2" z="7" spawntime="60"/>
     <monster name="Giant Spider" x="-2" y="0" z="7" spawntime="60"/>
+    <monster name="Giant Spider" x="1" y="4" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="412" centery="119" centerz="7" radius="3">
     <monster name="Frost Dragon" x="-3" y="-1" z="7" spawntime="60"/>
@@ -1025,9 +1029,11 @@
   </spawn>
   <spawn centerx="95" centery="120" centerz="7" radius="2">
     <monster name="Giant Spider" x="1" y="-1" z="7" spawntime="60"/>
+    <monster name="Giant Spider" x="-2" y="1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="106" centery="120" centerz="7" radius="10">
     <monster name="Dragon" x="5" y="-7" z="7" spawntime="60"/>
+    <monster name="Dragon" x="6" y="-1" z="7" spawntime="60"/>
     <monster name="Dragon" x="0" y="1" z="7" spawntime="60"/>
     <monster name="Dragon" x="-4" y="10" z="7" spawntime="25"/>
   </spawn>
@@ -1061,21 +1067,29 @@
     <monster name="Scarab" x="1" y="2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="33" centery="125" centerz="7" radius="5">
-    <monster name="Kongra" x="5" y="-1" z="7" spawntime="60"/>
-    <monster name="Kongra" x="-4" y="2" z="7" spawntime="60"/>
-    <monster name="Kongra" x="0" y="5" z="7" spawntime="60"/>
+    <monster name="Giant Spider" x="2" y="1" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="40" centery="127" centerz="7" radius="5"/>
-  <spawn centerx="103" centery="131" centerz="7" radius="5"/>
+  <spawn centerx="40" centery="127" centerz="7" radius="5">
+    <monster name="Giant Spider" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="103" centery="131" centerz="7" radius="5">
+    <monster name="Dragon" x="3" y="0" z="7" spawntime="60"/>
+    <monster name="Dragon" x="-2" y="5" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="63" centery="133" centerz="7" radius="5">
+    <monster name="Giant Spider" x="-3" y="-4" z="7" spawntime="60"/>
+    <monster name="Giant Spider" x="4" y="-1" z="7" spawntime="60"/>
     <monster name="Giant Spider" x="-2" y="2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="79" centery="133" centerz="7" radius="3">
     <monster name="Giant Spider" x="0" y="-1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="93" centery="140" centerz="7" radius="13">
+    <monster name="Giant Spider" x="-12" y="-12" z="7" spawntime="60"/>
+    <monster name="Giant Spider" x="-3" y="-11" z="7" spawntime="60"/>
     <monster name="Dragon" x="-1" y="2" z="7" spawntime="60"/>
     <monster name="Dragon" x="-12" y="3" z="7" spawntime="60"/>
+    <monster name="Dragon" x="-4" y="5" z="7" spawntime="60"/>
     <monster name="Dragon" x="3" y="8" z="7" spawntime="60"/>
     <monster name="Dragon" x="-9" y="10" z="7" spawntime="60"/>
     <monster name="Dragon" x="-6" y="10" z="7" spawntime="60"/>
@@ -1133,6 +1147,7 @@
     <monster name="Deer" x="21" y="-58" z="7" spawntime="60"/>
     <monster name="Deer" x="-2" y="-57" z="7" spawntime="60"/>
     <monster name="Carniphila" x="0" y="-57" z="7" spawntime="60"/>
+    <monster name="Giant Spider" x="-96" y="-56" z="7" spawntime="60"/>
     <monster name="Hydra" x="33" y="-34" z="7" spawntime="60"/>
     <monster name="Hydra" x="47" y="-28" z="7" spawntime="60"/>
     <monster name="Hydra" x="39" y="-25" z="7" spawntime="60"/>
@@ -3274,6 +3289,12 @@
     <monster name="Wasp" x="-1" y="1" z="8" spawntime="60"/>
     <monster name="Wasp" x="1" y="4" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="187" centery="32" centerz="8" radius="5">
+    <monster name="Cyclops" x="1" y="-1" z="8" spawntime="60"/>
+    <monster name="Rotworm Queen" x="1" y="1" z="8" spawntime="60"/>
+    <monster name="Dragon" x="1" y="3" z="8" spawntime="3"/>
+    <monster name="Orc Warlord" x="1" y="5" z="8" spawntime="3"/>
+  </spawn>
   <spawn centerx="118" centery="35" centerz="8" radius="4">
     <monster name="Bug" x="0" y="-1" z="8" spawntime="60"/>
     <monster name="Bug" x="0" y="0" z="8" spawntime="10"/>
@@ -3305,6 +3326,7 @@
     <monster name="Rotworm" x="1" y="4" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="161" centery="40" centerz="8" radius="10">
+    <monster name="Giant Spider" x="7" y="-6" z="8" spawntime="3"/>
     <monster name="Wasp" x="1" y="-1" z="8" spawntime="60"/>
     <monster name="Wasp" x="3" y="-1" z="8" spawntime="60"/>
     <monster name="Poison spider" x="-10" y="0" z="8" spawntime="60"/>
@@ -3877,7 +3899,9 @@
   </spawn>
   <spawn centerx="64" centery="137" centerz="8" radius="5">
     <monster name="Dragon Lord" x="-3" y="0" z="8" spawntime="60"/>
+    <monster name="Dragon" x="2" y="1" z="8" spawntime="60"/>
     <monster name="Dragon Lord" x="-3" y="2" z="8" spawntime="60"/>
+    <monster name="Dragon" x="-2" y="5" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="249" centery="151" centerz="8" radius="50">
     <monster name="Rahemos" x="-15" y="0" z="8" spawntime="60"/>
@@ -3904,7 +3928,12 @@
     <monster name="Orc Warlord" x="-3" y="1" z="8" spawntime="60"/>
     <monster name="Orc Berserker" x="0" y="2" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="67" centery="154" centerz="8" radius="2">
+    <monster name="Dragon" x="1" y="0" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="90" centery="156" centerz="8" radius="10">
+    <monster name="Dragon" x="-9" y="-7" z="8" spawntime="60"/>
+    <monster name="Dragon" x="-3" y="-3" z="8" spawntime="60"/>
     <monster name="Dragon Lord" x="3" y="3" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="1936" centery="157" centerz="8" radius="30">
@@ -3957,6 +3986,10 @@
     <monster name="Orc Warlord" x="1" y="-1" z="8" spawntime="60"/>
     <monster name="Orc Berserker" x="-1" y="0" z="8" spawntime="60"/>
     <monster name="Orc Berserker" x="1" y="2" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="60" centery="162" centerz="8" radius="2">
+    <monster name="Dragon" x="2" y="-1" z="8" spawntime="60"/>
+    <monster name="Dragon Lord" x="-1" y="2" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="1638" centery="165" centerz="8" radius="30">
     <monster name="Battlemaster Zunzu" x="-25" y="-30" z="8" spawntime="60"/>

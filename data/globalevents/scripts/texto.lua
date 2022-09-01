@@ -1,12 +1,8 @@
 local config = {
     positions = {
-        ["Quests"] = { x = 153, y = 47, z = 7 },
-        ["Bem"] = { x = 159, y = 54, z = 7 },
-		["Vindo"] = { x = 161, y = 54, z = 7 },
-        ["Hunts"] = { x = 154, y = 47, z = 7 },
-		["Area VIP"] = { x = 164, y = 51, z = 7 },
-		["Cidades"] = { x = 155, y = 47, z = 7 },
-	    ["Trainers"] = { x = 147, y = 52, z = 7 }
+        ["Trainers"] = { x = 140, y = 54, z = 7 },
+        ["Barco -> Hunts - Quest - City"] = { x = 138, y = 54, z = 7 },
+	["Hunts Low Level"] = { x = 136, y = 54, z = 7 }
     }
 }
 
