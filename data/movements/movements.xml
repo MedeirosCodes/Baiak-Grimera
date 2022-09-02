@@ -34,6 +34,9 @@
 
 
 	<!-- Others -->
+	<movevent type="Equip" itemid="2469" event="function" value="onEquipItem"/>
+	<movevent type="DeEquip" itemid="2469" level="100" event="function" value="onDeEquipItem">
+	</movevent>
 	<movevent event="DeEquip" itemid="9080" slot="head" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="9080" slot="head" function="onEquipItem">
 		<vocation name="Sorcerer" />
