@@ -17,4 +17,5 @@
         <parameter key="keyword_reply9" value="Voce pode conseguir rep atraves do comando /hail (+5), matando alguns monstros, matando PKs lvl 30+ (+15), redskulls lvl 30+ (+30) ou Blackskulls lvl 30+ (+45). Voce pode perder REP atraves do Comando /fuck (-5) , morrer para outro jogador (+5 ou -5) ou matar um jogador sem skull. " />
         <parameter key="keyword_reply10" value="Para saber os highscores de level basta dizer !rank, para saber os highscores de REP basta dizer !ranks." />
     </parameters>
+	
 </npc>

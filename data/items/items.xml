@@ -4536,10 +4536,12 @@
 		<attribute key="weight" value="2500" />
 		<attribute key="slotType" value="body" />
 	</item>
-	<item id="2660" article="a" name="ranger's cloak">
+	<item id="2660" article="a" name="blessed armor">
 		<attribute key="weight" value="4800" />
-		<attribute key="armor" value="7" />
+		<attribute key="armor" value="17" />
 		<attribute key="slotType" value="body" />
+		<attribute key="magiclevelpoints" value="20" />
+		<attribute key="showattributes" value="1" />
 	</item>
 	<item id="2661" article="a" name="scarf">
 		<attribute key="weight" value="200" />
@@ -9184,10 +9186,16 @@
 	<item fromid="5775" toid="5776" name="" />
 	<item fromid="5777" toid="5778" article="a" name="target board" />
 	<item fromid="5779" toid="5784" article="a" name="stuck arrow" />
-	<item id="5785" article="a" name="medal of honour">
-		<attribute key="weight" value="1000" />
-		<attribute key="writeable" value="1" />
-		<attribute key="maxTextLen" value="128" />
+	<item id="5785" article="a" name="ring of honour">
+	</item>
+		<attribute key="weight" value="90" />
+		<attribute key="slotType" value="ring" />
+		<attribute key="decayTo" value="0" />
+		<attribute key="transformDeEquipTo" value="2207" />
+		<attribute key="skillSword" value="15" />
+		<attribute key="skillAxe" value="15" />
+		<attribute key="skillClub" value="15" />
+		<attribute key="showattributes" value="1" />
 	</item>
 	<item id="5786" article="a" name="wooden whistle">
 		<attribute key="weight" value="100" />
@@ -17108,7 +17116,7 @@
 		<attribute key="weight" value="6500" />
 		<attribute key="armor" value="16" />
 		<attribute key="slotType" value="legs" />
-		<attribute key="skillDist" value="3" />
+		<attribute key="skillDist" value="13" />
 		<attribute key="absorbPercentAll" value="4"/>
 		<attribute key="showattributes" value="1" />
 	</item>
