@@ -9187,7 +9187,6 @@
 	<item fromid="5777" toid="5778" article="a" name="target board" />
 	<item fromid="5779" toid="5784" article="a" name="stuck arrow" />
 	<item id="5785" article="a" name="ring of honour">
-	</item>
 		<attribute key="weight" value="90" />
 		<attribute key="slotType" value="ring" />
 		<attribute key="decayTo" value="0" />
