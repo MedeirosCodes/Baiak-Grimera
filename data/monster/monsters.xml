@@ -176,6 +176,9 @@
 	<monster name="Ushuriel" file="Bosses/ushuriel.xml"/>
 	<monster name="Xenia" file="Bosses/xenia.xml"/>
 	<monster name="Zugurosh" file="Bosses/zugurosh.xml"/>
+	<monster name="Bazir" file="Bosses/bazir.xml"/>
+	<monster name="Infernatil" file="Bosses/infernatil.xml"/>
+	<monster name="Dracola" file="Bosses/dracola.xml"/>
 
 	<!-- Canines -->
 	<monster name="Dog" file="Canines/dog.xml"/>
