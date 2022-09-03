@@ -6569,17 +6569,16 @@
     <monster name="Necromancer" x="22" y="32" z="9" spawntime="60"/>
     <monster name="Massacre" x="11" y="33" z="9" spawntime="400"/>
     <monster name="Sibang" x="22" y="33" z="9" spawntime="60"/>
+    <monster name="Massacre" x="16" y="34" z="9" spawntime="400"/>
     <monster name="Sibang" x="17" y="34" z="9" spawntime="60"/>
     <monster name="Necropharus" x="22" y="34" z="9" spawntime="400"/>
     <monster name="Necropharus" x="23" y="34" z="9" spawntime="400"/>
     <monster name="Scorpion" x="17" y="35" z="9" spawntime="60"/>
-    <monster name="Plaguesmith" x="18" y="35" z="9" spawntime="60"/>
+    <monster name="Undead Dragon" x="18" y="35" z="9" spawntime="400"/>
     <monster name="Undead Dragon" x="20" y="35" z="9" spawntime="400"/>
+    <monster name="Undead Dragon" x="16" y="36" z="9" spawntime="400"/>
     <monster name="Mr. Punish" x="18" y="36" z="9" spawntime="400"/>
-    <monster name="Undead Dragon" x="17" y="38" z="9" spawntime="400"/>
-    <monster name="Undead Minion" x="18" y="38" z="9" spawntime="400"/>
-    <monster name="Undead Dragon" x="17" y="39" z="9" spawntime="400"/>
-    <monster name="Massacre" x="18" y="39" z="9" spawntime="400"/>
+    <monster name="Undead Minion" x="20" y="36" z="9" spawntime="400"/>
   </spawn>
   <spawn centerx="369" centery="268" centerz="9" radius="30">
     <monster name="Warlock" x="4" y="-15" z="9" spawntime="25"/>
@@ -6600,8 +6599,8 @@
   <spawn centerx="135" centery="296" centerz="9" radius="1"/>
   <spawn centerx="138" centery="297" centerz="9" radius="1"/>
   <spawn centerx="128" centery="298" centerz="9" radius="1"/>
+  <spawn centerx="132" centery="299" centerz="9" radius="1"/>
   <spawn centerx="135" centery="300" centerz="9" radius="1"/>
-  <spawn centerx="133" centery="303" centerz="9" radius="1"/>
   <spawn centerx="364" centery="343" centerz="9" radius="30">
     <monster name="Warlock" x="2" y="-24" z="9" spawntime="25"/>
     <monster name="Warlock" x="6" y="-13" z="9" spawntime="25"/>
