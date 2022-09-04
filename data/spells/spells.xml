@@ -83,7 +83,7 @@
 		<vocation name="Elite Knight" />
 		<vocation name="Rageful Knight" />
 	</instant>
-		<instant group="attack" spellid="105" name="Annihilation" words="exori gran ico" level="200" mana="640" premium="0" needweapon="1" exhaustion="8000" groupcooldown="5000" needlearn="0" script="attack/annihilation.lua">
+		<instant group="attack" spellid="107" name="Annihilation" words="exori gran ico" level="200" mana="640" premium="0" range="3" needtarget="1" blockwalls="1" needweapon="1" exhaustion="7000" groupcooldown="5000" needlearn="0" script="attack/annihilation.lua">
 		<vocation name="Knight" />
 		<vocation name="Elite Knight" />
 		<vocation name="Rageful Knight" />
