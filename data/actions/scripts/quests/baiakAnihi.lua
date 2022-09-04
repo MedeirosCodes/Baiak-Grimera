@@ -1,44 +1,20 @@
-function onUse(cid, item, fromPosition, itemEx, toPosition)
-if item.uid == 6000 then
-queststatus = getPlayerStorageValue(cid,6000)
-if queststatus == -1 then
-doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR, "Você escolheu Ring of Honour.")
-doPlayerAddItem(cid,5785,1)
-setPlayerStorageValue(cid,6000,1)
-else
-doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR, "Você ja escolheu seu premio.")
-end
-elseif item.uid == 6001 then
-queststatus = getPlayerStorageValue(cid,6000)
-if queststatus == -1 then
-doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR, "Você escolheu Blessed Armor")
-doPlayerAddItem(cid,2660,1)
-setPlayerStorageValue(cid,6000,1)
-else
-doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR, "Você ja escolheu seu premio.")
-end
-elseif item.uid == 6002 then
-queststatus = getPlayerStorageValue(cid, 6000)
-if queststatus == -1 then
-doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR, "Você escolheu Thunder Paladin Legs.")
-doPlayerAddItem(cid,9777,1)
-setPlayerStorageValue(cid,6000,1)
-else
-doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR, "Você ja escolheu seu premio.")
-end
-elseif item.uid == 6003 then
-queststatus = getPlayerStorageValue(cid,6000)
-if queststatus == -1 then
-doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR, "Você escolheu o Presente.")
-doPlayerAddItem(cid,2160,1)
-setPlayerStorageValue(cid,6000,1)
-else
-doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR, "Você ja escolheu seu premio.")
+function onUse(cid, item)
 
-end
-else
-return 0
+local itens = {
+[17101] = {id = 5785, qnt = 1},  -- id = (ID do item do do bau 1), qnt = (Quantidade do item do bau 1)
+[17102] = {id = 2660, qnt = 1}, -- id = (ID do item do do bau 2), qnt = (Quantidade do item do bau 2)
+[17103] = {id = 2160, qnt = 1},  -- id = (ID do item do do bau 3), qnt = (Quantidade do item do bau 3)
+}
+
+if getPlayerStorageValue(cid, 13470) ~= 1 then
+	if item.actionid == itens[item.actionid] then
+	  doPlayerAddItem(cid, itens[item.actionid].id, itens[item.actionid].qnt)
+	  doPlayerSendTextMessage(cid,22,"You have found a "..itens[item.actionid].qnt.." "..itens[item.actionid].id..".")
+	  setPlayerStorageValue(cid, 13470, 1)
+	  else
+	  return doPlayerSendTextMessage(cid,22,"It is empty.")
+	end
 end
 
-return 1
+return TRUE
 end

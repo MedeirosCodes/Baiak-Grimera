@@ -1241,9 +1241,6 @@
     <monster name="Serpent Spawn" x="3" y="7" z="7" spawntime="30"/>
     <monster name="Medusa" x="-2" y="9" z="7" spawntime="30"/>
   </spawn>
-  <spawn centerx="215" centery="293" centerz="7" radius="5">
-    <monster name="Orshabaal" x="0" y="1" z="7" spawntime="60"/>
-  </spawn>
   <spawn centerx="128" centery="295" centerz="7" radius="1">
     <monster name="Demon (Goblin)" x="-1" y="0" z="7" spawntime="400"/>
   </spawn>
@@ -1270,15 +1267,24 @@
     <monster name="Spectre" x="2" y="4" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="202" centery="296" centerz="7" radius="5">
+    <monster name="Orshabaal" x="4" y="2" z="7" spawntime="60"/>
     <monster name="Morgaroth" x="3" y="4" z="7" spawntime="30"/>
   </spawn>
-  <spawn centerx="226" centery="302" centerz="7" radius="5">
+  <spawn centerx="213" centery="300" centerz="7" radius="5">
     <monster name="Demon (Goblin)" x="3" y="-4" z="7" spawntime="3000"/>
+    <monster name="Demon (Goblin)" x="-3" y="-2" z="7" spawntime="3000"/>
+    <monster name="Demon (Goblin)" x="4" y="3" z="7" spawntime="3000"/>
+  </spawn>
+  <spawn centerx="226" centery="302" centerz="7" radius="5">
     <monster name="Orshabaal" x="1" y="-2" z="7" spawntime="60"/>
+    <monster name="Demon (Goblin)" x="-1" y="4" z="7" spawntime="3000"/>
   </spawn>
   <spawn centerx="211" centery="307" centerz="7" radius="5">
-    <monster name="Orshabaal" x="-4" y="2" z="7" spawntime="60"/>
+    <monster name="Orshabaal" x="-4" y="-5" z="7" spawntime="60"/>
+    <monster name="Orshabaal" x="0" y="3" z="7" spawntime="60"/>
     <monster name="Orshabaal" x="4" y="3" z="7" spawntime="60"/>
+    <monster name="Demon (Goblin)" x="-2" y="4" z="7" spawntime="3000"/>
+    <monster name="Demon (Goblin)" x="0" y="5" z="7" spawntime="3000"/>
   </spawn>
   <spawn centerx="342" centery="343" centerz="7" radius="10">
     <monster name="Black Knight" x="-2" y="-5" z="7" spawntime="15"/>
@@ -1402,13 +1408,16 @@
     <monster name="Warlock" x="1" y="2" z="7" spawntime="30"/>
     <monster name="Warlock" x="0" y="6" z="7" spawntime="30"/>
   </spawn>
+  <spawn centerx="722" centery="406" centerz="7" radius="3">
+    <monster name="Minishabaal" x="1" y="-2" z="7" spawntime="40"/>
+    <monster name="Morgaroth" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="697" centery="410" centerz="7" radius="30">
     <monster name="Juggernaut" x="13" y="-17" z="7" spawntime="60"/>
     <monster name="Demon" x="26" y="-16" z="7" spawntime="60"/>
     <monster name="Behemoth" x="16" y="-15" z="7" spawntime="60"/>
     <monster name="Hand of Cursed Fate" x="2" y="-10" z="7" spawntime="60"/>
     <monster name="Demon" x="1" y="-6" z="7" spawntime="60"/>
-    <monster name="Morgaroth" x="25" y="-5" z="7" spawntime="60"/>
     <monster name="Behemoth" x="4" y="8" z="7" spawntime="60"/>
     <monster name="Demon" x="9" y="19" z="7" spawntime="60"/>
     <monster name="Juggernaut" x="24" y="22" z="7" spawntime="60"/>
@@ -3308,6 +3317,30 @@
     <monster name="Lion" x="-3" y="0" z="7" spawntime="25"/>
     <monster name="Lion" x="0" y="4" z="7" spawntime="25"/>
   </spawn>
+  <spawn centerx="187" centery="12" centerz="8" radius="5">
+    <monster name="Annihilon" x="1" y="-1" z="8" spawntime="40"/>
+    <monster name="The Obliverator" x="1" y="1" z="8" spawntime="40"/>
+    <monster name="Hacker" x="1" y="3" z="8" spawntime="40"/>
+    <monster name="Ghazbaran" x="1" y="5" z="8" spawntime="37"/>
+  </spawn>
+  <spawn centerx="225" centery="12" centerz="8" radius="3">
+    <monster name="Annihilon" x="1" y="0" z="8" spawntime="37"/>
+  </spawn>
+  <spawn centerx="252" centery="12" centerz="8" radius="3">
+    <monster name="The Obliverator" x="1" y="-1" z="8" spawntime="37"/>
+  </spawn>
+  <spawn centerx="277" centery="12" centerz="8" radius="3">
+    <monster name="Orc Berserker" x="-3" y="-3" z="8" spawntime="37"/>
+    <monster name="Orc Berserker" x="-1" y="-2" z="8" spawntime="37"/>
+    <monster name="Orc Warrior" x="0" y="-1" z="8" spawntime="37"/>
+    <monster name="Hacker" x="1" y="0" z="8" spawntime="37"/>
+    <monster name="Orc Warrior" x="0" y="1" z="8" spawntime="37"/>
+    <monster name="Orc Berserker" x="-1" y="2" z="8" spawntime="37"/>
+    <monster name="Orc Berserker" x="-2" y="3" z="8" spawntime="37"/>
+  </spawn>
+  <spawn centerx="300" centery="12" centerz="8" radius="5">
+    <monster name="Ghazbaran" x="1" y="0" z="8" spawntime="37"/>
+  </spawn>
   <spawn centerx="151" centery="31" centerz="8" radius="5">
     <monster name="Wasp" x="0" y="-2" z="8" spawntime="60"/>
     <monster name="Wasp" x="1" y="-1" z="8" spawntime="60"/>
@@ -4352,9 +4385,9 @@
     <monster name="Dracola" x="26" y="32" z="8" spawntime="400"/>
     <monster name="Orshabaal" x="24" y="33" z="8" spawntime="60"/>
     <monster name="Sibang" x="25" y="33" z="8" spawntime="60"/>
+    <monster name="Grim Reaper" x="26" y="33" z="8" spawntime="400"/>
     <monster name="Betrayed Wraith" x="29" y="33" z="8" spawntime="20"/>
     <monster name="Lost Soul" x="24" y="34" z="8" spawntime="400"/>
-    <monster name="Grim Reaper" x="27" y="34" z="8" spawntime="400"/>
     <monster name="Scorpion" x="28" y="34" z="8" spawntime="60"/>
     <monster name="Lost Soul" x="29" y="34" z="8" spawntime="400"/>
     <monster name="Mr. Punish" x="25" y="36" z="8" spawntime="400"/>
@@ -4710,10 +4743,10 @@
     <monster name="Hand of Cursed Fate" x="15" y="-9" z="8" spawntime="30"/>
     <monster name="Hand of Cursed Fate" x="15" y="0" z="8" spawntime="30"/>
     <monster name="Juggernaut" x="17" y="1" z="8" spawntime="60"/>
-    <monster name="Orshabaal" x="-20" y="2" z="8" spawntime="60"/>
     <monster name="Demon" x="12" y="3" z="8" spawntime="60"/>
     <monster name="Hand of Cursed Fate" x="9" y="4" z="8" spawntime="30"/>
     <monster name="Juggernaut" x="4" y="5" z="8" spawntime="30"/>
+    <monster name="Orshabaal" x="-20" y="6" z="8" spawntime="60"/>
     <monster name="Hand of Cursed Fate" x="2" y="8" z="8" spawntime="30"/>
     <monster name="Juggernaut" x="6" y="8" z="8" spawntime="30"/>
     <monster name="Juggernaut" x="-4" y="10" z="8" spawntime="60"/>
@@ -8224,14 +8257,25 @@
     <monster name="Hellgorak" x="-2" y="2" z="10" spawntime="400"/>
     <monster name="Omruc" x="-1" y="2" z="10" spawntime="400"/>
     <monster name="Hand of Cursed Fate" x="0" y="2" z="10" spawntime="20"/>
+    <monster name="Grorlam" x="2" y="2" z="10" spawntime="400"/>
     <monster name="Hellhound" x="3" y="3" z="10" spawntime="60"/>
     <monster name="Orshabaal" x="-4" y="4" z="10" spawntime="400"/>
     <monster name="Betrayed Wraith" x="-3" y="4" z="10" spawntime="20"/>
     <monster name="Hellhound" x="1" y="4" z="10" spawntime="60"/>
   </spawn>
+  <spawn centerx="186" centery="297" centerz="10" radius="5">
+    <monster name="Morgaroth" x="2" y="-2" z="10" spawntime="400"/>
+    <monster name="Warlord Ruzad" x="-5" y="-1" z="10" spawntime="400"/>
+    <monster name="Orshabaal" x="-3" y="-1" z="10" spawntime="400"/>
+    <monster name="Ferumbras" x="-1" y="-1" z="10" spawntime="400"/>
+    <monster name="Ghazbaran" x="1" y="-1" z="10" spawntime="400"/>
+    <monster name="Wrath of the Emperor" x="0" y="0" z="10" spawntime="400"/>
+    <monster name="Hellfire Fighter" x="-5" y="4" z="10" spawntime="60"/>
+    <monster name="Bazir" x="0" y="5" z="10" spawntime="400"/>
+  </spawn>
   <spawn centerx="123" centery="300" centerz="10" radius="30">
     <monster name="Hellgorak" x="28" y="-5" z="10" spawntime="400"/>
-    <monster name="Demon (Goblin)" x="13" y="-4" z="10" spawntime="400"/>
+    <monster name="Bazir" x="13" y="-4" z="10" spawntime="400"/>
     <monster name="Hellhound" x="29" y="-3" z="10" spawntime="60"/>
     <monster name="Massive Energy Elemental" x="4" y="-2" z="10" spawntime="400"/>
     <monster name="Massive Energy Elemental" x="8" y="-2" z="10" spawntime="400"/>
@@ -8264,25 +8308,26 @@
     <monster name="Massive Fire Elemental" x="0" y="2" z="10" spawntime="400"/>
     <monster name="Hand of Cursed Fate" x="3" y="2" z="10" spawntime="20"/>
     <monster name="Lich" x="6" y="2" z="10" spawntime="60"/>
-    <monster name="Guarda do Castelo" x="16" y="4" z="10" spawntime="400"/>
+    <monster name="Infernatil" x="16" y="4" z="10" spawntime="400"/>
     <monster name="Spectre" x="6" y="5" z="10" spawntime="20"/>
     <monster name="Nightstalker" x="3" y="7" z="10" spawntime="60"/>
     <monster name="Hand of Cursed Fate" x="6" y="7" z="10" spawntime="20"/>
     <monster name="Lion" x="1" y="8" z="10" spawntime="60"/>
+    <monster name="Demon (Goblin)" x="1" y="9" z="10" spawntime="400"/>
     <monster name="Hand of Cursed Fate" x="2" y="10" z="10" spawntime="20"/>
   </spawn>
   <spawn centerx="145" centery="300" centerz="10" radius="30">
+    <monster name="Hellish Tortoise" x="25" y="-5" z="10" spawntime="400"/>
+    <monster name="Animated Pumpkin" x="26" y="-5" z="10" spawntime="400"/>
+    <monster name="Grimgor Guteater" x="27" y="-5" z="10" spawntime="400"/>
     <monster name="Hand of Cursed Fate" x="10" y="2" z="10" spawntime="20"/>
     <monster name="Bazir" x="23" y="2" z="10" spawntime="400"/>
   </spawn>
   <spawn centerx="168" centery="302" centerz="10" radius="1"/>
   <spawn centerx="180" centery="302" centerz="10" radius="1">
-    <monster name="Hellfire Fighter" x="1" y="-1" z="10" spawntime="60"/>
     <monster name="Bazir" x="0" y="0" z="10" spawntime="400"/>
   </spawn>
-  <spawn centerx="186" centery="302" centerz="10" radius="1">
-    <monster name="Bazir" x="0" y="0" z="10" spawntime="400"/>
-  </spawn>
+  <spawn centerx="186" centery="302" centerz="10" radius="1"/>
   <spawn centerx="195" centery="302" centerz="10" radius="1">
     <monster name="Infernatil" x="1" y="0" z="10" spawntime="400"/>
   </spawn>

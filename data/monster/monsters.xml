@@ -122,6 +122,8 @@
 	<monster name="Mercury Blob" file="Blobs/mercury blob.xml"/>
 
 	<!-- Bosses -->
+	
+	<monster name="Gaz Haragoth" file="Bosses/gaz haragoth.xml"/>
 	<monster name="Pythius The Rotten" file="Bosses/Pythius The Rotten.xml"/>
 	<monster name="Annihilon" file="Bosses/annihilon.xml"/>
 	<monster name="Apprentice Sheng" file="Bosses/apprentice sheng.xml"/>
