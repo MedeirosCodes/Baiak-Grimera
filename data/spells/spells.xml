@@ -45,6 +45,11 @@
 		<vocation name="Royal Paladin" />
 		<vocation name="Glorious Paladin" />
 	</instant>
+		<instant group="attack" spellid="124" name="Divine Caldera gran" words="exevo gran san" level="350" mana="1060" premium="0" selftarget="1" exhaustion="5000" groupcooldown="3000" needlearn="0" script="attack/divine_caldera_gran.lua">
+		<vocation name="Paladin" />
+		<vocation name="Royal Paladin" />
+		<vocation name="Glorious Paladin" />
+	</instant>
 	<instant group="attack" spellid="122" name="Divine Missile" words="exori san" level="40" mana="20" premium="0" range="4" casterTargetOrDirection="1" needlearn="0" blockwalls="1" exhaustion="2000" groupcooldown="2000" script="attack/divine_missile.lua">
 		<vocation name="Paladin" />
 		<vocation name="Royal Paladin" />
