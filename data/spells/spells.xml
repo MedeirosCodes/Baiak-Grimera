@@ -63,7 +63,7 @@
 		<vocation name="Elder Druid" />
 		<vocation name="Ancient Druid" />
 	</instant>
-	<instant group="attack" spellid="13" name="Energy Wave" words="exevo vis hur" level="38" mana="170" direction="1" exhaustion="2000" groupcooldown="2000" needlearn="0" script="attack/energy_wave.lua">
+	<instant group="attack" spellid="13" name="Energy Wave" words="exevo vis hur" level="38" mana="170" direction="1" exhaustion="1000" groupcooldown="1000" needlearn="0" script="attack/energy_wave.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 		<vocation name="Masterful Sorcerer" />
@@ -78,7 +78,12 @@
 		<vocation name="Royal Paladin" />
 		<vocation name="Glorious Paladin" />
 	</instant>
-	<instant group="attack" spellid="105" name="Fierce Berserk" words="exori gran" level="90" mana="340" premium="0" needweapon="1" exhaustion="6000" groupcooldown="4000" needlearn="0" script="attack/fierce_berserk.lua">
+	<instant group="attack" spellid="105" name="Fierce Berserk" words="exori gran" level="90" mana="340" premium="0" needweapon="1" exhaustion="5000" groupcooldown="3000" needlearn="0" script="attack/fierce_berserk.lua">
+		<vocation name="Knight" />
+		<vocation name="Elite Knight" />
+		<vocation name="Rageful Knight" />
+	</instant>
+		<instant group="attack" spellid="105" name="Annihilation" words="exori gran ico" level="200" mana="640" premium="0" needweapon="1" exhaustion="8000" groupcooldown="5000" needlearn="0" script="attack/annihilation.lua">
 		<vocation name="Knight" />
 		<vocation name="Elite Knight" />
 		<vocation name="Rageful Knight" />
@@ -96,7 +101,7 @@
 		<vocation name="Elder Druid" />
 		<vocation name="Ancient Druid" />
 	</instant>
-	<instant group="attack" spellid="23" name="Great Energy Beam" words="exevo gran vis lux" level="29" mana="110" direction="1" exhaustion="6000" groupcooldown="2000" needlearn="0" script="attack/great_energy_beam.lua">
+	<instant group="attack" spellid="23" name="Great Energy Beam" words="exevo gran vis lux" level="29" mana="110" direction="1" exhaustion="5000" groupcooldown="3000" needlearn="0" script="attack/great_energy_beam.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 		<vocation name="Masterful Sorcerer" />
@@ -119,7 +124,7 @@
 		<vocation name="Elder Druid" />
 		<vocation name="Ancient Druid" />
 	</instant>
-	<instant group="attack" spellid="121" name="Ice Wave" words="exevo frigo hur" level="18" mana="25" direction="1" exhaustion="2000" groupcooldown="2000" needlearn="0" script="attack/ice_wave.lua">
+	<instant group="attack" spellid="121" name="Ice Wave" words="exevo frigo hur" level="18" mana="25" direction="1" exhaustion="1000" groupcooldown="1000" needlearn="0" script="attack/ice_wave.lua">
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 		<vocation name="Ancient Druid" />
