@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<monster name="Gaz Haragoth" nameDescription="Gaz haragoth" race="undead" experience="2000000" speed="500">
+<monster name="Gaz'haragoth" nameDescription="Gaz'haragoth" race="undead" experience="1000000" speed="400">
 	<health now="350000" max="350000" />
 	<look type="591" head="0" body="94" legs="79" feet="79" corpse="22562" />
 	<targetchange interval="10000" chance="20" />
@@ -54,7 +54,8 @@
 		<immunity invisible="1" />
 	</immunities>
 	<summons maxSummons="6">
-		<summon name="Orshabaal" interval="4000" chance="33"/>
+		<summon name="Orshabaal" interval="4000" chance="33" max="3" />
+		<summon name="The Horned Fox" interval="4000" chance="33" max="3" />
 	</summons>
 	<voices interval="5000" chance="30">
 		<voice sentence="Gaz'haragoth begins to channel DEATH AND DOOM into the area! RUN!" yell="1" />
@@ -64,65 +65,56 @@
 		<voice sentence="Gaz'haragoth calls down: DEATH AND DOOM!" yell="1" />
 	</voices>
 	<loot>
-		<item name="platinum coin" countmax="50" chance="10000" />
-		<item name="crystal coin" countmax="6" chance="10000" />
-		<item name="life ring" chance="6000" />
-		<item name="boots of haste" chance="6000" />
-		<item name="red piece of cloth" chance="6000" />
-		<item name="yellow piece of cloth" chance="6000" />
-		<item name="demon horn" chance="6000" />
-		<item name="demonic essence" countmax="2" chance="10000" />
-		<item name="infernal bolt" chance="6000" />
-		<item name="assassin star" countmax="100" chance="10000" />
-		<item name="great mana potion" countmax="100" chance="10000" />
-		<item id="7632" chance="6000" /><!-- Giant Shimmering Pearl -->
-		<item name="magma coat" chance="6000" />
-		<item name="great spirit potion" countmax="100" chance="10000" />
-		<item name="ultimate health potion" countmax="100" chance="10000" />
-		<item name="phoenix charm" chance="6000" />
-		<item name="unity charm" chance="6000" />
-		<item name="spiritual charm" chance="6000" />
-		<item name="twin sun charm" chance="6000" />
-		<item name="solitude charm" chance="6000" />
-		<item name="violet crystal shard" countmax="15" chance="10000" />
-		<item name="green crystal shard" countmax="5" chance="10000" />
-		<item name="green crystal splinter" countmax="10" chance="10000" />
-		<item name="blue crystal splinter" countmax="15" chance="10000" />
-		<item name="cluster of solace" countmax="14" chance="10000" />
-		<item name="dream matter" countmax="3" chance="10000" />
-		<item name="crude umbral blade" chance="5000" />
-		<item name="umbral blade" chance="5000" />
-		<item name="umbral masterblade" chance="4000" />
-		<item name="crude umbral slayer" chance="5000" />
-		<item name="umbral slayer" chance="5000" />
-		<item name="umbral master slayer" chance="3000" />
-		<item name="crude umbral axe" chance="5000" />
-		<item name="umbral axe" chance="4000" />
-		<item name="umbral master axe" chance="3000" />
-		<item name="crude umbral chopper" chance="5000" />
-		<item name="umbral chopper" chance="4000" />
-		<item name="umbral master chopper" chance="3000" />
-		<item name="crude umbral mace" chance="5000" />
-		<item name="umbral mace" chance="4000" />
-		<item name="umbral master mace" chance="3000" />
-		<item name="crude umbral hammer" chance="5000" />
-		<item name="umbral hammer" chance="4000" />
-		<item name="umbral master hammer" chance="3000" />
-		<item name="crude umbral bow" chance="5000" />
-		<item name="umbral bow" chance="4000" />
-		<item name="umbral master bow" chance="3000" />
-		<item name="crude umbral crossbow" chance="5000" />
-		<item name="umbral crossbow" chance="4000" />
-		<item name="umbral master crossbow" chance="3000" />
-		<item name="crude umbral spellbook" chance="5000" />
-		<item name="umbral spellbook" chance="4000" />
-		<item name="umbral master spellbook" chance="3000" />
-		<item name="unrealized dream" countmax="3" chance="10000" />
-		<item name="nightmare horn" chance="6000" />
-		<item name="dream warden mask" chance="6000" />
-		<item name="psychedelic tapestry" chance="6000" />
-		<item name="demonic tapestry" chance="6000" />
-		<item name="eye pod" chance="6000" />
-		<item id="22614" chance="6000" /><!-- Nightmare Beacon -->
+		<item name="purple tome" chance="2600" />
+		<item name="golden mug" chance="7500" />
+		<item name="teddy bear" chance="14500" />
+		<item name="ring of the sky" chance="3500" />
+		<item id="2124" chance="5500" />
+		<item name="crystal necklace" chance="1500" />
+		<item name="ancient amulet" chance="3500" />
+		<item name="white pearl" countmax="15" chance="12500" />
+		<item name="black pearl" countmax="15" chance="15000" />
+		<item name="gold coin" countmax="100" chance="99900" />
+		<item name="gold coin" countmax="100" chance="88800" />
+		<item name="gold coin" countmax="100" chance="77700" />
+		<item name="gold coin" countmax="100" chance="66600" />
+		<item name="talon" countmax="7" chance="14000" />
+		<item id="2162" chance="11500" />
+		<item name="might ring" chance="5000" />
+		<item name="stealth ring" chance="9500" />
+		<item name="energy ring" chance="13500" />
+		<item name="silver amulet" chance="13000" />
+		<item name="platinum amulet" chance="4500" />
+		<item name="strange symbol" chance="2500" />
+		<item name="orb" chance="12000" />
+		<item name="life crystal" chance="1000" />
+		<item name="mind stone" chance="4000" />
+		<item name="gold ring" chance="8000" />
+		<item name="snakebite rod" chance="3500" />
+		<item name="necrotic rod" chance="3500" />
+		<item name="moonlight rod" chance="3500" />
+		<item name="wand of decay" chance="2500" />
+		<item id="2192" chance="2500" />
+		<item name="boots of haste" chance="4000" />
+		<item name="stone skin amulet" chance="4000" />
+		<item name="protection amulet" chance="4500" />
+		<item name="ring of healing" chance="13000" />
+		<item id="2231" chance="9000" />
+		<item name="two handed sword" chance="20000" />
+		<item name="double axe" chance="20000" />
+		<item name="giant sword" chance="12500" />
+		<item name="ice rapier" chance="7500" />
+		<item name="silver dagger" chance="15500" />
+		<item name="golden sickle" chance="4500" />
+		<item name="thunder hammer" chance="13500" />
+		<item name="fire axe" chance="17000" />
+		<item name="dragon hammer" chance="4500" />
+		<item name="skull staff" chance="5000" />
+		<item name="devil helmet" chance="11000" />
+		<item name="golden legs" chance="5000" />
+		<item name="magic plate armor" chance="3000" />
+		<item name="mastermind shield" chance="7500" />
+		<item name="demon shield" chance="15500" />
+		<item id="3955" chance="100" />
 	</loot>
 </monster>
