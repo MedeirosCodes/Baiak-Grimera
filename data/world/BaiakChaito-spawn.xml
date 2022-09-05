@@ -3317,16 +3317,20 @@
     <monster name="Lion" x="0" y="4" z="7" spawntime="25"/>
   </spawn>
   <spawn centerx="187" centery="12" centerz="8" radius="5">
-    <monster name="Annihilon" x="1" y="-1" z="8" spawntime="40"/>
-    <monster name="Gaz Haragoth" x="1" y="1" z="8" spawntime="37"/>
+    <monster name="Apocalypse" x="1" y="-1" z="8" spawntime="37"/>
+    <monster name="Bazir" x="1" y="1" z="8" spawntime="37"/>
     <monster name="Hacker" x="1" y="3" z="8" spawntime="40"/>
     <monster name="Ghazbaran" x="1" y="5" z="8" spawntime="37"/>
   </spawn>
   <spawn centerx="225" centery="12" centerz="8" radius="3">
-    <monster name="Annihilon" x="1" y="0" z="8" spawntime="37"/>
+    <monster name="Annihilon" x="-2" y="-2" z="8" spawntime="37"/>
+    <monster name="Apocalypse" x="2" y="0" z="8" spawntime="37"/>
+    <monster name="Annihilon" x="-2" y="3" z="8" spawntime="37"/>
   </spawn>
   <spawn centerx="252" centery="12" centerz="8" radius="3">
-    <monster name="Gaz Haragoth" x="1" y="-1" z="8" spawntime="37"/>
+    <monster name="Orshabaal" x="-2" y="-1" z="8" spawntime="37"/>
+    <monster name="Bazir" x="0" y="0" z="8" spawntime="37"/>
+    <monster name="Orshabaal" x="-2" y="2" z="8" spawntime="37"/>
   </spawn>
   <spawn centerx="277" centery="12" centerz="8" radius="3">
     <monster name="Orc Berserker" x="-3" y="-3" z="8" spawntime="37"/>
@@ -3338,7 +3342,9 @@
     <monster name="Orc Berserker" x="-2" y="3" z="8" spawntime="37"/>
   </spawn>
   <spawn centerx="300" centery="12" centerz="8" radius="5">
+    <monster name="Annihilon" x="-2" y="-2" z="8" spawntime="37"/>
     <monster name="Ghazbaran" x="1" y="0" z="8" spawntime="37"/>
+    <monster name="Annihilon" x="-2" y="3" z="8" spawntime="37"/>
   </spawn>
   <spawn centerx="151" centery="31" centerz="8" radius="5">
     <monster name="Wasp" x="0" y="-2" z="8" spawntime="60"/>
@@ -8233,9 +8239,15 @@
   <spawn centerx="195" centery="290" centerz="10" radius="1">
     <monster name="Infernatil" x="0" y="0" z="10" spawntime="400"/>
   </spawn>
-  <spawn centerx="195" centery="296" centerz="10" radius="1">
-    <monster name="Massacre" x="0" y="0" z="10" spawntime="400"/>
+  <spawn centerx="181" centery="296" centerz="10" radius="5">
+    <monster name="Orshabaal" x="1" y="-1" z="10" spawntime="400"/>
+    <monster name="Ghazbaran" x="3" y="-1" z="10" spawntime="400"/>
+    <monster name="Ferumbras" x="5" y="-1" z="10" spawntime="400"/>
+    <monster name="Massacre" x="2" y="0" z="10" spawntime="400"/>
+    <monster name="Morgaroth" x="4" y="0" z="10" spawntime="400"/>
+    <monster name="Hellfire Fighter" x="0" y="5" z="10" spawntime="60"/>
   </spawn>
+  <spawn centerx="194" centery="296" centerz="10" radius="1"/>
   <spawn centerx="157" centery="297" centerz="10" radius="4">
     <monster name="Lost Soul" x="-3" y="-4" z="10" spawntime="60"/>
     <monster name="Hellhound" x="-1" y="-4" z="10" spawntime="60"/>
@@ -8264,15 +8276,9 @@
     <monster name="Betrayed Wraith" x="-3" y="4" z="10" spawntime="20"/>
     <monster name="Hellhound" x="1" y="4" z="10" spawntime="60"/>
   </spawn>
-  <spawn centerx="186" centery="297" centerz="10" radius="5">
-    <monster name="Morgaroth" x="2" y="-2" z="10" spawntime="400"/>
-    <monster name="Warlord Ruzad" x="-5" y="-1" z="10" spawntime="400"/>
-    <monster name="Orshabaal" x="-3" y="-1" z="10" spawntime="400"/>
-    <monster name="Ferumbras" x="-1" y="-1" z="10" spawntime="400"/>
-    <monster name="Ghazbaran" x="1" y="-1" z="10" spawntime="400"/>
-    <monster name="Wrath of the Emperor" x="0" y="0" z="10" spawntime="400"/>
-    <monster name="Hellfire Fighter" x="-5" y="4" z="10" spawntime="60"/>
-    <monster name="Bazir" x="0" y="5" z="10" spawntime="400"/>
+  <spawn centerx="188" centery="297" centerz="10" radius="5">
+    <monster name="Wrath of the Emperor" x="-1" y="-1" z="10" spawntime="400"/>
+    <monster name="Bazir" x="-2" y="5" z="10" spawntime="400"/>
   </spawn>
   <spawn centerx="123" centery="300" centerz="10" radius="30">
     <monster name="Hellgorak" x="28" y="-5" z="10" spawntime="400"/>
@@ -8318,9 +8324,6 @@
     <monster name="Hand of Cursed Fate" x="2" y="10" z="10" spawntime="20"/>
   </spawn>
   <spawn centerx="145" centery="300" centerz="10" radius="30">
-    <monster name="Hellish Tortoise" x="25" y="-5" z="10" spawntime="400"/>
-    <monster name="Animated Pumpkin" x="26" y="-5" z="10" spawntime="400"/>
-    <monster name="Grimgor Guteater" x="27" y="-5" z="10" spawntime="400"/>
     <monster name="Hand of Cursed Fate" x="10" y="2" z="10" spawntime="20"/>
     <monster name="Bazir" x="23" y="2" z="10" spawntime="400"/>
   </spawn>

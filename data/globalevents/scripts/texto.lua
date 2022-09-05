@@ -2,7 +2,7 @@ local config = {
     positions = {
         ["Trainers"] = { x = 156, y = 48, z = 7 },
         ["Barco"] = { x = 154, y = 48, z = 7 },
-	["Hunts Low Level"] = { x = 152, y = 48, z = 7 }
+	["Hunts Low Level"] = { x = 152, y = 48, z = 7 },
 	["Bosses"] = { x = 152, y = 48, z = 7 }
     }
 }
