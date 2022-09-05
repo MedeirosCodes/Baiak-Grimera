@@ -123,6 +123,7 @@
 
 	<!-- Bosses -->
 	
+	<monster name="Apocalypse" file="Bosses/apocalypse.xml"/>
 	<monster name="Gaz Haragoth" file="Bosses/gaz_haragoth.xml"/>
 	<monster name="Pythius The Rotten" file="Bosses/Pythius The Rotten.xml"/>
 	<monster name="Annihilon" file="Bosses/annihilon.xml"/>
