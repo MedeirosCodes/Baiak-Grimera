@@ -1,3 +1,6 @@
+local voices = { {text = 'Venha trocar seus onlineTokens comigo.'} }
+npcHandler:addModule(VoiceModule:new(voices))
+
 local keywordHandler = KeywordHandler:new() 
 local npcHandler = NpcHandler:new(keywordHandler) 
 NpcSystem.parseParameters(npcHandler) 
@@ -20,7 +23,9 @@ local t = {
       [7440] = {price = 200},
       [7443] = {price = 400},
       [8981] = {price = 600},
-      [5468] = {price = 250},    
+      [5468] = {price = 250},
+      [12544] = {price = 20}, 
+      [9693] = {price = 20},    
       [2346] = {price = 200}
     }
       
