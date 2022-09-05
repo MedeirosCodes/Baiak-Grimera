@@ -18,11 +18,11 @@
 		<flag runonhealth="429"/>
 	</flags>
 <attacks>
-		<attack name="melee" interval="2500" skill="185" attack="175"/>
-		<attack name="death" interval="400" chance="11" length="8" spread="0" min="0" max="-300">
+		<attack name="melee" interval="1500" skill="285" attack="275"/>
+		<attack name="death" interval="400" chance="11" length="8" spread="0" min="0" max="-500">
 			<attribute key="areaEffect" value="mortarea"/>
 		</attack>
-		<attack name="physical" interval="3000" chance="18" radius="5" target="1" min="-50" max="-655">
+		<attack name="physical" interval="3000" chance="18" radius="5" target="1" min="-50" max="-1655">
 			<attribute key="areaEffect" value="groundshaker"/>
 		</attack>
 	</attacks>

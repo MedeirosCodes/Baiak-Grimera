@@ -1,8 +1,9 @@
 local config = {
     positions = {
-        ["Trainers"] = { x = 140, y = 54, z = 7 },
-        ["Barco -> Hunts - Quest - City"] = { x = 138, y = 54, z = 7 },
-	["Hunts Low Level"] = { x = 136, y = 54, z = 7 }
+        ["Trainers"] = { x = 156, y = 48, z = 7 },
+        ["Barco"] = { x = 154, y = 48, z = 7 },
+	["Hunts Low Level"] = { x = 152, y = 48, z = 7 }
+	["Bosses"] = { x = 152, y = 48, z = 7 }
     }
 }
 

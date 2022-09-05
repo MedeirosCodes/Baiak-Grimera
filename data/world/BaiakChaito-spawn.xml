@@ -249,8 +249,15 @@
     <monster name="Ghastly Dragon" x="-2" y="-3" z="5" spawntime="50"/>
     <monster name="Ghastly Dragon" x="-5" y="1" z="5" spawntime="50"/>
   </spawn>
-  <spawn centerx="129" centery="50" centerz="6" radius="1">
-    <npc name="Dark Rodo" x="-1" y="0" z="6" spawntime="60"/>
+  <spawn centerx="119" centery="46" centerz="6" radius="5">
+    <npc name="Riona" x="1" y="0" z="6" spawntime="60"/>
+    <npc name="Especialista of Soft" x="5" y="0" z="6" spawntime="20"/>
+  </spawn>
+  <spawn centerx="125" centery="46" centerz="6" radius="2">
+    <npc name="Bank" x="2" y="0" z="6" spawntime="3000"/>
+  </spawn>
+  <spawn centerx="131" centery="46" centerz="6" radius="1">
+    <npc name="Dark Rodo" x="1" y="0" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="614" centery="53" centerz="6" radius="5">
     <monster name="Hellspawn" x="-5" y="-1" z="6" spawntime="60"/>
@@ -841,18 +848,10 @@
   <spawn centerx="174" centery="44" centerz="7" radius="1">
     <npc name="Obi" x="0" y="1" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="154" centery="46" centerz="7" radius="1">
-    <npc name="Bank" x="0" y="1" z="7" spawntime="3000"/>
-  </spawn>
   <spawn centerx="130" centery="47" centerz="7" radius="5">
     <npc name="Lector" x="-2" y="0" z="7" spawntime="60"/>
     <npc name="Dufi" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="146" centery="47" centerz="7" radius="5">
-    <npc name="Riona" x="0" y="0" z="7" spawntime="60"/>
-    <npc name="Especialista of Soft" x="5" y="0" z="7" spawntime="20"/>
-  </spawn>
-  <spawn centerx="150" centery="47" centerz="7" radius="2"/>
   <spawn centerx="164" centery="47" centerz="7" radius="1">
     <npc name="Henricus" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
@@ -3319,7 +3318,7 @@
   </spawn>
   <spawn centerx="187" centery="12" centerz="8" radius="5">
     <monster name="Annihilon" x="1" y="-1" z="8" spawntime="40"/>
-    <monster name="The Obliverator" x="1" y="1" z="8" spawntime="40"/>
+    <monster name="Gaz Haragoth" x="1" y="1" z="8" spawntime="37"/>
     <monster name="Hacker" x="1" y="3" z="8" spawntime="40"/>
     <monster name="Ghazbaran" x="1" y="5" z="8" spawntime="37"/>
   </spawn>
@@ -3327,7 +3326,7 @@
     <monster name="Annihilon" x="1" y="0" z="8" spawntime="37"/>
   </spawn>
   <spawn centerx="252" centery="12" centerz="8" radius="3">
-    <monster name="The Obliverator" x="1" y="-1" z="8" spawntime="37"/>
+    <monster name="Gaz Haragoth" x="1" y="-1" z="8" spawntime="37"/>
   </spawn>
   <spawn centerx="277" centery="12" centerz="8" radius="3">
     <monster name="Orc Berserker" x="-3" y="-3" z="8" spawntime="37"/>
@@ -3467,6 +3466,7 @@
     <monster name="Training Monk" x="17" y="9" z="8" spawntime="60"/>
     <monster name="Training Monk" x="19" y="9" z="8" spawntime="60"/>
     <monster name="Training Monk" x="21" y="9" z="8" spawntime="60"/>
+    <monster name="Carrion Worm" x="-23" y="11" z="8" spawntime="60"/>
     <monster name="Rotworm" x="-29" y="12" z="8" spawntime="60"/>
     <monster name="Rotworm" x="-23" y="12" z="8" spawntime="60"/>
     <monster name="Skeleton" x="-17" y="12" z="8" spawntime="60"/>
@@ -3540,6 +3540,7 @@
   </spawn>
   <spawn centerx="133" centery="63" centerz="8" radius="7">
     <monster name="Rotworm" x="4" y="-5" z="8" spawntime="60"/>
+    <monster name="Carrion Worm" x="5" y="-5" z="8" spawntime="60"/>
     <monster name="Rotworm" x="-2" y="-1" z="8" spawntime="60"/>
     <monster name="Rotworm" x="0" y="2" z="8" spawntime="60"/>
     <monster name="Rotworm" x="4" y="6" z="8" spawntime="60"/>

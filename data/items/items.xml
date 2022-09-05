@@ -3946,15 +3946,15 @@
 	</item>
 	<item id="2503" article="a" name="dwarven armor">
 		<attribute key="weight" value="13000" />
-		<attribute key="armor" value="10" />
+		<attribute key="armor" value="20" />
 		<attribute key="slotType" value="body" />
-		<attribute key="absorbPercentPhysical" value="5" />
+		<attribute key="absorbPercentPhysical" value="10" />
 	</item>
 	<item id="2504" name="dwarven legs">
 		<attribute key="weight" value="4900" />
 		<attribute key="armor" value="7" />
 		<attribute key="slotType" value="legs" />
-		<attribute key="absorbPercentPhysical" value="3" />
+		<attribute key="absorbPercentPhysical" value="5" />
 	</item>
 	<item id="2505" article="an" name="elven mail">
 		<attribute key="weight" value="9000" />
