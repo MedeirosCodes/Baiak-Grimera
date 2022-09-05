@@ -18,6 +18,8 @@
 	<action actionid="6001" script="quests/ringhonour.lua"/>
 	<action actionid="6002" script="quests/blessedarmor.lua"/>
 	<action actionid="6003" script="quests/pallylegs.lua"/>
+	<action actionid="6004" script="quests/epiphany.lua"/>
+	<action actionid="6005" script="quests/solar.lua"/>
 	<action fromaid="34589" toaid="34592" script="quests/medusaAnihiPremio.lua" />
 
 	<action fromaid="46571" toaid="46573" script="quests/quests.lua" />
