@@ -15718,8 +15718,8 @@
 		<attribute key="slotType" value="two-handed" />
 		<attribute key="weaponType" value="distance" />
 		<attribute key="ammoType" value="bolt" />
-		<attribute key="range" value="5" />
-		<attribute key="hitChance" value="1" />
+		<attribute key="range" value="6" />
+		<attribute key="hitChance" value="4" />
 	</item>
 	<item id="8850" article="a" name="chain bolter">
 		<attribute key="weight" value="5500" />
@@ -16149,7 +16149,7 @@
 		<attribute key="attack" value="107" />
 		<attribute key="weaponType" value="axe" />
 		<attribute key="extradef" value="3" />
-		<attribute key="elementFire" value="39" />
+		<attribute key="elementFire" value="19" />
 	</item>
 	<item id="8926" article="a" name="demonwing axe">
 		<attribute key="weight" value="12000" />
@@ -16192,7 +16192,7 @@
 		<attribute key="attack" value="105" />
 		<attribute key="weaponType" value="sword" />
 		<attribute key="extradef" value="3" />
-		<attribute key="elementFire" value="41" />
+		<attribute key="elementFire" value="21" />
 	</item>
 	<item id="8932" name="the calamity">
 		<attribute key="weight" value="6800" />

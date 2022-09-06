@@ -240,6 +240,7 @@
 	<monster name="Frost Dragon" file="Dragons/frost dragon.xml"/>
 	<monster name="Frost Dragon Hatchling" file="Dragons/frost dragon hatchling.xml"/>
 	<monster name="Ghastly Dragon" file="Dragons/ghastly dragon.xml"/>
+	<monster name="Ethershreck" file="Dragons/ethershreck.xml"/>
 	<monster name="Wyrm" file="Dragons/wyrm.xml"/>
 
 	<!-- Dwarves -->
@@ -553,6 +554,7 @@
 	<monster name="Crypt Shambler" file="Undead Humanoids/crypt shambler.xml"/>
 	<monster name="Ghoul" file="Undead Humanoids/ghoul.xml"/>
 	<monster name="Grim Reaper" file="Undead Humanoids/grim reaper.xml"/>
+	<monster name="Grim Reaper" file="Undead Humanoids/grim reaper master.xml"/>
 	<monster name="Lich" file="Undead Humanoids/lich.xml"/>
 	<monster name="Mummy" file="Undead Humanoids/mummy.xml"/>
 	<monster name="Undead Prospector" file="Undead Humanoids/undead prospector.xml"/>

@@ -1,31 +1,74 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Demon" nameDescription="a demon" race="blood" experience="25" speed="200" manacost="0">
-	<health now="50" max="50"/>
-	<look type="35" head="0" body="0" legs="0" feet="0" corpse="2940"/>
-	<targetchange interval="2000" chance="0"/>
-	<strategy attack="100" defense="0"/>
-	<flags>
-		<flag summonable="0"/>
-		<flag attackable="1"/>
-		<flag hostile="1"/>
-		<flag illusionable="0"/>
-		<flag convinceable="0"/>
-		<flag pushable="1"/>
-		<flag canpushitems="0"/>
-		<flag canpushcreatures="0"/>
-		<flag targetdistance="1"/>
-		<flag runonhealth="15"/>
-	</flags>
-	<attacks>
-    <attack name="melee" interval="2000" min="-0" max="-10"/>
-		<attack name="physical" interval="1000" chance="9" range="7" min="-0" max="-25">
-			<attribute key="shootEffect" value="smallstone"/>
-		</attack>
-	</attacks>
-	<defenses armor="6" defense="8"/>
-	<loot>
+<monster name="Goblin Demon" nameDescription="a  goblin demon" race="fire" experience="9000" speed="480" manacost="0">
+        <health now="12000" max="12000"/>
+        <look type="35" corpse="5995"/>
+        <targetchange interval="4000" chance="8"/>
+        <strategy attack="150" defense="0"/>
+        <flags>
+                <flag summonable="0"/>
+                <flag attackable="1"/>
+                <flag hostile="1"/>
+                <flag illusionable="0"/>
+                <flag convinceable="0"/>
+                <flag pushable="0"/>
+                <flag canpushitems="1"/>
+                <flag canpushcreatures="1"/>
+                <flag targetdistance="1"/>
+                <flag staticattack="40"/>
+                <flag runonhealth="0"/>
+        </flags>
+        <attacks>
+                <attack name="melee" interval="2000" skill="90" attack="130"/>
+                <attack name="manadrain" interval="3000" chance="13" range="7" min="-180" max="-400"/>
+                <attack name="fire" interval="2000" chance="14" range="7" radius="7" target="1" min="-260" max="-550">
+                        <attribute key="shootEffect" value="fire"/>
+                        <attribute key="areaEffect" value="firearea"/>
+                </attack>
+                <attack name="firefield" interval="1000" chance="15" range="7" radius="1" target="1">
+                        <attribute key="shootEffect" value="fire"/>
+                </attack>
+                <attack name="energy" interval="3000" chance="30" length="8" spread="0" min="-320" max="-760">
+                        <attribute key="areaEffect" value="energy"/>
+                </attack>
+        </attacks>
+        <defenses armor="50" defense="55">
+                <defense name="healing" interval="1000" chance="15" min="90" max="200">
+                        <attribute key="areaEffect" value="blueshimmer"/>
+                </defense>
+                <defense name="speed" interval="1000" chance="15" speedchange="200" duration="20000">
+                        <attribute key="areaEffect" value="redshimmer"/>
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="1000" chance="5" speedchange="1901" duration="7000">
+			<attribute key="areaEffect" value="redshimmer"/>
+        </defense>
+    </defenses>
+    <elements>
+                <element firePercent="120"/>
+                <element physicalPercent="35"/>
+                <element earthPercent="30"/>
+                <element energyPercent="30"/>
+                <element deathPercent="30"/>
+                <element icePercent="-15"/>
+                <element holyPercent="0"/>
+        </elements>
+        <immunities>
+                <immunity lifedrain="1"/>
+                <immunity paralyze="1"/>
+                <immunity invisible="1"/>
+        </immunities>
+        <summons maxSummons="3">
+                <summon name="minishabaal" interval="2000" chance="10" max="3"/>
+        </summons>
+	<voices interval="5000" chance="10">
+		<voice sentence="Sou eu o Goblin Demonio!!!" yell="1"/>
+	</voices>	<loot>
+		
+		<item id="2470" countmax="1" chance="5000"/><!-- golden legs -->
+		<item id="2472" countmax="1" chance="3000"/><!-- magic plate armor -->
+		<item id="2514" countmax="1" chance="7500"/><!-- mastermind shield -->
+		<item id="2197" countmax="1" chance="4000"/><!-- stone skin amulet -->
+		<item id="3955" countmax="1" chance="100"/><!-- voodoo doll -->
+		<item id="2185" countmax="1" chance="3500"/><!-- necrotic rod -->
+		<item id="2143" countmax="15" chance="12500"/><!-- white pearl -->
 	</loot>
-	<script> 
-	<event name="monster2"/> 
-    </script>
 </monster>
