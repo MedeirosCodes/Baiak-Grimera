@@ -3164,17 +3164,43 @@
     <monster name="Frost Dragon" x="-15" y="-7" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1584" centery="1047" centerz="7" radius="5">
-    <monster name="Behemoth" x="2" y="4" z="7" spawntime="60"/>
+    <monster name="Ethershreck" x="4" y="-4" z="7" spawntime="60"/>
+    <monster name="Ethershreck" x="4" y="-3" z="7" spawntime="60"/>
+    <monster name="Ethershreck" x="-1" y="5" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1604" centery="1047" centerz="7" radius="1"/>
-  <spawn centerx="1619" centery="1065" centerz="7" radius="5"/>
-  <spawn centerx="1598" centery="1067" centerz="7" radius="5"/>
-  <spawn centerx="1588" centery="1077" centerz="7" radius="5"/>
-  <spawn centerx="1629" centery="1078" centerz="7" radius="5"/>
-  <spawn centerx="1632" centery="1095" centerz="7" radius="5"/>
-  <spawn centerx="1582" centery="1097" centerz="7" radius="5"/>
-  <spawn centerx="1622" centery="1108" centerz="7" radius="5"/>
-  <spawn centerx="1601" centery="1109" centerz="7" radius="5"/>
+  <spawn centerx="1619" centery="1065" centerz="7" radius="5">
+    <monster name="Ethershreck" x="5" y="-3" z="7" spawntime="60"/>
+    <monster name="Ethershreck" x="-5" y="4" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1598" centery="1067" centerz="7" radius="5">
+    <monster name="Ethershreck" x="-4" y="-5" z="7" spawntime="60"/>
+    <monster name="Ethershreck" x="1" y="4" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1588" centery="1077" centerz="7" radius="5">
+    <monster name="Ethershreck" x="1" y="-4" z="7" spawntime="60"/>
+    <monster name="Ethershreck" x="-5" y="5" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1629" centery="1078" centerz="7" radius="5">
+    <monster name="Ethershreck" x="-3" y="-5" z="7" spawntime="60"/>
+    <monster name="Ethershreck" x="3" y="5" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1632" centery="1095" centerz="7" radius="5">
+    <monster name="Ethershreck" x="4" y="-4" z="7" spawntime="60"/>
+    <monster name="Ethershreck" x="-1" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1582" centery="1097" centerz="7" radius="5">
+    <monster name="Ethershreck" x="-3" y="-4" z="7" spawntime="60"/>
+    <monster name="Ethershreck" x="1" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1622" centery="1108" centerz="7" radius="5">
+    <monster name="Ethershreck" x="5" y="-5" z="7" spawntime="60"/>
+    <monster name="Ethershreck" x="-3" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1601" centery="1109" centerz="7" radius="5">
+    <monster name="Ethershreck" x="-5" y="-3" z="7" spawntime="60"/>
+    <monster name="Ethershreck" x="5" y="2" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="1098" centery="1224" centerz="7" radius="5">
     <monster name="Lion" x="2" y="-1" z="7" spawntime="20"/>
     <monster name="Lion" x="-3" y="3" z="7" spawntime="20"/>
@@ -4123,6 +4149,7 @@
   </spawn>
   <spawn centerx="313" centery="178" centerz="8" radius="5">
     <monster name="Sea Serpent" x="0" y="-5" z="8" spawntime="20"/>
+    <monster name="Ethershreck" x="0" y="1" z="8" spawntime="60"/>
     <monster name="Warlock" x="0" y="3" z="8" spawntime="30"/>
     <monster name="Warlock" x="0" y="5" z="8" spawntime="60"/>
   </spawn>
