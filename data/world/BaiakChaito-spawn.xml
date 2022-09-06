@@ -1219,33 +1219,35 @@
   <spawn centerx="290" centery="231" centerz="7" radius="5">
     <monster name="Demon" x="2" y="4" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="394" centery="266" centerz="7" radius="20">
-    <monster name="Grim Reaper Master" x="-12" y="-16" z="7" spawntime="3600"/>
-    <monster name="Grim Reaper Master" x="-10" y="-15" z="7" spawntime="3600"/>
-    <monster name="Grim Reaper Master" x="-6" y="-15" z="7" spawntime="3600"/>
-    <monster name="Grim Reaper Master" x="-16" y="-14" z="7" spawntime="3600"/>
-    <monster name="Grim Reaper Master" x="0" y="-14" z="7" spawntime="3600"/>
-    <monster name="Grim Reaper Master" x="-3" y="-12" z="7" spawntime="3600"/>
-    <monster name="Grim Reaper Master" x="-18" y="-10" z="7" spawntime="3600"/>
-    <monster name="Grim Reaper Master" x="3" y="-10" z="7" spawntime="3600"/>
-    <monster name="Grim Reaper Master" x="1" y="-6" z="7" spawntime="3600"/>
-    <monster name="Grim Reaper Master" x="-2" y="-2" z="7" spawntime="3600"/>
-    <monster name="Grim Reaper Master" x="-6" y="2" z="7" spawntime="3600"/>
-    <monster name="Grim Reaper Master" x="-10" y="5" z="7" spawntime="3600"/>
-    <monster name="Grim Reaper Master" x="-13" y="8" z="7" spawntime="3600"/>
-    <monster name="Grim Reaper Master" x="-19" y="11" z="7" spawntime="3600"/>
-    <monster name="Grim Reaper Master" x="-18" y="15" z="7" spawntime="3600"/>
+  <spawn centerx="378" centery="261" centerz="7" radius="20">
+    <monster name="Grim Reaper Master" x="4" y="-11" z="7" spawntime="3600"/>
+    <monster name="Grim Reaper Master" x="6" y="-10" z="7" spawntime="3600"/>
+    <monster name="Grim Reaper Master" x="10" y="-10" z="7" spawntime="3600"/>
+    <monster name="Grim Reaper Master" x="0" y="-9" z="7" spawntime="3600"/>
+    <monster name="Grim Reaper Master" x="16" y="-9" z="7" spawntime="3600"/>
+    <monster name="Grim Reaper Master" x="13" y="-7" z="7" spawntime="3600"/>
+    <monster name="Grim Reaper Master" x="-2" y="-5" z="7" spawntime="3600"/>
+    <monster name="Grim Reaper Master" x="19" y="-5" z="7" spawntime="3600"/>
+    <monster name="Grim Reaper Master" x="-14" y="-2" z="7" spawntime="3600"/>
+    <monster name="Grim Reaper Master" x="17" y="-1" z="7" spawntime="3600"/>
+    <monster name="Grim Reaper Master" x="-9" y="2" z="7" spawntime="3600"/>
+    <monster name="Grim Reaper Master" x="14" y="3" z="7" spawntime="3600"/>
+    <monster name="Grim Reaper Master" x="10" y="7" z="7" spawntime="3600"/>
+    <monster name="Grim Reaper Master" x="-7" y="9" z="7" spawntime="3600"/>
+    <monster name="Grim Reaper Master" x="6" y="10" z="7" spawntime="3600"/>
+    <monster name="Grim Reaper Master" x="-19" y="12" z="7" spawntime="3600"/>
+    <monster name="Grim Reaper Master" x="3" y="13" z="7" spawntime="3600"/>
+    <monster name="Grim Reaper Master" x="-3" y="16" z="7" spawntime="3600"/>
+    <monster name="Grim Reaper Master" x="-2" y="20" z="7" spawntime="3600"/>
+  </spawn>
+  <spawn centerx="357" centery="264" centerz="7" radius="20">
+    <monster name="Grim Reaper Master" x="-4" y="-9" z="7" spawntime="3600"/>
+    <monster name="Grim Reaper" x="-5" y="-6" z="7" spawntime="3600"/>
+    <monster name="Grim Reaper Master" x="-7" y="-5" z="7" spawntime="3600"/>
+    <monster name="Grim Reaper Master" x="-3" y="4" z="7" spawntime="3600"/>
+    <monster name="Grim Reaper" x="0" y="7" z="7" spawntime="3600"/>
   </spawn>
   <spawn centerx="363" centery="267" centerz="7" radius="20">
-    <monster name="Grim Reaper Master" x="-10" y="-12" z="7" spawntime="3600"/>
-    <monster name="Grim Reaper" x="-11" y="-9" z="7" spawntime="3600"/>
-    <monster name="Grim Reaper Master" x="-13" y="-8" z="7" spawntime="3600"/>
-    <monster name="Grim Reaper Master" x="1" y="-8" z="7" spawntime="3600"/>
-    <monster name="Grim Reaper Master" x="6" y="-4" z="7" spawntime="3600"/>
-    <monster name="Grim Reaper Master" x="-9" y="1" z="7" spawntime="3600"/>
-    <monster name="Grim Reaper Master" x="8" y="3" z="7" spawntime="3600"/>
-    <monster name="Grim Reaper" x="-6" y="4" z="7" spawntime="3600"/>
-    <monster name="Grim Reaper Master" x="-4" y="6" z="7" spawntime="3600"/>
     <monster name="Grim Reaper Master" x="14" y="20" z="7" spawntime="3600"/>
   </spawn>
   <spawn centerx="282" centery="275" centerz="7" radius="5">
@@ -1267,15 +1269,16 @@
     <monster name="Demon" x="-4" y="0" z="7" spawntime="60"/>
     <monster name="Demon" x="3" y="3" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="396" centery="291" centerz="7" radius="20">
-    <monster name="Grim Reaper Master" x="13" y="-2" z="7" spawntime="3600"/>
-    <monster name="Grim Reaper Master" x="16" y="-2" z="7" spawntime="3600"/>
-    <monster name="Son the Ripper" x="15" y="0" z="7" spawntime="60"/>
-    <monster name="Grim Reaper Master" x="6" y="2" z="7" spawntime="3600"/>
-    <monster name="Grim Reaper Master" x="-5" y="6" z="7" spawntime="3600"/>
-    <monster name="Grim Reaper Master" x="3" y="7" z="7" spawntime="3600"/>
-    <monster name="Grim Reaper Master" x="-2" y="8" z="7" spawntime="3600"/>
+  <spawn centerx="407" centery="293" centerz="7" radius="20">
+    <monster name="Grim Reaper Master" x="2" y="-4" z="7" spawntime="3600"/>
+    <monster name="Grim Reaper Master" x="5" y="-4" z="7" spawntime="3600"/>
+    <monster name="Son the Ripper" x="4" y="-2" z="7" spawntime="60"/>
+    <monster name="Grim Reaper Master" x="-5" y="0" z="7" spawntime="3600"/>
+    <monster name="Grim Reaper Master" x="-16" y="4" z="7" spawntime="3600"/>
+    <monster name="Grim Reaper Master" x="-8" y="5" z="7" spawntime="3600"/>
+    <monster name="Grim Reaper Master" x="-13" y="6" z="7" spawntime="3600"/>
   </spawn>
+  <spawn centerx="385" centery="294" centerz="7" radius="20"/>
   <spawn centerx="128" centery="295" centerz="7" radius="1">
     <monster name="Demon (Goblin)" x="-1" y="0" z="7" spawntime="400"/>
   </spawn>
@@ -2553,45 +2556,41 @@
   <spawn centerx="1144" centery="780" centerz="7" radius="4">
     <monster name="Frost Dragon" x="-1" y="4" z="7" spawntime="768"/>
   </spawn>
-  <spawn centerx="1607" centery="782" centerz="7" radius="1">
-    <monster name="The Obliverator" x="0" y="0" z="7" spawntime="60"/>
-  </spawn>
   <spawn centerx="1085" centery="784" centerz="7" radius="4"/>
+  <spawn centerx="1610" centery="785" centerz="7" radius="7">
+    <monster name="The Obliverator" x="-3" y="-3" z="7" spawntime="60"/>
+    <monster name="The Obliverator" x="3" y="0" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="1144" centery="786" centerz="7" radius="4">
     <monster name="Frost Dragon" x="-1" y="-1" z="7" spawntime="768"/>
-  </spawn>
-  <spawn centerx="1613" centery="786" centerz="7" radius="1">
-    <monster name="The Obliverator" x="0" y="-1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1608" centery="793" centerz="7" radius="1">
     <monster name="Fire Devil" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="1614" centery="796" centerz="7" radius="5">
-    <monster name="The Obliverator" x="1" y="0" z="7" spawntime="60"/>
+  <spawn centerx="1621" centery="795" centerz="7" radius="7">
+    <monster name="The Obliverator" x="-6" y="1" z="7" spawntime="60"/>
+    <monster name="The Obliverator" x="7" y="4" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="1628" centery="799" centerz="7" radius="1">
-    <monster name="The Obliverator" x="0" y="0" z="7" spawntime="60"/>
+  <spawn centerx="1614" centery="796" centerz="7" radius="5"/>
+  <spawn centerx="1633" centery="805" centerz="7" radius="7">
+    <monster name="The Obliverator" x="5" y="2" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="1637" centery="810" centerz="7" radius="5">
-    <monster name="The Obliverator" x="1" y="-3" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1613" centery="814" centerz="7" radius="5">
-    <monster name="Demon" x="-4" y="-4" z="7" spawntime="60"/>
-    <monster name="The Obliverator" x="5" y="5" z="7" spawntime="60"/>
+  <spawn centerx="1614" centery="815" centerz="7" radius="7">
+    <monster name="Demon" x="-5" y="-5" z="7" spawntime="60"/>
+    <monster name="The Obliverator" x="4" y="4" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1628" centery="818" centerz="7" radius="5">
     <monster name="The Obliverator" x="3" y="1" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="1643" centery="827" centerz="7" radius="5">
-    <monster name="The Obliverator" x="3" y="-3" z="7" spawntime="60"/>
-    <monster name="The Obliverator" x="-4" y="5" z="7" spawntime="60"/>
+  <spawn centerx="1643" centery="829" centerz="7" radius="7">
+    <monster name="The Obliverator" x="3" y="-5" z="7" spawntime="60"/>
+    <monster name="The Obliverator" x="-4" y="3" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="1607" centery="832" centerz="7" radius="5">
-    <monster name="The Obliverator" x="1" y="-1" z="7" spawntime="60"/>
+  <spawn centerx="1610" centery="831" centerz="7" radius="7">
+    <monster name="The Obliverator" x="-2" y="0" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="1622" centery="835" centerz="7" radius="5">
-    <monster name="The Obliverator" x="5" y="-2" z="7" spawntime="60"/>
-    <monster name="Behemoth" x="-4" y="4" z="7" spawntime="60"/>
+  <spawn centerx="1626" centery="832" centerz="7" radius="7">
+    <monster name="The Obliverator" x="1" y="1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1028" centery="840" centerz="7" radius="30">
     <monster name="Frost Dragon" x="-8" y="-25" z="7" spawntime="768"/>
@@ -3164,43 +3163,39 @@
     <monster name="Frost Dragon" x="-16" y="-7" z="7" spawntime="768"/>
     <monster name="Frost Dragon" x="-15" y="-7" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="1584" centery="1047" centerz="7" radius="5">
-    <monster name="Ethershreck" x="4" y="-4" z="7" spawntime="60"/>
-    <monster name="Ethershreck" x="4" y="-3" z="7" spawntime="60"/>
-    <monster name="Ethershreck" x="-1" y="5" z="7" spawntime="60"/>
+  <spawn centerx="1588" centery="1046" centerz="7" radius="7">
+    <monster name="Ethershreck" x="0" y="-3" z="7" spawntime="60"/>
+    <monster name="Ethershreck" x="0" y="-2" z="7" spawntime="60"/>
+    <monster name="Ethershreck" x="-5" y="6" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1604" centery="1047" centerz="7" radius="1"/>
-  <spawn centerx="1619" centery="1065" centerz="7" radius="5">
-    <monster name="Ethershreck" x="5" y="-3" z="7" spawntime="60"/>
-    <monster name="Ethershreck" x="-5" y="4" z="7" spawntime="60"/>
+  <spawn centerx="1620" centery="1064" centerz="7" radius="10">
+    <monster name="Ethershreck" x="4" y="-2" z="7" spawntime="60"/>
+    <monster name="Ethershreck" x="-6" y="5" z="7" spawntime="60"/>
+    <monster name="Ethershreck" x="6" y="9" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="1598" centery="1067" centerz="7" radius="5">
-    <monster name="Ethershreck" x="-4" y="-5" z="7" spawntime="60"/>
-    <monster name="Ethershreck" x="1" y="4" z="7" spawntime="60"/>
+  <spawn centerx="1591" centery="1067" centerz="7" radius="18">
+    <monster name="Ethershreck" x="3" y="-5" z="7" spawntime="60"/>
+    <monster name="Ethershreck" x="8" y="4" z="7" spawntime="60"/>
+    <monster name="Ethershreck" x="-2" y="6" z="7" spawntime="60"/>
+    <monster name="Ethershreck" x="-8" y="15" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="1588" centery="1077" centerz="7" radius="5">
-    <monster name="Ethershreck" x="1" y="-4" z="7" spawntime="60"/>
-    <monster name="Ethershreck" x="-5" y="5" z="7" spawntime="60"/>
+  <spawn centerx="1628" centery="1082" centerz="7" radius="10">
+    <monster name="Ethershreck" x="4" y="1" z="7" spawntime="60"/>
+    <monster name="Ethershreck" x="8" y="9" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="1629" centery="1078" centerz="7" radius="5">
+  <spawn centerx="1582" centery="1098" centerz="7" radius="10">
     <monster name="Ethershreck" x="-3" y="-5" z="7" spawntime="60"/>
-    <monster name="Ethershreck" x="3" y="5" z="7" spawntime="60"/>
+    <monster name="Ethershreck" x="1" y="2" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="1632" centery="1095" centerz="7" radius="5">
-    <monster name="Ethershreck" x="4" y="-4" z="7" spawntime="60"/>
-    <monster name="Ethershreck" x="-1" y="2" z="7" spawntime="60"/>
+  <spawn centerx="1626" centery="1101" centerz="7" radius="10">
+    <monster name="Ethershreck" x="5" y="-4" z="7" spawntime="60"/>
+    <monster name="Ethershreck" x="1" y="2" z="7" spawntime="60"/>
+    <monster name="Ethershreck" x="-7" y="6" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="1582" centery="1097" centerz="7" radius="5">
-    <monster name="Ethershreck" x="-3" y="-4" z="7" spawntime="60"/>
-    <monster name="Ethershreck" x="1" y="3" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1622" centery="1108" centerz="7" radius="5">
-    <monster name="Ethershreck" x="5" y="-5" z="7" spawntime="60"/>
-    <monster name="Ethershreck" x="-3" y="-1" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="1601" centery="1109" centerz="7" radius="5">
-    <monster name="Ethershreck" x="-5" y="-3" z="7" spawntime="60"/>
-    <monster name="Ethershreck" x="5" y="2" z="7" spawntime="60"/>
+  <spawn centerx="1602" centery="1108" centerz="7" radius="10">
+    <monster name="Ethershreck" x="-6" y="-2" z="7" spawntime="60"/>
+    <monster name="Ethershreck" x="4" y="3" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1098" centery="1224" centerz="7" radius="5">
     <monster name="Lion" x="2" y="-1" z="7" spawntime="20"/>
