@@ -1270,6 +1270,7 @@
   <spawn centerx="396" centery="291" centerz="7" radius="20">
     <monster name="Grim Reaper Master" x="13" y="-2" z="7" spawntime="3600"/>
     <monster name="Grim Reaper Master" x="16" y="-2" z="7" spawntime="3600"/>
+    <monster name="Son the Ripper" x="15" y="0" z="7" spawntime="60"/>
     <monster name="Grim Reaper Master" x="6" y="2" z="7" spawntime="3600"/>
     <monster name="Grim Reaper Master" x="-5" y="6" z="7" spawntime="3600"/>
     <monster name="Grim Reaper Master" x="3" y="7" z="7" spawntime="3600"/>
