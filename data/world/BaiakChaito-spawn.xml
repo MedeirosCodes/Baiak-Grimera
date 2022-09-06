@@ -4148,7 +4148,7 @@
     <monster name="Cave Rat" x="4" y="2" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="313" centery="178" centerz="8" radius="5">
-    <monster name="Sea Serpent" x="0" y="-5" z="8" spawntime="20"/>
+    <monster name="Sea Serpent" x="0" y="-1" z="8" spawntime="20"/>
     <monster name="Ethershreck" x="0" y="1" z="8" spawntime="60"/>
     <monster name="Warlock" x="0" y="3" z="8" spawntime="30"/>
     <monster name="Warlock" x="0" y="5" z="8" spawntime="60"/>
