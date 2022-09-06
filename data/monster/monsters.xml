@@ -181,7 +181,7 @@
 	<monster name="Zugurosh" file="Bosses/zugurosh.xml"/>
 	<monster name="Bazir" file="Bosses/bazir.xml"/>
 	<monster name="Infernatil" file="Bosses/infernatil.xml"/>
-	<monster name="Drasilla" file="Bosses/drasilla.xml"/>
+	<monster name="Drasilla" file="Arena/scrapper/drasilla.xml"/>
 	<monster name="Verminor" file="Bosses/verminor.xml"/>
 
 	<!-- Canines -->
@@ -555,7 +555,7 @@
 	<monster name="Crypt Shambler" file="Undead Humanoids/crypt shambler.xml"/>
 	<monster name="Ghoul" file="Undead Humanoids/ghoul.xml"/>
 	<monster name="Grim Reaper" file="Undead Humanoids/grim reaper.xml"/>
-	<monster name="Grim Reaper" file="Undead Humanoids/grim_reaper_master.xml"/>
+	<monster name="Grim Reaper Master" file="Undead Humanoids/grim_reaper_master.xml"/>
 	<monster name="Lich" file="Undead Humanoids/lich.xml"/>
 	<monster name="Mummy" file="Undead Humanoids/mummy.xml"/>
 	<monster name="Undead Prospector" file="Undead Humanoids/undead prospector.xml"/>
