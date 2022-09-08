@@ -86,7 +86,7 @@
 		<immunity invisible="1" />
 	</immunities>
 	<summons maxSummons="1">
-		<summon name="bazir" interval="1000" chance="15" max="1" />
+		<summon name="hellgorak" interval="1000" chance="15" max="2" />
 	</summons>
 	<voices interval="5000" chance="10">
 		<voice sentence="COME HERE! FREE ITEMS FOR EVERYONE!" yell="1" />

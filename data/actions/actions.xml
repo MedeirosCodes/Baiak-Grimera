@@ -20,6 +20,9 @@
 	<action actionid="6003" script="quests/pallylegs.lua"/>
 	<action actionid="6004" script="quests/epiphany.lua"/>
 	<action actionid="6005" script="quests/solar.lua"/>
+	<action actionid="6006" script="quests/baiakhelmet.lua"/>
+	<action actionid="6007" script="quests/baiakarmor.lua"/>
+	<action actionid="6008" script="quests/baiaklegs.lua"/>
 	<action fromaid="34589" toaid="34592" script="quests/medusaAnihiPremio.lua" />
 
 	<action fromaid="46571" toaid="46573" script="quests/quests.lua" />
