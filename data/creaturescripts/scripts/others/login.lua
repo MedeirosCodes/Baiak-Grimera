@@ -10,6 +10,11 @@ function onLogin(player)
 
 		loginStr = string.format("Sua última visita foi em {%s}.", os.date("%a %b %d %X %Y", player:getLastLoginSaved()))
 	end
+	function onLogin(cid)
+		local loss = getConfigValue('deathLostPercent')
+		if(loss ~= nil) then
+		doPlayerSetLossPercent(cid, PLAYERLOSS_EXPERIENCE, loss * 15)
+	end
 	player:sendTextMessage(MESSAGE_STATUS_BLUE_LIGHT, loginStr)
 
 	if player:isPremium() and player:getAccountType() < ACCOUNT_TYPE_GAMEMASTER then

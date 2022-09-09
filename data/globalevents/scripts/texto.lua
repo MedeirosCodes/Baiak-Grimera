@@ -4,9 +4,10 @@ local config = {
         ["Barco"] = { x = 154, y = 48, z = 7 },
 	["Hunts Low Level"] = { x = 152, y = 48, z = 7 },
 	["Bosses"] = { x = 150, y = 48, z = 7 },
-	["Quests"] = { x = 145, y = 48, z = 7 },
-	["Fodonas"] = { x = 145, y = 47, z = 7 },
-	["ESCOLHA O CERTO"] = { x = 203, y = 300, z = 10 }
+	["Quests"] = { x = 145, y = 47, z = 7 },
+	["500+"] = { x = 145, y = 48, z = 7 },
+	["ESCOLHA"] = { x = 203, y = 300, z = 10 },
+	["O CERTO"] = { x = 205, y = 300, z = 10 }
 
     }
 }

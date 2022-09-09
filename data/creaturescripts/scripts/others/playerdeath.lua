@@ -8,7 +8,7 @@ function onDeath(player, corpse, killer, mostDamageKiller, unjustified, mostDama
 		nextUseStaminaTime[playerId] = nil
 	end
 
-	player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Voc� morreu.")
+	player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Voce morreu.")
 	player:say("ME FUDI", TALKTYPE_MONSTER_SAY)
 	if not deathListEnabled then
 		return

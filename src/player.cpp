@@ -3180,32 +3180,16 @@ void Player::getPathSearchParams(const Creature* creature, FindPathParams& fpp) 
 	fpp.fullPathSearch = true;
 }
 
-void Player::doAttacking(uint32_t)
+uint32_t Player::getAttackSpeed() const
 {
-	if (lastAttack == 0) {
-		lastAttack = OTSYS_TIME() - getAttackSpeed() - 1;
-	}
+    int32_t SpeedAttack;
+    SpeedAttack = 250;
 
-	if (hasCondition(CONDITION_PACIFIED)) {
-		return;
-	}
-
-	if ((OTSYS_TIME() - lastAttack) >= getAttackSpeed()) {
-		bool result = false;
-
-		Item* tool = getWeapon();
-		const Weapon* weapon = g_weapons->getWeapon(tool);
-
-		if (weapon) {
-			result = weapon->useWeapon(this, tool, attackedCreature);
-		} else {
-			result = Weapon::useFist(this, attackedCreature);
-		}
-
-		if (result) {
-			lastAttack = OTSYS_TIME();
-		}
-	}
+    if (SpeedAttack < 250) {
+        return 250;
+    } else {
+        return (uint32_t) SpeedAttack;
+    }
 }
 
 uint64_t Player::getGainedExperience(Creature* attacker) const

@@ -870,11 +870,11 @@
     <npc name="Dufi" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="164" centery="47" centerz="7" radius="1">
-    <npc name="Henricus" x="0" y="0" z="7" spawntime="60"/>
+    <npc name="Gustavo" x="0" y="0" z="7" spawntime="360"/>
   </spawn>
   <spawn centerx="127" centery="48" centerz="7" radius="5"/>
   <spawn centerx="164" centery="55" centerz="7" radius="2">
-    <npc name="Alissow" x="-1" y="-1" z="7" spawntime="60"/>
+    <npc name="Alissow" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="175" centery="65" centerz="7" radius="1">
     <npc name="Breno" x="0" y="-1" z="7" spawntime="60"/>
@@ -4503,9 +4503,9 @@
     <monster name="Scorpion" x="28" y="34" z="8" spawntime="60"/>
     <monster name="Lost Soul" x="29" y="34" z="8" spawntime="400"/>
     <monster name="Orshabaal" x="25" y="36" z="8" spawntime="60"/>
+    <monster name="Fernfang" x="26" y="36" z="8" spawntime="400"/>
     <monster name="draken abomination" x="27" y="36" z="8" spawntime="400"/>
     <monster name="Sibang" x="28" y="36" z="8" spawntime="60"/>
-    <monster name="Fernfang" x="27" y="37" z="8" spawntime="400"/>
     <monster name="Hellgorak" x="28" y="37" z="8" spawntime="400"/>
     <monster name="Demon (Goblin)" x="99" y="45" z="8" spawntime="3009"/>
     <monster name="Orshabaal" x="96" y="48" z="8" spawntime="60"/>
@@ -8637,6 +8637,7 @@
     <monster name="Hellhound" x="1" y="4" z="10" spawntime="60"/>
   </spawn>
   <spawn centerx="188" centery="297" centerz="10" radius="5">
+    <monster name="Ushuriel" x="0" y="-2" z="10" spawntime="360"/>
     <monster name="Wrath of the Emperor" x="-1" y="-1" z="10" spawntime="400"/>
     <monster name="Bazir" x="-2" y="5" z="10" spawntime="400"/>
   </spawn>
