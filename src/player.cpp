@@ -394,8 +394,8 @@ float Player::getAttackFactor() const
 float Player::getDefenseFactor() const
 {
 	switch (fightMode) {
-		case FIGHTMODE_ATTACK: return (OTSYS_TIME() - lastAttack) < getAttackSpeed() ? 0.5f : 1.0f;
-		case FIGHTMODE_BALANCED: return (OTSYS_TIME() - lastAttack) < getAttackSpeed() ? 0.75f : 1.0f;
+		case FIGHTMODE_ATTACK: return (OTSYS_TIME() - lastAttack) < 250 ? 0.5f : 1.0f;
+		case FIGHTMODE_BALANCED: return (OTSYS_TIME() - lastAttack) < 250 ? 0.75f : 1.0f;
 		case FIGHTMODE_DEFENSE: return 1.0f;
 		default: return 1.0f;
 	}
@@ -3180,16 +3180,32 @@ void Player::getPathSearchParams(const Creature* creature, FindPathParams& fpp) 
 	fpp.fullPathSearch = true;
 }
 
-uint32_t Player::getAttackSpeed() const
+void Player::doAttacking(uint32_t)
 {
-    int32_t SpeedAttack;
-    SpeedAttack = 250;
+	if (lastAttack == 0) {
+		lastAttack = OTSYS_TIME() - 250 - 1;
+	}
 
-    if (SpeedAttack < 250) {
-        return 250;
-    } else {
-        return (uint32_t) SpeedAttack;
-    }
+	if (hasCondition(CONDITION_PACIFIED)) {
+		return;
+	}
+
+	if ((OTSYS_TIME() - lastAttack) >= 250)) {
+		bool result = false;
+
+		Item* tool = getWeapon();
+		const Weapon* weapon = g_weapons->getWeapon(tool);
+
+		if (weapon) {
+			result = weapon->useWeapon(this, tool, attackedCreature);
+		} else {
+			result = Weapon::useFist(this, attackedCreature);
+		}
+
+		if (result) {
+			lastAttack = OTSYS_TIME();
+		}
+	}
 }
 
 uint64_t Player::getGainedExperience(Creature* attacker) const
