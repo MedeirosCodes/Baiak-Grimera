@@ -394,8 +394,8 @@ float Player::getAttackFactor() const
 float Player::getDefenseFactor() const
 {
 	switch (fightMode) {
-		case FIGHTMODE_ATTACK: return (OTSYS_TIME() - lastAttack) < 250 ? 0.5f : 1.0f;
-		case FIGHTMODE_BALANCED: return (OTSYS_TIME() - lastAttack) < 250 ? 0.75f : 1.0f;
+		case FIGHTMODE_ATTACK: return (OTSYS_TIME() - lastAttack) < getAttackSpeed() ? 0.5f : 1.0f;
+		case FIGHTMODE_BALANCED: return (OTSYS_TIME() - lastAttack) < getAttackSpeed() ? 0.75f : 1.0f;
 		case FIGHTMODE_DEFENSE: return 1.0f;
 		default: return 1.0f;
 	}
@@ -1407,19 +1407,6 @@ void Player::checkTradeState(const Item* item)
 	}
 }
 
-void Player::setNextActionTask(SchedulerTask* task)
-{
-	if (actionTaskEvent != 0) {
-		g_scheduler.stopEvent(actionTaskEvent);
-		actionTaskEvent = 0;
-	}
-
-	if (task) {
-		actionTaskEvent = g_scheduler.addEvent(task);
-		this->resetIdleTime();
-	}
-}
-
 void Player::setNextWalkActionTask(SchedulerTask* task)
 {
 	if (walkTaskEvent != 0) {
@@ -1440,6 +1427,19 @@ void Player::setNextWalkTask(SchedulerTask* task)
 
 	if (task) {
 		nextStepEvent = g_scheduler.addEvent(task);
+		resetIdleTime();
+	}
+}
+
+void Player::setNextActionTask(SchedulerTask* task)
+{
+	if (actionTaskEvent != 0) {
+		g_scheduler.stopEvent(actionTaskEvent);
+		actionTaskEvent = 0;
+	}
+
+	if (task) {
+		actionTaskEvent = g_scheduler.addEvent(task);
 		resetIdleTime();
 	}
 }
@@ -2090,9 +2090,9 @@ Item* Player::getCorpse(Creature* lastHitCreature, Creature* mostDamageCreature)
 	if (corpse && corpse->getContainer()) {
 		std::ostringstream ss;
 		if (lastHitCreature) {
-			ss << "Voce ve " << getNameDescription() << ". " << (getSex() == PLAYERSEX_FEMALE ? "Ela foi morta" : "Ele foi morto") << " por " << lastHitCreature->getNameDescription() << '.';
+			ss << "Voc� v� " << getNameDescription() << ". " << (getSex() == PLAYERSEX_FEMALE ? "Ela foi morta" : "Ele foi morto") << " por " << lastHitCreature->getNameDescription() << '.';
 		} else {
-			ss << "Voce ve " << getNameDescription() << '.';
+			ss << "Voc� v� " << getNameDescription() << '.';
 		}
 
 		corpse->setSpecialDescription(ss.str());
@@ -2102,13 +2102,13 @@ Item* Player::getCorpse(Creature* lastHitCreature, Creature* mostDamageCreature)
 
 void Player::addCombatExhaust(uint32_t ticks)
 {
-	Condition* condition = Condition::createCondition(CONDITIONID_DEFAULT, CONDITION_EXHAUST_COMBAT, 0, 0);
+	Condition* condition = Condition::createCondition(CONDITIONID_DEFAULT, CONDITION_EXHAUST_COMBAT, ticks, 0);
 	addCondition(condition);
 }
 
 void Player::addHealExhaust(uint32_t ticks)
 {
-	Condition* condition = Condition::createCondition(CONDITIONID_DEFAULT, CONDITION_EXHAUST_HEAL, 0, 0);
+	Condition* condition = Condition::createCondition(CONDITIONID_DEFAULT, CONDITION_EXHAUST_HEAL, ticks, 0);
 	addCondition(condition);
 }
 
@@ -3180,7 +3180,6 @@ void Player::getPathSearchParams(const Creature* creature, FindPathParams& fpp) 
 	fpp.fullPathSearch = true;
 }
 
-
 void Player::doAttacking(uint32_t)
 {
 	if (lastAttack == 0) {
@@ -3210,16 +3209,11 @@ void Player::doAttacking(uint32_t)
 		} else {
 			result = Weapon::useFist(this, attackedCreature);
 		}
-		SchedulerTask* task = createSchedulerTask(delay, std::bind(&Game::checkCreatureAttack,
-									 &g_game, getID()));
-		setNextActionTask(task);
-
 		if (result) {
 			lastAttack = OTSYS_TIME();
 		}
 	}
 }
-
 
 uint64_t Player::getGainedExperience(Creature* attacker) const
 {
