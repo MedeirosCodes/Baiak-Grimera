@@ -4028,26 +4028,66 @@
     <monster name="Mahrdis" x="34" y="0" z="8" spawntime="60"/>
     <monster name="Hydra" x="-27" y="18" z="8" spawntime="60"/>
     <monster name="Hydra" x="-27" y="32" z="8" spawntime="60"/>
+    <monster name="Hacker" x="34" y="32" z="8" spawntime="339"/>
+    <monster name="The Obliverator" x="32" y="33" z="8" spawntime="360"/>
     <monster name="Hellhound" x="24" y="34" z="8" spawntime="60"/>
+    <monster name="Spirit of Fire" x="33" y="34" z="8" spawntime="339"/>
     <monster name="Hellhound" x="5" y="35" z="8" spawntime="60"/>
+    <monster name="Spirit of Fire" x="26" y="35" z="8" spawntime="339"/>
+    <monster name="The Abomination" x="28" y="35" z="8" spawntime="360"/>
+    <monster name="The Obliverator" x="31" y="35" z="8" spawntime="360"/>
     <monster name="Verminor" x="9" y="36" z="8" spawntime="360"/>
+    <monster name="The Obliverator" x="12" y="36" z="8" spawntime="360"/>
+    <monster name="Spirit of Fire" x="13" y="36" z="8" spawntime="339"/>
     <monster name="Hellhound" x="15" y="36" z="8" spawntime="60"/>
+    <monster name="The Obliverator" x="23" y="36" z="8" spawntime="360"/>
+    <monster name="The Masked Marauder" x="26" y="36" z="8" spawntime="360"/>
     <monster name="Hydra" x="-25" y="37" z="8" spawntime="60"/>
+    <monster name="Spirit of Fire" x="4" y="37" z="8" spawntime="339"/>
+    <monster name="Yakchal" x="5" y="37" z="8" spawntime="339"/>
+    <monster name="The Obliverator" x="7" y="37" z="8" spawntime="360"/>
+    <monster name="Apocalypse" x="8" y="37" z="8" spawntime="360"/>
     <monster name="Betrayed Wraith" x="9" y="37" z="8" spawntime="60"/>
+    <monster name="Plaguesmith" x="12" y="37" z="8" spawntime="339"/>
+    <monster name="Roaring Water Elemental" x="22" y="37" z="8" spawntime="339"/>
+    <monster name="Orcus The Cruel" x="4" y="38" z="8" spawntime="339"/>
     <monster name="Hellfire Fighter" x="23" y="38" z="8" spawntime="60"/>
     <monster name="Betrayed Wraith" x="3" y="39" z="8" spawntime="60"/>
     <monster name="Hellfire Fighter" x="6" y="39" z="8" spawntime="60"/>
+    <monster name="Plaguesmith" x="14" y="39" z="8" spawntime="339"/>
+    <monster name="The Obliverator" x="4" y="40" z="8" spawntime="360"/>
+    <monster name="The Obliverator" x="15" y="40" z="8" spawntime="360"/>
+    <monster name="Spirit of Fire" x="23" y="40" z="8" spawntime="339"/>
     <monster name="Hellfire Fighter" x="15" y="41" z="8" spawntime="60"/>
+    <monster name="The Obliverator" x="21" y="41" z="8" spawntime="360"/>
     <monster name="Hellfire Fighter" x="24" y="41" z="8" spawntime="60"/>
     <monster name="Hydra" x="-24" y="42" z="8" spawntime="60"/>
     <monster name="Hellhound" x="5" y="42" z="8" spawntime="60"/>
+    <monster name="Spirit of Fire" x="13" y="42" z="8" spawntime="339"/>
+    <monster name="Annihilon" x="21" y="42" z="8" spawntime="360"/>
     <monster name="Hydra" x="-22" y="43" z="8" spawntime="60"/>
+    <monster name="Spirit of Fire" x="4" y="43" z="8" spawntime="339"/>
     <monster name="Hellhound" x="22" y="43" z="8" spawntime="60"/>
+    <monster name="The Obliverator" x="6" y="45" z="8" spawntime="360"/>
+    <monster name="The Obliverator" x="13" y="45" z="8" spawntime="360"/>
     <monster name="Hellhound" x="14" y="45" z="8" spawntime="60"/>
+    <monster name="Spirit of Fire" x="21" y="45" z="8" spawntime="339"/>
     <monster name="Hydra" x="-25" y="46" z="8" spawntime="60"/>
     <monster name="Hellfire Fighter" x="3" y="46" z="8" spawntime="60"/>
+    <monster name="The Obliverator" x="23" y="46" z="8" spawntime="360"/>
     <monster name="Hellfire Fighter" x="24" y="46" z="8" spawntime="60"/>
+    <monster name="Spirit of Fire" x="5" y="47" z="8" spawntime="339"/>
     <monster name="Hellfire Fighter" x="15" y="48" z="8" spawntime="60"/>
+    <monster name="Annihilon" x="23" y="48" z="8" spawntime="360"/>
+    <monster name="The Obliverator" x="3" y="49" z="8" spawntime="360"/>
+    <monster name="Primitive" x="4" y="49" z="8" spawntime="339"/>
+    <monster name="Spirit of Fire" x="14" y="49" z="8" spawntime="339"/>
+    <monster name="The Obliverator" x="15" y="49" z="8" spawntime="360"/>
+    <monster name="Munster" x="-2" y="50" z="8" spawntime="339"/>
+    <monster name="Vashresamun" x="1" y="50" z="8" spawntime="360"/>
+    <monster name="Omruc" x="2" y="50" z="8" spawntime="339"/>
+    <monster name="The Obliverator" x="21" y="50" z="8" spawntime="360"/>
+    <monster name="Spirit of Fire" x="23" y="50" z="8" spawntime="339"/>
   </spawn>
   <spawn centerx="141" centery="152" centerz="8" radius="5">
     <monster name="Orc Berserker" x="0" y="-2" z="8" spawntime="60"/>
@@ -4221,6 +4261,11 @@
   <spawn centerx="225" centery="195" centerz="8" radius="5"/>
   <spawn centerx="263" centery="195" centerz="8" radius="15">
     <monster name="Hellhound" x="-1" y="7" z="8" spawntime="60"/>
+    <monster name="Apocalypse" x="5" y="7" z="8" spawntime="360"/>
+    <monster name="Spirit of Fire" x="2" y="8" z="8" spawntime="339"/>
+    <monster name="Spirit of Fire" x="5" y="8" z="8" spawntime="339"/>
+    <monster name="Ushuriel" x="6" y="8" z="8" spawntime="360"/>
+    <monster name="Spirit of Fire" x="-9" y="9" z="8" spawntime="339"/>
     <monster name="Demon" x="1" y="10" z="8" spawntime="60"/>
     <monster name="Hellhound" x="10" y="10" z="8" spawntime="60"/>
   </spawn>
@@ -4241,6 +4286,7 @@
     <monster name="Grim Reaper" x="-3" y="3" z="8" spawntime="60"/>
     <monster name="Grim Reaper" x="-3" y="5" z="8" spawntime="30"/>
   </spawn>
+  <spawn centerx="267" centery="205" centerz="8" radius="3"/>
   <spawn centerx="308" centery="205" centerz="8" radius="5">
     <monster name="The Plasmother" x="5" y="0" z="8" spawntime="30"/>
     <monster name="Nightmare" x="-2" y="2" z="8" spawntime="30"/>
