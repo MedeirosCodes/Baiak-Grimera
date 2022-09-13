@@ -4,6 +4,14 @@
 	<wand id="2184" mana="15" min="10" max="35" type="holy"> <!-- Inicial Wand -->
 		<vocation name="Druid" />
 		<vocation name="Sorcerer" />
+		<vocation name="Elder Druid" />
+		<vocation name="Master Sorcerer" />
+	</wand>
+	<wand id="2453" mana="15" min="120" max="300" type="holy"> <!-- Arcane Staff POI -->
+        <vocation name="Druid" />
+        <vocation name="Sorcerer" />
+        <vocation name="Elder Druid" />
+        <vocation name="Master Sorcerer" />
 	</wand>
 	<wand id="7879" mana="25" script="thunderWand.lua">
 		<vocation name="Druid" />
@@ -51,7 +59,7 @@
 	<wand id="8912" level="37" mana="13" min="55" max="75" type="earth"> <!-- Springsprout Rod -->
 		<vocation name="Druid" />
 	</wand>
-	<wand id="8910" level="42" mana="13" min="55" max="75" type="death"> <!-- Underworld Rod -->
+	<wand id="8910" level="42" mana="13" min="75" max="95" type="death"> <!-- Underworld Rod -->
 		<vocation name="Druid" />
 	</wand>
 
@@ -77,7 +85,7 @@
 	<wand id="8920" level="37" mana="13" min="55" max="75" type="energy"> <!-- Wand of Starmstorm -->
 		<vocation name="Sorcerer" />
 	</wand>
-	<wand id="8922" level="42" mana="13" min="55" max="75" type="death"> <!-- Wand of Voodoo -->
+	<wand id="8922" level="42" mana="23" min="75" max="95" type="death"> <!-- Wand of Voodoo -->
 		<vocation name="Sorcerer" />
 	</wand>
 
@@ -352,7 +360,6 @@
 		<vocation name="Knight" />
 	</melee>
 	<melee id="7422" level="75" unproperly="1" />
-	<melee id="2453" level="75" unproperly="1" />
 	<melee id="7431" level="80" unproperly="1" />
 	<melee id="7409" level="50" unproperly="1" />
 	<melee id="7423" level="85" unproperly="1">
