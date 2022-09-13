@@ -9,6 +9,10 @@
 		<vocation name="Druid" />
 		<vocation name="Sorcerer" />
 	</wand>
+		<wand id="7429" mana="25" script="blessedWand.lua">
+		<vocation name="Druid" />
+		<vocation name="Sorcerer" />
+	</wand>
 	<melee id="7872">
 		<vocation name="Knight" />
 	</melee>
@@ -348,7 +352,6 @@
 		<vocation name="Knight" />
 	</melee>
 	<melee id="7422" level="75" unproperly="1" />
-	<melee id="7429" level="75" unproperly="1" />
 	<melee id="2453" level="75" unproperly="1" />
 	<melee id="7431" level="80" unproperly="1" />
 	<melee id="7409" level="50" unproperly="1" />

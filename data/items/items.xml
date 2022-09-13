@@ -3950,6 +3950,7 @@
 		<attribute key="magiclevelpoints" value="5" />
 		<attribute key="skillsword" value="1"/>
 		<attribute key="skillaxe" value="1"/>
+		<attribute key="showattributes" value="1" />
 	</item>
 	<item id="2503" article="a" name="baiak armor">
 		<attribute key="weight" value="13000" />
@@ -3959,6 +3960,11 @@
 		<attribute key="magiclevelpoints" value="2" />
 		<attribute key="skillsword" value="7"/>
 		<attribute key="skillaxe" value="7"/>
+		<attribute key="healthGain" value="325" />
+		<attribute key="healthTicks" value="1000" />
+		<attribute key="manaGain" value="175" />
+		<attribute key="manaTicks" value="1000" />
+		<attribute key="showattributes" value="1" />
 	</item>
 	<item id="2504" name="baiak legs">
 		<attribute key="weight" value="4900" />
@@ -3968,6 +3974,7 @@
 		<attribute key="magiclevelpoints" value="2" />
 		<attribute key="skillsword" value="3"/>
 		<attribute key="skillaxe" value="3"/>
+		<attribute key="showattributes" value="1" />
 	</item>
 	<item id="2505" article="an" name="elven mail">
 		<attribute key="weight" value="9000" />
@@ -3979,9 +3986,12 @@
 		<attribute key="armor" value="9" />
 		<attribute key="slotType" value="head" />
 	</item>
-	<item id="2507" name="elven legs">
+	<item id="2507" name="blessed legs">
 		<attribute key="weight" value="3300" />
 		<attribute key="armor" value="4" />
+		<attribute key="absorbPercentAll" value="4"/>
+		<attribute key="magiclevelpoints" value="15" />
+		<attribute key="showattributes" value="1" />
 		<attribute key="slotType" value="legs" />
 	</item>
 	<item id="2508" article="a" name="native armor">
@@ -4559,6 +4569,10 @@
 		<attribute key="armor" value="17" />
 		<attribute key="slotType" value="body" />
 		<attribute key="magiclevelpoints" value="20" />
+		<attribute key="healthGain" value="25" />
+		<attribute key="healthTicks" value="1200" />
+		<attribute key="manaGain" value="175" />
+		<attribute key="manaTicks" value="1200" />
 		<attribute key="showattributes" value="1" />
 	</item>
 	<item id="2661" article="a" name="scarf">
@@ -12853,11 +12867,12 @@
 		<attribute key="slotType" value="two-handed" />
 	</item>
 	<item id="7429" article="a" name="blessed sceptre">
-		<attribute key="description" value="This spectre is only granted to a warlord of the Svarground arena." />
+		<attribute key="description" value="This spectre is magic, use wisely." />
 		<attribute key="weight" value="3900" />
-		<attribute key="defense" value="21" />
-		<attribute key="attack" value="47" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="ice" />
+		<attribute key="shootType" value="death" />
+		<attribute key="range" value="6" />
 		<attribute key="extradef" value="3" />
 	</item>
 	<item id="7430" article="a" name="dragonbone staff">
@@ -13548,8 +13563,8 @@
 	<item id="7730" article="uma" name="thunder mage legs">
 		<attribute key="weight" value="1800" />
 		<attribute key="armor" value="13" />
-		<attribute key="absorbPercentAll" value="4"/>
-		<attribute key="magiclevelpoints" value="15" />
+		<attribute key="absorbPercentAll" value="1"/>
+		<attribute key="magiclevelpoints" value="3" />
 		<attribute key="showattributes" value="1" />
 		<attribute key="slotType" value="legs" />
 	</item>

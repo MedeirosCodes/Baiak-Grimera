@@ -7585,20 +7585,24 @@
     <monster name="Rat" x="2" y="0" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="1326" centery="1332" centerz="9" radius="5">
+    <monster name="Wrath of the Emperor" x="1" y="-4" z="9" spawntime="360"/>
     <monster name="Minishabaal" x="-3" y="-3" z="9" spawntime="3600"/>
     <monster name="Hand of Cursed Fate" x="-3" y="-2" z="9" spawntime="3600"/>
     <monster name="Fire Elemental" x="0" y="-2" z="9" spawntime="3600"/>
     <monster name="Red Butterfly" x="1" y="-2" z="9" spawntime="3600"/>
+    <monster name="Warlock" x="1" y="-1" z="9" spawntime="360"/>
     <monster name="Son the Ripper" x="3" y="-1" z="9" spawntime="3600"/>
     <monster name="Hellgorak" x="5" y="-1" z="9" spawntime="3600"/>
     <monster name="Lost Soul" x="-3" y="1" z="9" spawntime="3600"/>
     <monster name="Minishabaal" x="3" y="1" z="9" spawntime="3600"/>
+    <monster name="Warlock" x="5" y="1" z="9" spawntime="360"/>
     <monster name="Fire Elemental" x="-1" y="2" z="9" spawntime="3600"/>
     <monster name="Hand of Cursed Fate" x="4" y="2" z="9" spawntime="3600"/>
     <monster name="The Abomination" x="-3" y="3" z="9" spawntime="3600"/>
     <monster name="Hellgorak" x="0" y="3" z="9" spawntime="3600"/>
     <monster name="Nightmare" x="3" y="3" z="9" spawntime="3600"/>
     <monster name="Minishabaal" x="-1" y="4" z="9" spawntime="3600"/>
+    <monster name="Wrath of the Emperor" x="3" y="5" z="9" spawntime="360"/>
   </spawn>
   <spawn centerx="1342" centery="1332" centerz="9" radius="5">
     <monster name="Phantasm" x="4" y="-2" z="9" spawntime="3600"/>
