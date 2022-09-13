@@ -4479,6 +4479,7 @@
 		<attribute key="healthTicks" value="1200" />
 		<attribute key="manaGain" value="475" />
 		<attribute key="manaTicks" value="1200" />
+		<attribute key="showattributes" value="1" />
 	</item>
 	<item id="2645" name="steel boots">
 		<attribute key="weight" value="2900" />

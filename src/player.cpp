@@ -3212,11 +3212,8 @@ void Player::doAttacking(uint32_t)
 		}
 		SchedulerTask* task = createSchedulerTask(delay, std::bind(&Game::checkCreatureAttack,
 									 &g_game, getID()));
-		if (!classicSpeed) {
-			setNextActionTask(task);
-		} else {
-			g_scheduler.addEvent(task);
-		}
+		setNextActionTask(task);
+
 		if (result) {
 			lastAttack = OTSYS_TIME();
 		}

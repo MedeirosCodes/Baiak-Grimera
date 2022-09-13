@@ -4028,10 +4028,26 @@
     <monster name="Mahrdis" x="34" y="0" z="8" spawntime="60"/>
     <monster name="Hydra" x="-27" y="18" z="8" spawntime="60"/>
     <monster name="Hydra" x="-27" y="32" z="8" spawntime="60"/>
+    <monster name="Hellhound" x="24" y="34" z="8" spawntime="60"/>
+    <monster name="Hellhound" x="5" y="35" z="8" spawntime="60"/>
+    <monster name="Verminor" x="9" y="36" z="8" spawntime="360"/>
+    <monster name="Hellhound" x="15" y="36" z="8" spawntime="60"/>
     <monster name="Hydra" x="-25" y="37" z="8" spawntime="60"/>
+    <monster name="Betrayed Wraith" x="9" y="37" z="8" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="23" y="38" z="8" spawntime="60"/>
+    <monster name="Betrayed Wraith" x="3" y="39" z="8" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="6" y="39" z="8" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="15" y="41" z="8" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="24" y="41" z="8" spawntime="60"/>
     <monster name="Hydra" x="-24" y="42" z="8" spawntime="60"/>
+    <monster name="Hellhound" x="5" y="42" z="8" spawntime="60"/>
     <monster name="Hydra" x="-22" y="43" z="8" spawntime="60"/>
+    <monster name="Hellhound" x="22" y="43" z="8" spawntime="60"/>
+    <monster name="Hellhound" x="14" y="45" z="8" spawntime="60"/>
     <monster name="Hydra" x="-25" y="46" z="8" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="3" y="46" z="8" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="24" y="46" z="8" spawntime="60"/>
+    <monster name="Hellfire Fighter" x="15" y="48" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="141" centery="152" centerz="8" radius="5">
     <monster name="Orc Berserker" x="0" y="-2" z="8" spawntime="60"/>
@@ -4203,6 +4219,11 @@
     <monster name="Demon" x="2" y="4" z="8" spawntime="30"/>
   </spawn>
   <spawn centerx="225" centery="195" centerz="8" radius="5"/>
+  <spawn centerx="263" centery="195" centerz="8" radius="15">
+    <monster name="Hellhound" x="-1" y="7" z="8" spawntime="60"/>
+    <monster name="Demon" x="1" y="10" z="8" spawntime="60"/>
+    <monster name="Hellhound" x="10" y="10" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="307" centery="196" centerz="8" radius="4">
     <monster name="Draken Warmaster" x="-4" y="1" z="8" spawntime="60"/>
     <monster name="Draken Spellweaver" x="-4" y="3" z="8" spawntime="60"/>
@@ -9386,7 +9407,10 @@
     <monster name="Phantasm" x="-38" y="-58" z="11" spawntime="200"/>
     <monster name="Blightwalker" x="-42" y="-57" z="11" spawntime="200"/>
     <monster name="Phantasm" x="-43" y="-55" z="11" spawntime="200"/>
+    <monster name="Phantasm" x="-40" y="-54" z="11" spawntime="200"/>
     <monster name="Betrayed Wraith" x="-39" y="-54" z="11" spawntime="60"/>
+    <monster name="Phantasm" x="-41" y="-52" z="11" spawntime="200"/>
+    <monster name="Phantasm" x="-40" y="-52" z="11" spawntime="200"/>
     <monster name="Hellfire Fighter" x="-40" y="-44" z="11" spawntime="60"/>
     <monster name="Betrayed Wraith" x="-41" y="-41" z="11" spawntime="60"/>
     <monster name="Demon" x="47" y="-8" z="11" spawntime="60"/>
