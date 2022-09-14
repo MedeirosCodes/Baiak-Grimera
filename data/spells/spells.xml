@@ -17,7 +17,7 @@
 		<vocation name="Elder Druid" />
 		<vocation name="Ancient Druid" />
 	</rune>
-	<rune group="support" name="Baiak Mana Rune" id="2272" allowfaruse="1" charges="1" level="45" magiclevel="1" exhaustion="400" needtarget="1" aggressive="0" blocktype="solid" script="support/thunder_mana_rune.lua">
+	<rune group="support" name="Baiak Mana Rune" id="2275" allowfaruse="1" charges="1" level="45" magiclevel="1" exhaustion="400" needtarget="1" aggressive="0" blocktype="solid" script="support/baiak_mana_rune.lua">
 		<vocation name="Knight" />
 		<vocation name="Elite Knight" />
 		<vocation name="Rageful Knight" />
