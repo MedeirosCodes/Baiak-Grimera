@@ -7,7 +7,7 @@ function onCastSpell(creature, variant)
 	if not player:isPlayer() then
 		return combat:execute(creature, variant)
 	end
-	local random = math.random(330, 520)
+	local random = math.random(130, 350)
 	player:addMana(random, true)
 	player:say("Aaaah...", TALKTYPE_MONSTER_SAY)
 	player:getPosition():sendMagicEffect(58)
