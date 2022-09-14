@@ -1227,54 +1227,69 @@
     <monster name="Grim Reaper" x="-4" y="3" z="7" spawntime="30"/>
     <monster name="Grim Reaper Master" x="3" y="3" z="7" spawntime="339"/>
   </spawn>
+  <spawn centerx="381" centery="254" centerz="7" radius="5">
+    <monster name="Grim Reaper Master" x="-5" y="4" z="7" spawntime="339"/>
+    <monster name="Grim Reaper" x="0" y="5" z="7" spawntime="30"/>
+    <monster name="Grim Reaper Master" x="1" y="5" z="7" spawntime="339"/>
+  </spawn>
   <spawn centerx="381" centery="256" centerz="7" radius="5">
-    <monster name="Grim Reaper Master" x="-5" y="2" z="7" spawntime="339"/>
-    <monster name="Grim Reaper" x="0" y="3" z="7" spawntime="30"/>
-    <monster name="Grim Reaper Master" x="1" y="3" z="7" spawntime="339"/>
     <monster name="Grim Reaper Master" x="5" y="4" z="7" spawntime="339"/>
   </spawn>
-  <spawn centerx="360" centery="257" centerz="7" radius="5">
-    <monster name="Grim Reaper" x="0" y="1" z="7" spawntime="30"/>
-    <monster name="Grim Reaper" x="-5" y="2" z="7" spawntime="30"/>
-  </spawn>
+  <spawn centerx="360" centery="257" centerz="7" radius="5"/>
   <spawn centerx="392" centery="257" centerz="7" radius="5">
+    <monster name="Grim Reaper Master" x="5" y="-2" z="7" spawntime="339"/>
     <monster name="Grim Reaper" x="1" y="1" z="7" spawntime="30"/>
     <monster name="Grim Reaper Master" x="3" y="1" z="7" spawntime="339"/>
     <monster name="Grim Reaper" x="4" y="2" z="7" spawntime="30"/>
   </spawn>
-  <spawn centerx="350" centery="258" centerz="7" radius="5">
-    <monster name="Grim Reaper Master" x="-2" y="-4" z="7" spawntime="339"/>
-    <monster name="Grim Reaper Master" x="2" y="0" z="7" spawntime="339"/>
-    <monster name="Grim Reaper Master" x="-2" y="3" z="7" spawntime="339"/>
+  <spawn centerx="349" centery="258" centerz="7" radius="5">
+    <monster name="Grim Reaper Master" x="-1" y="-4" z="7" spawntime="339"/>
+    <monster name="Grim Reaper Master" x="3" y="0" z="7" spawntime="339"/>
+    <monster name="Grim Reaper Master" x="-1" y="3" z="7" spawntime="339"/>
+    <monster name="Grim Reaper Master" x="-1" y="5" z="7" spawntime="339"/>
   </spawn>
+  <spawn centerx="350" centery="258" centerz="7" radius="5"/>
   <spawn centerx="369" centery="258" centerz="7" radius="5">
     <monster name="Grim Reaper" x="5" y="0" z="7" spawntime="30"/>
     <monster name="Grim Reaper Master" x="-3" y="1" z="7" spawntime="339"/>
     <monster name="Grim Reaper" x="-2" y="1" z="7" spawntime="30"/>
     <monster name="Grim Reaper Master" x="-1" y="1" z="7" spawntime="339"/>
   </spawn>
+  <spawn centerx="391" centery="258" centerz="7" radius="5"/>
+  <spawn centerx="373" centery="260" centerz="7" radius="5"/>
   <spawn centerx="386" centery="262" centerz="7" radius="5">
     <monster name="Grim Reaper Master" x="0" y="3" z="7" spawntime="339"/>
     <monster name="Grim Reaper" x="0" y="5" z="7" spawntime="30"/>
   </spawn>
+  <spawn centerx="362" centery="263" centerz="7" radius="5">
+    <monster name="Grim Reaper" x="4" y="4" z="7" spawntime="30"/>
+    <monster name="Grim Reaper Master" x="0" y="5" z="7" spawntime="339"/>
+  </spawn>
+  <spawn centerx="387" centery="265" centerz="7" radius="5"/>
   <spawn centerx="365" centery="268" centerz="7" radius="5">
-    <monster name="Grim Reaper" x="1" y="-1" z="7" spawntime="30"/>
-    <monster name="Grim Reaper Master" x="-3" y="0" z="7" spawntime="339"/>
     <monster name="Grim Reaper" x="-1" y="3" z="7" spawntime="30"/>
+    <monster name="Grim Reaper Master" x="0" y="5" z="7" spawntime="50"/>
   </spawn>
   <spawn centerx="385" centery="270" centerz="7" radius="5">
     <monster name="Grim Reaper Master" x="1" y="1" z="7" spawntime="71"/>
+  </spawn>
+  <spawn centerx="358" centery="272" centerz="7" radius="5">
+    <monster name="Grim Reaper" x="0" y="-2" z="7" spawntime="30"/>
+    <monster name="Grim Reaper Master" x="-1" y="5" z="7" spawntime="339"/>
+  </spawn>
+  <spawn centerx="389" centery="274" centerz="7" radius="5">
+    <monster name="Grim Reaper Master" x="2" y="2" z="7" spawntime="71"/>
   </spawn>
   <spawn centerx="282" centery="275" centerz="7" radius="5">
     <monster name="Demon" x="-3" y="-3" z="7" spawntime="60"/>
     <monster name="Demon" x="2" y="2" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="356" centery="275" centerz="7" radius="5">
-    <monster name="Grim Reaper" x="2" y="-5" z="7" spawntime="30"/>
-    <monster name="Grim Reaper Master" x="1" y="2" z="7" spawntime="339"/>
-  </spawn>
-  <spawn centerx="389" centery="275" centerz="7" radius="3">
-    <monster name="Grim Reaper Master" x="2" y="1" z="7" spawntime="71"/>
+  <spawn centerx="356" centery="275" centerz="7" radius="5"/>
+  <spawn centerx="389" centery="275" centerz="7" radius="3"/>
+  <spawn centerx="369" centery="276" centerz="7" radius="5">
+    <monster name="Grim Reaper Master" x="4" y="-4" z="7" spawntime="50"/>
+    <monster name="Grim Reaper Master" x="-4" y="2" z="7" spawntime="50"/>
+    <monster name="Grim Reaper Master" x="4" y="3" z="7" spawntime="50"/>
   </spawn>
   <spawn centerx="271" centery="277" centerz="7" radius="5">
     <monster name="Demon" x="-3" y="-2" z="7" spawntime="60"/>
@@ -1295,11 +1310,13 @@
     <monster name="Grim Reaper Master" x="-3" y="-3" z="7" spawntime="71"/>
     <monster name="Grim Reaper Master" x="2" y="2" z="7" spawntime="71"/>
   </spawn>
-  <spawn centerx="410" centery="289" centerz="7" radius="3">
-    <monster name="Grim Reaper Master" x="-2" y="-2" z="7" spawntime="71"/>
-    <monster name="Grim Reaper Master" x="2" y="0" z="7" spawntime="3600"/>
-    <monster name="Son the Ripper" x="1" y="2" z="7" spawntime="60"/>
+  <spawn centerx="401" centery="283" centerz="7" radius="5"/>
+  <spawn centerx="408" centery="287" centerz="7" radius="5">
+    <monster name="Grim Reaper Master" x="0" y="0" z="7" spawntime="71"/>
+    <monster name="Grim Reaper Master" x="4" y="2" z="7" spawntime="3600"/>
+    <monster name="Son the Ripper" x="3" y="4" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="410" centery="289" centerz="7" radius="3"/>
   <spawn centerx="128" centery="295" centerz="7" radius="1">
     <monster name="Demon (Goblin)" x="-1" y="0" z="7" spawntime="400"/>
   </spawn>
@@ -4424,6 +4441,15 @@
     <monster name="Grim Reaper" x="0" y="0" z="8" spawntime="30"/>
     <monster name="Grim Reaper" x="0" y="5" z="8" spawntime="30"/>
   </spawn>
+  <spawn centerx="1933" centery="250" centerz="8" radius="3">
+    <monster name="Demon (Goblin)" x="0" y="0" z="8" spawntime="3009"/>
+    <monster name="Lizard Sentinel" x="-3" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1939" centery="250" centerz="8" radius="3"/>
+  <spawn centerx="1923" centery="252" centerz="8" radius="3">
+    <monster name="Demon (Goblin)" x="0" y="0" z="8" spawntime="3009"/>
+    <monster name="Lizard Sentinel" x="1" y="0" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="1980" centery="252" centerz="8" radius="7">
     <monster name="Demon (Goblin)" x="-3" y="-4" z="8" spawntime="3009"/>
     <monster name="Lizard Sentinel" x="-1" y="-4" z="8" spawntime="60"/>
@@ -4431,10 +4457,6 @@
     <monster name="Lizard Sentinel" x="7" y="4" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="1927" centery="253" centerz="8" radius="7">
-    <monster name="Demon (Goblin)" x="6" y="-3" z="8" spawntime="3009"/>
-    <monster name="Lizard Sentinel" x="3" y="-2" z="8" spawntime="60"/>
-    <monster name="Demon (Goblin)" x="-4" y="-1" z="8" spawntime="3009"/>
-    <monster name="Lizard Sentinel" x="-3" y="-1" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="-3" y="5" z="8" spawntime="60"/>
     <monster name="Demon (Goblin)" x="-4" y="6" z="8" spawntime="60"/>
   </spawn>
@@ -4471,6 +4493,7 @@
     <monster name="Grim Reaper" x="4" y="2" z="8" spawntime="30"/>
     <monster name="Grim Reaper" x="-4" y="3" z="8" spawntime="30"/>
   </spawn>
+  <spawn centerx="1923" centery="260" centerz="8" radius="3"/>
   <spawn centerx="467" centery="262" centerz="8" radius="5">
     <monster name="Grim Reaper" x="-2" y="-1" z="8" spawntime="30"/>
     <monster name="Grim Reaper" x="-1" y="0" z="8" spawntime="30"/>
@@ -4681,6 +4704,10 @@
     <monster name="Grim Reaper" x="-1" y="3" z="8" spawntime="30"/>
     <monster name="Grim Reaper" x="-2" y="4" z="8" spawntime="30"/>
   </spawn>
+  <spawn centerx="1927" centery="274" centerz="8" radius="3">
+    <monster name="Demon (Goblin)" x="0" y="1" z="8" spawntime="3009"/>
+    <monster name="Lizard Sentinel" x="-1" y="3" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="541" centery="276" centerz="8" radius="5">
     <monster name="Grim Reaper" x="-1" y="2" z="8" spawntime="30"/>
   </spawn>
@@ -4688,8 +4715,6 @@
     <monster name="Demon (Goblin)" x="-7" y="2" z="8" spawntime="3009"/>
   </spawn>
   <spawn centerx="1926" centery="279" centerz="8" radius="7">
-    <monster name="Demon (Goblin)" x="1" y="-4" z="8" spawntime="3009"/>
-    <monster name="Lizard Sentinel" x="0" y="-2" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="1" y="4" z="8" spawntime="60"/>
     <monster name="Demon (Goblin)" x="1" y="6" z="8" spawntime="60"/>
   </spawn>
@@ -4709,6 +4734,7 @@
   <spawn centerx="1984" centery="283" centerz="8" radius="7">
     <monster name="Lizard Sentinel" x="-3" y="-3" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="1927" centery="284" centerz="8" radius="3"/>
   <spawn centerx="446" centery="286" centerz="8" radius="5"/>
   <spawn centerx="511" centery="288" centerz="8" radius="5">
     <monster name="Grim Reaper" x="0" y="4" z="8" spawntime="30"/>
@@ -4746,6 +4772,9 @@
     <monster name="Grim Reaper" x="-1" y="3" z="8" spawntime="30"/>
     <monster name="Grim Reaper" x="-3" y="4" z="8" spawntime="30"/>
   </spawn>
+  <spawn centerx="1926" centery="300" centerz="8" radius="3">
+    <monster name="Demon (Goblin)" x="1" y="-1" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="1946" centery="302" centerz="8" radius="7">
     <monster name="Lizard Sentinel" x="7" y="-2" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="1" y="0" z="8" spawntime="60"/>
@@ -4756,8 +4785,10 @@
     <monster name="Lizard Sentinel" x="-1" y="1" z="8" spawntime="60"/>
     <monster name="Demon (Goblin)" x="0" y="4" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="1940" centery="304" centerz="8" radius="3">
+    <monster name="Lizard Sentinel" x="-2" y="-1" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="1928" centery="306" centerz="8" radius="7">
-    <monster name="Demon (Goblin)" x="-1" y="-7" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="2" y="-2" z="8" spawntime="60"/>
     <monster name="Demon (Goblin)" x="0" y="-1" z="8" spawntime="3009"/>
     <monster name="Lizard Sentinel" x="0" y="6" z="8" spawntime="60"/>
@@ -4770,6 +4801,7 @@
     <monster name="Demon (Goblin)" x="5" y="4" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="4" y="5" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="1928" centery="312" centerz="8" radius="3"/>
   <spawn centerx="216" centery="313" centerz="8" radius="5">
     <monster name="Demon (Goblin)" x="1" y="1" z="8" spawntime="3009"/>
     <monster name="Orshabaal" x="4" y="5" z="8" spawntime="60"/>
@@ -4784,6 +4816,10 @@
     <monster name="Warlock" x="-6" y="23" z="8" spawntime="25"/>
   </spawn>
   <spawn centerx="2181" centery="320" centerz="8" radius="30"/>
+  <spawn centerx="1928" centery="321" centerz="8" radius="3">
+    <monster name="Demon (Goblin)" x="1" y="0" z="8" spawntime="60"/>
+    <monster name="Lizard Sentinel" x="1" y="2" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="1967" centery="323" centerz="8" radius="7">
     <monster name="Lizard Sentinel" x="-3" y="-3" z="8" spawntime="60"/>
   </spawn>
@@ -4791,8 +4827,6 @@
     <monster name="Morgaroth" x="1" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="1931" centery="325" centerz="8" radius="7">
-    <monster name="Demon (Goblin)" x="-2" y="-4" z="8" spawntime="60"/>
-    <monster name="Lizard Sentinel" x="-2" y="-2" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="4" y="0" z="8" spawntime="60"/>
     <monster name="Demon (Goblin)" x="-2" y="5" z="8" spawntime="3009"/>
     <monster name="Lizard Sentinel" x="-2" y="7" z="8" spawntime="60"/>
@@ -4822,7 +4856,6 @@
   <spawn centerx="1952" centery="327" centerz="8" radius="30">
     <monster name="Demon (Goblin)" x="7" y="-29" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="7" y="-28" z="8" spawntime="60"/>
-    <monster name="Lizard Sentinel" x="-14" y="-24" z="8" spawntime="60"/>
     <monster name="Demon (Goblin)" x="24" y="-11" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="29" y="-6" z="8" spawntime="60"/>
     <monster name="Lizard Sentinel" x="-9" y="-2" z="8" spawntime="60"/>
@@ -4921,6 +4954,7 @@
     <monster name="Lizard Chosen" x="-22" y="24" z="8" spawntime="60"/>
     <monster name="Lizard Legionnaire" x="-28" y="28" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="1929" centery="330" centerz="8" radius="3"/>
   <spawn centerx="1954" centery="331" centerz="8" radius="7"/>
   <spawn centerx="1986" centery="332" centerz="8" radius="7"/>
   <spawn centerx="220" centery="333" centerz="8" radius="1">
@@ -4938,6 +4972,7 @@
     <monster name="Infernatil" x="0" y="0" z="8" spawntime="3009"/>
     <monster name="Juggernaut" x="1" y="1" z="8" spawntime="3009"/>
   </spawn>
+  <spawn centerx="1930" centery="337" centerz="8" radius="3"/>
   <spawn centerx="1928" centery="338" centerz="8" radius="7"/>
   <spawn centerx="1990" centery="347" centerz="8" radius="7"/>
   <spawn centerx="1958" centery="348" centerz="8" radius="7"/>
