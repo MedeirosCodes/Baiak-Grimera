@@ -19,7 +19,7 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="1200" skill="219" attack="259"/>
-		<attack name="speed" interval="1000" chance="12" radius="8" target="0" speedchange="-1200" duration="10000">
+		<attack name="speed" interval="1000" chance="12" radius="8" target="0" speedchange="-900" duration="10000">
 			<attribute key="areaEffect" value="fire" />
 		</attack>
 		<attack name="manadrain" interval="800" chance="13" range="7" min="-300" max="-1600"/>
@@ -68,9 +68,6 @@
 		<immunity drunk="1" />
 		<immunity invisible="1" />
 	</immunities>
-	<summons maxSummons="4">
-		<summon name="orshabaal" interval="1000" chance="8" max="4" />
-	</summons>
 	<voices interval="5000" chance="10">
 		<voice sentence="COME HERE! FREE ITEMS FOR EVERYONE!" yell="1" />
 		<voice sentence="BOW TO THE POWER OF THE RUTHLESS SEVEN!" />
