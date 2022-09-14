@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <monster name="Bazir" nameDescription="Bazir" race="fire" experience="30000" speed="530">
-	<health now="110000" max="110000" />
+	<health now="120000" max="120000" />
 	<look type="35" head="0" body="0" legs="0" feet="0" corpse="2916" />
-	<targetchange interval="2000" chance="10" />
+	<targetchange interval="2000" chance="15" />
 	<flags>
 		<flag summonable="0" />
 		<flag attackable="1" />
@@ -16,10 +16,10 @@
 		<flag runonhealth="3000" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-2625" />
-		<attack name="manadrain" interval="1000" chance="7" range="7" min="-100" max="-1000">
-			<attribute key="shootEffect" value="energy" />
-			<attribute key="areaEffect" value="poff" />
+		<attack name="melee" interval="1500" min="0" max="-1260" />
+		<attack name="firecondition" interval="1000" chance="7" range="2" min="-800" max="-1200">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="yellowspark" />
 		</attack>
 		<attack name="drunk" interval="1000" chance="7" range="7">
 			<attribute key="shootEffect" value="energy" />
@@ -38,41 +38,35 @@
 		<attack name="speed" interval="1000" chance="12" radius="6" target="0" speedchange="-1900" duration="60000">
 			<attribute key="areaEffect" value="poison" />
 		</attack>
-		<attack name="effect" interval="1000" chance="8" radius="5" target="0">
-			<attribute key="areaEffect" value="blackspark" />
+		<attack name="physical" interval="1000" chance="7" radius="6" target="0" min="-250" max="-550">
+			<attribute key="areaEffect" value="explosion" />
 		</attack>
-		<attack name="outfit" interval="1000" chance="2" radius="8" target="0" monster="demon" duration="5000">
-			<attribute key="areaEffect" value="bluebubble" />
+		<attack name="fire" interval="1000" chance="50" radius="5" target="0" min="-200" max="-300">
+			<attribute key="areaEffect" value="yellowspark" />
 		</attack>
-		<attack name="outfit" interval="1000" chance="2" radius="8" target="0" item="3058" duration="5000">
-			<attribute key="areaEffect" value="bluebubble" />
+		<attack name="firefield" interval="1000" chance="4" radius="8" target="0">
+			<attribute key="areaEffect" value="explosion" />
 		</attack>
-		<attack name="fire" interval="1000" chance="34" range="7" radius="7" target="1" min="-100" max="-900">
+		<attack name="fire" interval="1000" chance="34" range="7" radius="7" target="1" min="-350" max="-550">
 			<attribute key="shootEffect" value="fire" />
 			<attribute key="areaEffect" value="firearea" />
 		</attack>
-		<attack name="lifedrain" interval="1000" chance="15" length="8" spread="0" min="-500" max="-850">
-			<attribute key="areaEffect" value="redshimmer" />
+		<attack name="fire" interval="1000" chance="13" length="8" spread="0" min="-500" max="-600">
+			<attribute key="areaEffect" value="explosion" />
+		</attack>
+		<attack name="fire" interval="1000" chance="10" length="8" spread="3" min="-300" max="-600">
+			<attribute key="areaEffect" value="firearea" />
 		</attack>
 	</attacks>
-	<defenses armor="160" defense="160">
-		<defense name="healing" interval="1000" chance="15" min="5000" max="10000">
+	<defenses armor="165" defense="150">
+		<defense name="healing" interval="1000" chance="15" min="500" max="1000">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
-		<defense name="healing" interval="1000" chance="25" min="2000" max="3000">
+		<defense name="healing" interval="1000" chance="25" min="200" max="300">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
-		<defense name="speed" interval="1000" chance="8" speedchange="1901" duration="5000">
+		<defense name="speed" interval="1000" chance="10" speedchange="1800" duration="4000">
 			<attribute key="areaEffect" value="redshimmer" />
-		</defense>
-		<defense name="invisible" interval="1000" chance="4" duration="10000">
-			<attribute key="areaEffect" value="blueshimmer" />
-		</defense>
-		<defense name="invisible" interval="1000" chance="17" duration="2000">
-			<attribute key="areaEffect" value="blueshimmer" />
-		</defense>
-		<defense name="outfit" interval="1000" chance="2" item="2916" duration="7000">
-			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>
 	<immunities>
@@ -85,8 +79,8 @@
 		<immunity drunk="1" />
 		<immunity invisible="1" />
 	</immunities>
-	<summons maxSummons="1">
-		<summon name="hellgorak" interval="1000" chance="15" max="2" />
+	<summons maxSummons="4">
+		<summon name="orshabaal" interval="1000" chance="8" max="4" />
 	</summons>
 	<voices interval="5000" chance="10">
 		<voice sentence="COME HERE! FREE ITEMS FOR EVERYONE!" yell="1" />
