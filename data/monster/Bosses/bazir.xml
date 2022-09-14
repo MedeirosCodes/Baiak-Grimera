@@ -1,74 +1,63 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<monster name="Bazir" nameDescription="Bazir" race="fire" experience="30000" speed="530">
-	<health now="120000" max="120000" />
-	<look type="35" head="0" body="0" legs="0" feet="0" corpse="2916" />
-	<targetchange interval="2000" chance="15" />
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Bazir" nameDescription="the bazir" race="fire" experience="76000" speed="780" manacost="0">
+<health now="115000" max="115000"/>
+	<look type="201" corpse="2916"/>
+	<targetchange interval="2000" chance="10"/>
+	<strategy attack="70" defense="10"/>
 	<flags>
-		<flag summonable="0" />
-		<flag attackable="1" />
-		<flag hostile="1" />
-		<flag illusionable="0" />
-		<flag convinceable="0" />
-		<flag pushable="0" />
-		<flag canpushitems="1" />
-		<flag canpushcreatures="1" />
-		<flag targetdistance="1" />
-		<flag runonhealth="3000" />
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="2500"/>
+		<flag isboss="1" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="1500" min="0" max="-1260" />
-		<attack name="firecondition" interval="1000" chance="7" range="2" min="-800" max="-1200">
-			<attribute key="shootEffect" value="fire" />
-			<attribute key="areaEffect" value="yellowspark" />
+		<attack name="melee" interval="1200" skill="219" attack="259"/>
+		<attack name="speed" interval="1000" chance="12" radius="8" target="0" speedchange="-1200" duration="10000">
+			<attribute key="areaEffect" value="fire" />
 		</attack>
-		<attack name="drunk" interval="1000" chance="7" range="7">
-			<attribute key="shootEffect" value="energy" />
-			<attribute key="areaEffect" value="energyarea" />
+		<attack name="manadrain" interval="800" chance="13" range="7" min="-300" max="-1600"/>
+		<attack name="manadrain" interval="800" chance="6" radius="5" target="0" min="-150" max="-1350">
+			<attribute key="areaEffect" value="poison"/>
 		</attack>
-		<attack name="effect" interval="1000" chance="9" range="7">
-			<attribute key="shootEffect" value="largerock" />
-			<attribute key="areaEffect" value="energyarea" />
+		<attack name="effect" interval="1000" chance="6" radius="5" target="0">
+			<attribute key="areaEffect" value="blackspark"/>
 		</attack>
-		<attack name="lifedrain" interval="1000" chance="13" radius="8" target="0" min="-400" max="-700">
-			<attribute key="areaEffect" value="bluebubble" />
+		<attack name="fire" interval="1000" chance="34" range="7" radius="7" target="1" min="-610" max="-900">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="firearea"/>
 		</attack>
-		<attack name="manadrain" interval="1000" chance="10" radius="8" target="0" min="-400" max="-700">
-			<attribute key="areaEffect" value="greenshimmer" />
+		<attack name="firefield" interval="1000" chance="10" range="7" radius="4" target="1">
+			<attribute key="shootEffect" value="fire"/>
 		</attack>
-		<attack name="speed" interval="1000" chance="12" radius="6" target="0" speedchange="-1900" duration="60000">
-			<attribute key="areaEffect" value="poison" />
-		</attack>
-		<attack name="physical" interval="1000" chance="7" radius="6" target="0" min="-250" max="-550">
-			<attribute key="areaEffect" value="explosion" />
-		</attack>
-		<attack name="fire" interval="1000" chance="50" radius="5" target="0" min="-200" max="-300">
-			<attribute key="areaEffect" value="yellowspark" />
-		</attack>
-		<attack name="firefield" interval="1000" chance="4" radius="8" target="0">
-			<attribute key="areaEffect" value="explosion" />
-		</attack>
-		<attack name="fire" interval="1000" chance="34" range="7" radius="7" target="1" min="-350" max="-550">
-			<attribute key="shootEffect" value="fire" />
-			<attribute key="areaEffect" value="firearea" />
-		</attack>
-		<attack name="fire" interval="1000" chance="13" length="8" spread="0" min="-500" max="-600">
-			<attribute key="areaEffect" value="explosion" />
-		</attack>
-		<attack name="fire" interval="1000" chance="10" length="8" spread="3" min="-300" max="-600">
-			<attribute key="areaEffect" value="firearea" />
+		<attack name="energy" interval="700" chance="15" length="8" spread="0" min="-700" max="-1250">
+			<attribute key="areaEffect" value="energy"/>
 		</attack>
 	</attacks>
-	<defenses armor="165" defense="150">
-		<defense name="healing" interval="1000" chance="15" min="500" max="1000">
-			<attribute key="areaEffect" value="blueshimmer" />
+	<defenses armor="90" defense="111">
+		<defense name="healing" interval="1000" chance="9" min="500" max="1700">
+			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
-		<defense name="healing" interval="1000" chance="25" min="200" max="300">
-			<attribute key="areaEffect" value="blueshimmer" />
+		<defense name="healing" interval="1000" chance="17" min="200" max="1700">
+			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
-		<defense name="speed" interval="1000" chance="10" speedchange="1800" duration="4000">
-			<attribute key="areaEffect" value="redshimmer" />
+		<defense name="speed" interval="1000" chance="5" speedchange="1901" duration="7000">
+			<attribute key="areaEffect" value="redshimmer"/>
 		</defense>
 	</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element earthPercent="100"/>
+		<element deathPercent="50"/>
+		<element icePercent="-20"/>
+		<element holyPercent="-25"/>
+	</elements>
 	<immunities>
 		<immunity energy="1" />
 		<immunity fire="1" />
