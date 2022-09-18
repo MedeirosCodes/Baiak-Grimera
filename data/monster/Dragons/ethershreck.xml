@@ -18,18 +18,18 @@
 <flag runonhealth="366"/>
 </flags>
 <attacks>
-<attack name="melee" interval="2000" skill="132" attack="130" poison="1200"/>
-<attack name="physical" interval="2000" chance="20" length="8" spread="3" min="-250" max="-450">
+<attack name="melee" interval="1500" skill="132" attack="130" poison="1200"/>
+<attack name="physical" interval="1000" chance="20" length="8" spread="3" min="-250" max="-450">
 <attribute key="areaEffect" value="bluebubble"/>
 </attack>
-<attack name="physical" interval="2000" chance="10" range="7" min="-300" max="-700">
+<attack name="physical" interval="1400" chance="10" range="7" min="-300" max="-700">
 <attribute key="shootEffect" value="suddendeath"/>
 <attribute key="areaEffect" value="mortarea"/>
 </attack>
 		<attack name="speed" interval="1000" chance="10" range="7" speedchange="-900" duration="20000">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
-<attack name="lifedrain" interval="2000" chance="21" radius="6" target="0" min="-600" max="-850">
+<attack name="lifedrain" interval="1600" chance="21" radius="6" target="0" min="-600" max="-850">
 <attribute key="areaEffect" value="poff"/>
 </attack>
 </attacks>

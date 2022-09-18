@@ -3,7 +3,7 @@
   <house name="Tower 1" houseid="1" entryx="158" entryy="106" entryz="7" rent="0" townid="1" size="87"/>
   <house name="Tower II" houseid="2" entryx="121" entryy="128" entryz="7" rent="0" townid="1" size="47"/>
   <house name="Small Street IV" houseid="3" entryx="143" entryy="27" entryz="7" rent="0" townid="1" size="19"/>
-  <house name="Pirate Street" houseid="8" entryx="176" entryy="56" entryz="7" rent="0" townid="0" size="56"/>
+  <house name="Pirate Street" houseid="8" entryx="176" entryy="56" entryz="7" rent="0" townid="0" size="65"/>
   <house name="Great Street I" houseid="25" entryx="157" entryy="33" entryz="7" rent="0" townid="1" size="18"/>
   <house name="Great Street II" houseid="26" entryx="164" entryy="37" entryz="7" rent="0" townid="1" size="28"/>
   <house name="" houseid="32" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Hacker" nameDescription="a Hacker" race="blood" experience="4500" speed="650" manacost="0">
+<monster name="Hacker" nameDescription="a Hacker" race="blood" experience="25000" speed="650" manacost="0">
 	<health now="43000" max="43000"/>
 	<look type="8" corpse="5980"/>
 	<targetchange interval="5000" chance="8"/>
@@ -18,11 +18,11 @@
 		<flag runonhealth="429"/>
 	</flags>
 <attacks>
-		<attack name="melee" interval="1500" skill="285" attack="275"/>
-		<attack name="death" interval="400" chance="11" length="8" spread="0" min="0" max="-500">
+		<attack name="melee" interval="600" skill="205" attack="205"/>
+		<attack name="death" interval="800" chance="11" length="8" spread="10" min="0" max="-500">
 			<attribute key="areaEffect" value="mortarea"/>
 		</attack>
-		<attack name="physical" interval="3000" chance="18" radius="5" target="1" min="-50" max="-1655">
+		<attack name="physical" interval="1600" chance="18" radius="5" target="1" min="-50" max="-1555">
 			<attribute key="areaEffect" value="groundshaker"/>
 		</attack>
 	</attacks>
