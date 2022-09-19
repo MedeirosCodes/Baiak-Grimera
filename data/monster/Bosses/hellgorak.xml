@@ -128,12 +128,6 @@
 	<loot>
 		<item name="purple tome" chance="2600" />
 		<item name="golden mug" chance="7500" />
-		<item name="teddy bear" chance="14500" />
-		<item name="ring of the sky" chance="3500" />
-		<item id="2124" chance="5500" />
-		<item id="2162" chance="11500" />
-		<item name="might ring" chance="5000" />
-		<item name="stealth ring" chance="9500" />
 		<item name="energy ring" chance="13500" />
 		<item name="silver amulet" chance="13000" />
 		<item name="platinum amulet" chance="4500" />
@@ -145,7 +139,6 @@
 		<item name="magic plate armor" chance="3000" />
 		<item name="mastermind shield" chance="7500" />
 		<item name="demon shield" chance="15500" />
-		<item id="3955" chance="100" />
 	</loot>
 </monster>
 
