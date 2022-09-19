@@ -864,14 +864,15 @@
     <npc name="Obi" x="0" y="1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="130" centery="47" centerz="7" radius="5">
-    <npc name="Lector" x="-1" y="-5" z="7" spawntime="60"/>
-    <npc name="Blesser Man" x="-3" y="0" z="7" spawntime="50"/>
+    <npc name="Lector" x="-2" y="0" z="7" spawntime="60"/>
     <npc name="Dufi" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="147" centery="47" centerz="7" radius="1">
+    <npc name="Blesser Man" x="0" y="0" z="7" spawntime="50"/>
   </spawn>
   <spawn centerx="164" centery="47" centerz="7" radius="1">
     <npc name="Gustavo" x="0" y="0" z="7" spawntime="360"/>
   </spawn>
-  <spawn centerx="127" centery="48" centerz="7" radius="5"/>
   <spawn centerx="164" centery="55" centerz="7" radius="2">
     <npc name="Alissow" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
