@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<monster name="Mutated Blizard" nameDescription="a blizard" race="blood" experience="15000" speed="800" manacost="560">
-	<health now="6500" max="6500" />
+<monster name="Mutated Blizard" nameDescription="a blizard" race="blood" experience="10000" speed="800" manacost="560">
+	<health now="2500" max="2500" />
 	<look type="115" corpse="6041" />
 	<targetchange interval="4000" chance="10" />
 	<flags>
@@ -18,7 +18,7 @@
 		<flag canwalkonenergy="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="800" min="-100" max="-600" />
+		<attack name="melee" interval="800" min="-100" max="-500" />
 		<attack name="lizard magistratus curse" interval="1000" chance="10" range="5" min="-100" max="-300" />
 	</attacks>
 	<defenses armor="15" defense="15">
