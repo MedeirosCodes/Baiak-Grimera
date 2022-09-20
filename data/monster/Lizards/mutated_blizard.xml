@@ -12,14 +12,14 @@
 		<flag pushable="1" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="0" />
-		<flag targetdistance="4" />
+		<flag targetdistance="1" />
 		<flag staticattack="90" />
 		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="800" min="-100" max="-600" />
-		<attack name="lizard magistratus curse" interval="1000" chance="10" range="5" />
+		<attack name="lizard magistratus curse" interval="1000" chance="10" range="5" min="-100" max="-300" />
 	</attacks>
 	<defenses armor="15" defense="15">
 		<defense name="healing" interval="2000" chance="50" min="200" max="750">
