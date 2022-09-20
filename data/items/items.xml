@@ -16030,7 +16030,7 @@
 		<attribute key="armor" value="7" />
 		<attribute key="slotType" value="body" />
 		<attribute key="weight" value="2550" />
-		<attribute key="magiclevelpoints" value="1" />
+		<attribute key="magiclevelpoints" value="3" />
 	</item>
 	<item id="8893" name="" />
 	<item fromid="8894" toid="8897" article="a" name="mysterious machine" />

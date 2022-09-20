@@ -357,6 +357,8 @@
 	<monster name="Lizard Templar" file="Lizards/lizard templar.xml"/>
 	<monster name="Lizard Zaogun" file="Lizards/lizard zaogun.xml"/>
 	<monster name="Wyvern" file="Lizards/wyvern.xml"/>
+	<monster name="Mutated Blizard" file="Lizards/mutated_blizard.xml"/>
+	
 
 	<!-- Minotaurs -->
 	<monster name="Minotaur Archer" file="Minotaurs/minotaur archer.xml"/>

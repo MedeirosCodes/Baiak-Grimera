@@ -6,7 +6,7 @@ function onDeath(player, corpse, killer, mostDamageKiller, unjustified, mostDama
 	local experience = (PLAYERLOSS_EXPERIENCE / 10)
 	local loss = getConfigValue('deathLostPercent')
 		if(loss ~= nil) then
-		doPlayerSetLossPercent(cid, experience, loss * 25)
+		doPlayerSetLossPercent(cid, experience, loss * 20)
 	end
 	local playerId = player:getId()
 	if nextUseStaminaTime[playerId] then
