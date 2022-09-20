@@ -98,5 +98,6 @@
 		<item id="2185" countmax="1" chance="3500"/><!-- necrotic rod -->
 		<item id="2143" countmax="15" chance="12500"/><!-- white pearl -->
 		<item id="7409" countmax="1" chance="1500"/><!-- whitch staff -->
+		<item id="10570" countmax="1" chance="3500"/><!-- whitch hat -->		
 	</loot>
 </monster>
