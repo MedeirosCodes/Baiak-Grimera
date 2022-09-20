@@ -4044,6 +4044,24 @@
     <monster name="Dragon Lord" x="-3" y="2" z="8" spawntime="60"/>
     <monster name="Dragon" x="-2" y="5" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="318" centery="141" centerz="8" radius="6">
+    <monster name="Witch" x="-3" y="-1" z="8" spawntime="60"/>
+    <monster name="Rowena" x="6" y="0" z="8" spawntime="105"/>
+    <monster name="Rowena" x="6" y="4" z="8" spawntime="105"/>
+    <monster name="Witch" x="-3" y="6" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="325" centery="141" centerz="8" radius="1"/>
+  <spawn centerx="329" centery="144" centerz="8" radius="6">
+    <monster name="Witch" x="6" y="1" z="8" spawntime="60"/>
+    <monster name="Rowena" x="-5" y="6" z="8" spawntime="105"/>
+  </spawn>
+  <spawn centerx="325" centery="145" centerz="8" radius="1"/>
+  <spawn centerx="303" centery="150" centerz="8" radius="6">
+    <monster name="Witch" x="-4" y="-1" z="8" spawntime="60"/>
+    <monster name="Rowena" x="-6" y="1" z="8" spawntime="105"/>
+    <monster name="Witch" x="-4" y="3" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="324" centery="150" centerz="8" radius="1"/>
   <spawn centerx="249" centery="151" centerz="8" radius="50">
     <monster name="Rahemos" x="-15" y="0" z="8" spawntime="60"/>
     <monster name="Ashmunrah" x="-8" y="0" z="8" spawntime="60"/>
@@ -4117,6 +4135,7 @@
     <monster name="The Obliverator" x="21" y="50" z="8" spawntime="360"/>
     <monster name="Spirit of Fire" x="23" y="50" z="8" spawntime="339"/>
   </spawn>
+  <spawn centerx="297" centery="151" centerz="8" radius="1"/>
   <spawn centerx="141" centery="152" centerz="8" radius="5">
     <monster name="Orc Berserker" x="0" y="-2" z="8" spawntime="60"/>
     <monster name="Orc Warlord" x="3" y="-2" z="8" spawntime="60"/>
@@ -4129,10 +4148,23 @@
   <spawn centerx="67" centery="154" centerz="8" radius="2">
     <monster name="Dragon" x="1" y="0" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="324" centery="155" centerz="8" radius="1">
+    <monster name="Rowena" x="0" y="0" z="8" spawntime="105"/>
+  </spawn>
+  <spawn centerx="330" centery="155" centerz="8" radius="6">
+    <monster name="Witch" x="3" y="-2" z="8" spawntime="60"/>
+    <monster name="Witch" x="4" y="0" z="8" spawntime="60"/>
+    <monster name="Witch" x="3" y="4" z="8" spawntime="60"/>
+    <monster name="Rowena" x="-6" y="5" z="8" spawntime="105"/>
+  </spawn>
   <spawn centerx="90" centery="156" centerz="8" radius="10">
     <monster name="Dragon" x="-9" y="-7" z="8" spawntime="60"/>
     <monster name="Dragon" x="-3" y="-3" z="8" spawntime="60"/>
     <monster name="Dragon Lord" x="3" y="3" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="317" centery="156" centerz="8" radius="6">
+    <monster name="Witch" x="-2" y="-4" z="8" spawntime="60"/>
+    <monster name="Witch" x="-2" y="3" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="1936" centery="157" centerz="8" radius="30">
     <monster name="Draken Warmaster" x="-24" y="-28" z="8" spawntime="60"/>
@@ -4185,6 +4217,7 @@
     <monster name="Orc Berserker" x="-1" y="0" z="8" spawntime="60"/>
     <monster name="Orc Berserker" x="1" y="2" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="324" centery="161" centerz="8" radius="1"/>
   <spawn centerx="60" centery="162" centerz="8" radius="2">
     <monster name="Dragon" x="2" y="-1" z="8" spawntime="60"/>
     <monster name="Dragon Lord" x="-1" y="2" z="8" spawntime="60"/>
@@ -4236,6 +4269,7 @@
     <monster name="Grim Reaper Master" x="-1" y="5" z="8" spawntime="3600"/>
   </spawn>
   <spawn centerx="305" centery="176" centerz="8" radius="5">
+    <monster name="Rowena" x="5" y="-5" z="8" spawntime="50"/>
     <monster name="Hellspawn" x="-2" y="5" z="8" spawntime="30"/>
   </spawn>
   <spawn centerx="101" centery="178" centerz="8" radius="5">

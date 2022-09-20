@@ -2302,12 +2302,19 @@
 		<attribute key="shootType" value="holy" />
 		<attribute key="range" value="5" />
 	</item>
-        <item id="2453" article="a" name="arcane staff">
-                <attribute key="weight" value="2800" />
-                <attribute key="weaponType" value="wand" />
-                <attribute key="shootType" value="holy" />
-                <attribute key="range" value="6" />
-        </item>
+    <item id="2453" article="a" name="arcane staff">
+        <attribute key="weight" value="2800" />
+        <attribute key="weaponType" value="wand" />
+        <attribute key="shootType" value="holy" />
+        <attribute key="range" value="6" />
+	</item>
+    </item>
+		<item id="7409" article="a" name="witch staff">
+		<attribute key="weight" value="2800" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="fire" />
+		<attribute key="range" value="7" />
+	</item>
 	<item id="2185" article="a" name="necrotic rod">
 		<attribute key="description" value="It was brought up from hell to deliver death." />
 		<attribute key="weight" value="2300" />
@@ -12725,13 +12732,6 @@
 		<attribute key="weaponType" value="sword" />
 		<attribute key="extradef" value="1" />
 	</item>
-	<item id="7409" article="a" name="northern star">
-		<attribute key="weight" value="4200" />
-		<attribute key="defense" value="15" />
-		<attribute key="attack" value="42" />
-		<attribute key="weaponType" value="club" />
-		<attribute key="extradef" value="1" />
-	</item>
 	<item id="7410" article="a" name="queen's sceptre">
 		<attribute key="weight" value="2300" />
 		<attribute key="defense" value="19" />
@@ -12867,7 +12867,7 @@
 		<attribute key="weaponType" value="club" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
-	<item id="7429" article="a" name="blessed sceptre">
+	<item id="7429" article="a" name="blessed wand">
 		<attribute key="description" value="This spectre is magic, use wisely." />
 		<attribute key="weight" value="3900" />
 		<attribute key="weaponType" value="wand" />
