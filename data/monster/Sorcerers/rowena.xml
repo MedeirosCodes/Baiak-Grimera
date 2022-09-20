@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Rowena" nameDescription="a rowena" race="blood" experience="31200" speed="800" manacost="0">
-	<health now="10000" max="10000"/>
+	<health now="13000" max="13000"/>
 	<look type="54" corpse="6081"/>
 	<targetchange interval="2000" chance="8"/>
 	<strategy attack="100" defense="0"/>
@@ -18,14 +18,14 @@
 		<flag runonhealth="30"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="1000" skill="80" attack="80"/>
-		<attack name="fire" interval="500" chance="20" range="7" min="-300" max="-1250">
+		<attack name="melee" interval="800" skill="80" attack="80"/>
+		<attack name="fire" interval="500" chance="20" range="7" min="-500" max="-1250">
 			<attribute key="shootEffect" value="fire"/>
 		</attack>
 		<attack name="speed" interval="3000" chance="5" speedchange="-401" duration="7000">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
-		<attack name="energy" interval="800" chance="11" length="8" spread="0" min="-250" max="-819">
+		<attack name="energy" interval="800" chance="11" length="8" spread="0" min="-750" max="-1519">
 			<attribute key="areaEffect" value="purpleenergy"/>
 		</attack>
 		<attack name="firefield" interval="1000" chance="13" range="7" radius="1" target="1">
@@ -79,7 +79,7 @@
 		<item id="2462" countmax="1" chance="11000"/><!-- devil helmet -->
 		<item id="2387" countmax="1" chance="20000"/><!-- double axe -->
 		<item id="2162" countmax="1" chance="11500"/><!-- magic lightwand -->
-		<item id="2472" countmax="1" chance="3000"/><!-- magic plate armor -->
+		<item id="8892" countmax="1" chance="3000"/><!-- magic plate armor -->
 		<item id="2514" countmax="1" chance="7500"/><!-- mastermind shield -->
 		<item id="2164" countmax="1" chance="5000"/><!-- might ring -->
 		<item id="2178" countmax="1" chance="4000"/><!-- mind stone -->
@@ -93,7 +93,7 @@
 		<item id="2197" countmax="1" chance="4000"/><!-- stone skin amulet -->
 		<item id="2174" countmax="1" chance="2500"/><!-- strange symbol -->
 		<item id="2151" countmax="7" chance="14000"/><!-- talon -->
-		<item id="2421" countmax="1" chance="13500"/><!-- thunder hammer -->
+		<item id="2421" countmax="1" chance="5000"/><!-- thunder hammer -->
 		<item id="3955" countmax="1" chance="2000"/><!-- voodoo doll -->
 		<item id="2185" countmax="1" chance="3500"/><!-- necrotic rod -->
 		<item id="2143" countmax="15" chance="12500"/><!-- white pearl -->
