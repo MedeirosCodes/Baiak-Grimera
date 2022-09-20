@@ -1,53 +1,46 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <monster name="Mutated Blizard" nameDescription="a blizard" race="blood" experience="15000" speed="800" manacost="560">
-	<health now="6265" max="6265" />
-	<look type="114" corpse="6040" />
+	<health now="6500" max="6500" />
+	<look type="115" corpse="6041" />
 	<targetchange interval="4000" chance="10" />
 	<flags>
 		<flag summonable="0" />
 		<flag attackable="1" />
 		<flag hostile="1" />
 		<flag illusionable="1" />
-		<flag convinceable="1" />
+		<flag convinceable="0" />
 		<flag pushable="1" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="0" />
 		<flag targetdistance="4" />
 		<flag staticattack="90" />
-		<flag runonhealth="10" />
+		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
-		<flag canwalkonfire="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="800" min="-100" max="-500" />
-		<attack name="physical" interval="900" chance="30" range="7" min="-300" max="-700">
-			<attribute key="shootEffect" value="spear" />
-		</attack>
+		<attack name="melee" interval="800" min="-100" max="-600" />
+		<attack name="lizard magistratus curse" interval="1000" chance="10" range="5" />
 	</attacks>
-	<defenses armor="15" defense="15" />
+	<defenses armor="15" defense="15">
+		<defense name="healing" interval="2000" chance="50" min="200" max="750">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
 	<elements>
-		<element energyPercent="10" />
-		<element icePercent="20" />
-		<element firePercent="-10" />
+		<element firePercent="80" />
 	</elements>
 	<immunities>
 		<immunity invisible="1" />
-		<immunity earth="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Tssss!" />
+		<voice sentence="Shhhhhhhh" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="80" chance="89000" />
-		<item name="halberd" chance="510" />
-		<item name="spear" countmax="3" chance="8750" />
-		<item name="obsidian lance" chance="1120" />
-		<item name="chain armor" chance="8560" />
-		<item name="scale armor" chance="7730" />
-		<item name="hunting spear" chance="4700" />
-		<item name="sentinel shield" chance="320" />
-		<item name="lizard leather" chance="990" />
-		<item name="lizard scale" chance="960" />
-		<item name="health potion" chance="590" />
+		<item name="gold coin" countmax="50" chance="77230" />
+		<item name="platinum coin" countmax="19" chance="13400" />
+		<item name="lizard leather" chance="220" />
+		<item name="lizard scale" chance="450" />
+		<item name="strong mana potion" chance="6280" />
+		<item name="great mana potion" chance="4480" />
 	</loot>
 </monster>
