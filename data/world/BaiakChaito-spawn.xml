@@ -4045,13 +4045,14 @@
     <monster name="Dragon" x="-2" y="5" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="318" centery="141" centerz="8" radius="6">
+    <monster name="Rowena" x="-4" y="-2" z="8" spawntime="50"/>
     <monster name="Witch" x="-3" y="-1" z="8" spawntime="60"/>
     <monster name="Rowena" x="6" y="0" z="8" spawntime="105"/>
-    <monster name="Rowena" x="-6" y="1" z="8" spawntime="50"/>
-    <monster name="Rowena" x="6" y="4" z="8" spawntime="105"/>
     <monster name="Witch" x="-3" y="6" z="8" spawntime="60"/>
   </spawn>
-  <spawn centerx="324" centery="143" centerz="8" radius="2"/>
+  <spawn centerx="324" centery="143" centerz="8" radius="2">
+    <monster name="Rowena" x="2" y="2" z="8" spawntime="105"/>
+  </spawn>
   <spawn centerx="329" centery="144" centerz="8" radius="6">
     <monster name="Witch" x="6" y="1" z="8" spawntime="60"/>
     <monster name="Rowena" x="-5" y="6" z="8" spawntime="105"/>
@@ -4147,7 +4148,7 @@
     <monster name="Orc Berserker" x="0" y="2" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="312" centery="152" centerz="8" radius="2">
-    <monster name="Rowena" x="-2" y="0" z="8" spawntime="50"/>
+    <monster name="Rowena" x="1" y="-1" z="8" spawntime="50"/>
   </spawn>
   <spawn centerx="67" centery="154" centerz="8" radius="2">
     <monster name="Dragon" x="1" y="0" z="8" spawntime="60"/>
@@ -4169,7 +4170,7 @@
   <spawn centerx="317" centery="156" centerz="8" radius="6">
     <monster name="Witch" x="-2" y="-4" z="8" spawntime="60"/>
     <monster name="Witch" x="-2" y="3" z="8" spawntime="60"/>
-    <monster name="Rowena" x="-6" y="4" z="8" spawntime="50"/>
+    <monster name="Rowena" x="-3" y="4" z="8" spawntime="50"/>
   </spawn>
   <spawn centerx="1936" centery="157" centerz="8" radius="30">
     <monster name="Draken Warmaster" x="-24" y="-28" z="8" spawntime="60"/>
