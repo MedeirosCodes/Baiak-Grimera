@@ -7,23 +7,23 @@ function onCreatureDisappear(cid)           npcHandler:onCreatureDisappear(cid) 
 function onCreatureSay(cid, type, msg)      npcHandler:onCreatureSay(cid, type, msg)    end
 function onThink()                          npcHandler:onThink()                        end
 
-local node1 = keywordHandler:addKeyword({'first bless'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Quer a first blessing já não precisa mais de AOL, por apenas 10000 gold?'})
+local node1 = keywordHandler:addKeyword({'first'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Quer a first blessing por apenas 10000 gold?'})
 	node1:addChildKeyword({'yes'}, StdModule.bless, {npcHandler = npcHandler, bless = 1, premium = true, cost = 10000})
 	node1:addChildKeyword({'no'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, reset = true, text = 'Too expensive, eh?'})
 
-local node2 = keywordHandler:addKeyword({'second bless'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Quer a second blessing por 10000 gold?'})
+local node2 = keywordHandler:addKeyword({'second'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Quer a second blessing por apenas 10000 gold?'})
 	node2:addChildKeyword({'yes'}, StdModule.bless, {npcHandler = npcHandler, bless = 2, premium = true, cost = 10000})
 	node2:addChildKeyword({'no'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, reset = true, text = 'Too expensive, eh?'})
 
-local node3 = keywordHandler:addKeyword({'third bless'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Quer a third blessing por 10000 gold?'})
+local node3 = keywordHandler:addKeyword({'third'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Quer a third blessing por apenas 10000 gold?'})
 	node3:addChildKeyword({'yes'}, StdModule.bless, {npcHandler = npcHandler, bless = 3, premium = true, cost = 10000})
 	node3:addChildKeyword({'no'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, reset = true, text = 'Too expensive, eh?'})
 
-local node4 = keywordHandler:addKeyword({'fourth bless'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Quer a fourth blessing por 10000 gold?'})
+local node4 = keywordHandler:addKeyword({'fourth'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Quer a fourth blessing por apenas 10000 gold?'})
 	node4:addChildKeyword({'yes'}, StdModule.bless, {npcHandler = npcHandler, bless = 4, premium = true, cost = 10000})
 	node4:addChildKeyword({'no'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, reset = true, text = 'Too expensive, eh?'})
 
-local node5 = keywordHandler:addKeyword({'fifth bless'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Quer a fifth blessing por 10000 gold?'})
+local node5 = keywordHandler:addKeyword({'fifth'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Quer a fifth blessing por apenas 10000 gold?'})
 	node5:addChildKeyword({'yes'}, StdModule.bless, {npcHandler = npcHandler, bless = 5, premium = true, cost = 10000})
 	node5:addChildKeyword({'no'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, reset = true, text = 'Too expensive, eh?'})
 
