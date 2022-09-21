@@ -11,7 +11,7 @@
 	<globalevent name="SuperUP" interval="5000" script="custom/superup.lua" />
 	<globalevent name="Clean" interval="2200000" script="custom/clean.lua" />
 	<globalevent name="Save" interval="2200000" script="custom/save.lua" />
-	<globalevent name="Alert" interval="22000" script="custom/alert.lua" />
+	<globalevent name="Alert" interval="1200000" script="custom/alert.lua" />
 	<globalevent type="startup" name="BoostCreature" script="custom/boostCreature.lua" />
 	<globalevent name="BoostCreatureThink" interval="10800000" script="custom/boostCreature.lua" />
 

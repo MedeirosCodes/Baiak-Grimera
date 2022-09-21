@@ -28,6 +28,6 @@ function onThink(interval)
 		end
 	end, 270000)
 	addEvent(cleanMap, 5 * 60 * 1000)
-	addEvent(Game.broadcastMessage, 5 * 60 * 1000, 'O servidor foi limpo, bom jogo. Próxima limpeza em 3 horas.', MESSAGE_STATUS_WARNING)
+	addEvent(Game.broadcastMessage, 5 * 60 * 1000, 'O servidor foi limpo, bom jogo. Próxima limpeza em 30 minutos.', MESSAGE_STATUS_WARNING)
 	return true
 end
