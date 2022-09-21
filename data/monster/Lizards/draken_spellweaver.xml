@@ -18,23 +18,23 @@
 		<flag canwalkonenergy="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="700" min="-100" max="-852" />
-		<attack name="fire" interval="1000" chance="10" length="4" spread="3" min="-240" max="-480">
+		<attack name="melee" interval="2000" min="0" max="-252" />
+		<attack name="fire" interval="2000" chance="10" length="4" spread="3" min="-40" max="-280">
 			<attribute key="areaEffect" value="explosion" />
 		</attack>
-		<attack name="fire" interval="1000" chance="10" range="7" target="1" min="-300" max="-450">
+		<attack name="fire" interval="2000" chance="10" range="7" target="1" min="-10" max="-250">
 			<attribute key="shootEffect" value="fire" />
 			<attribute key="areaEffect" value="firearea" />
 		</attack>
-		<attack name="energy" interval="1000" chance="10" range="7" target="1" min="-250" max="-500">
+		<attack name="energy" interval="2000" chance="10" range="7" target="1" min="-10" max="-300">
 			<attribute key="shootEffect" value="energy" />
 			<attribute key="areaEffect" value="energy" />
 		</attack>
-		<attack name="earth" interval="1000" chance="10" target="1" radius="4" min="-400" max="-680">
+		<attack name="earth" interval="2000" chance="10" target="1" radius="4" min="-20" max="-180">
 			<attribute key="areaEffect" value="poff" />
 		</attack>
 		<attack name="monster soulfire" interval="2000" chance="10" />
-		<attack name="poisoncondition" interval="2000" chance="10" target="1" min="-580" max="-760">
+		<attack name="poisoncondition" interval="2000" chance="10" target="1" min="-20" max="-160">
 			<attribute key="shootEffect" value="poison" />
 		</attack>
 	</attacks>
@@ -42,7 +42,7 @@
 		<defense name="invisible" interval="2000" chance="10" duration="5000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
-		<defense name="healing" interval="2000" chance="15" min="270" max="830">
+		<defense name="healing" interval="2000" chance="15" min="10" max="30">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>
@@ -51,7 +51,7 @@
 		<element holyPercent="25" />
 		<element energyPercent="10" />
 		<element icePercent="10" />
-		<element physicalPercent="80" />
+		<element physicalPercent="0" />
 	</elements>
 	<immunities>
 		<immunity fire="1" />

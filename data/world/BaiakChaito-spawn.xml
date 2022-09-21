@@ -1137,24 +1137,36 @@
   </spawn>
   <spawn centerx="348" centery="185" centerz="7" radius="20">
     <monster name="Mutated Blizard" x="-5" y="-14" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-10" y="-13" z="7" spawntime="32"/>
     <monster name="Mutated Blizard" x="1" y="-13" z="7" spawntime="110"/>
     <monster name="Mutated Blizard" x="5" y="-12" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-3" y="-11" z="7" spawntime="32"/>
+    <monster name="Mutated Blizard" x="9" y="-11" z="7" spawntime="32"/>
     <monster name="Mutated Blizard" x="-12" y="-10" z="7" spawntime="110"/>
     <monster name="Mutated Blizard" x="-6" y="-10" z="7" spawntime="110"/>
     <monster name="Mutated Blizard" x="1" y="-10" z="7" spawntime="110"/>
     <monster name="Mutated Blizard" x="12" y="-10" z="7" spawntime="110"/>
     <monster name="Mutated Blizard" x="5" y="-9" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-17" y="-8" z="7" spawntime="32"/>
+    <monster name="Mutated Blizard" x="0" y="-8" z="7" spawntime="32"/>
     <monster name="Mutated Blizard" x="-5" y="-7" z="7" spawntime="110"/>
     <monster name="Mutated Blizard" x="-10" y="-6" z="7" spawntime="110"/>
     <monster name="Mutated Blizard" x="4" y="-6" z="7" spawntime="110"/>
     <monster name="Mutated Blizard" x="8" y="-6" z="7" spawntime="110"/>
     <monster name="Mutated Blizard" x="13" y="-6" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="16" y="-6" z="7" spawntime="32"/>
     <monster name="Mutated Blizard" x="-15" y="-5" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-5" y="-5" z="7" spawntime="32"/>
+    <monster name="Mutated Blizard" x="11" y="-5" z="7" spawntime="32"/>
+    <monster name="Mutated Blizard" x="-13" y="-3" z="7" spawntime="32"/>
+    <monster name="Mutated Blizard" x="17" y="-3" z="7" spawntime="32"/>
     <monster name="Mutated Blizard" x="-9" y="-2" z="7" spawntime="110"/>
     <monster name="Mutated Blizard" x="7" y="-1" z="7" spawntime="110"/>
     <monster name="Mutated Blizard" x="13" y="-1" z="7" spawntime="110"/>
     <monster name="Mutated Blizard" x="-14" y="0" z="7" spawntime="110"/>
     <monster name="Mutated Blizard" x="-3" y="0" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-18" y="1" z="7" spawntime="32"/>
+    <monster name="Mutated Blizard" x="-7" y="1" z="7" spawntime="32"/>
     <monster name="Mutated Blizard" x="3" y="1" z="7" spawntime="110"/>
     <monster name="Mutated Blizard" x="-12" y="2" z="7" spawntime="110"/>
     <monster name="Mutated Blizard" x="15" y="2" z="7" spawntime="110"/>
@@ -1162,8 +1174,11 @@
     <monster name="Mutated Blizard" x="8" y="4" z="7" spawntime="110"/>
     <monster name="Mutated Blizard" x="-6" y="5" z="7" spawntime="110"/>
     <monster name="Mutated Blizard" x="0" y="5" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="2" y="5" z="7" spawntime="32"/>
     <monster name="Mutated Blizard" x="10" y="6" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="13" y="6" z="7" spawntime="32"/>
     <monster name="Mutated Blizard" x="-13" y="7" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-7" y="7" z="7" spawntime="32"/>
   </spawn>
   <spawn centerx="146" centery="188" centerz="7" radius="100">
     <monster name="Tiger" x="36" y="-99" z="7" spawntime="60"/>
@@ -4327,32 +4342,48 @@
   <spawn centerx="345" centery="182" centerz="8" radius="20">
     <monster name="Mutated Blizard" x="-4" y="-11" z="8" spawntime="110"/>
     <monster name="Mutated Blizard" x="2" y="-10" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-11" y="-9" z="8" spawntime="32"/>
     <monster name="Mutated Blizard" x="6" y="-9" z="8" spawntime="110"/>
     <monster name="Mutated Blizard" x="-11" y="-7" z="8" spawntime="110"/>
     <monster name="Mutated Blizard" x="-5" y="-7" z="8" spawntime="110"/>
     <monster name="Mutated Blizard" x="2" y="-7" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="10" y="-7" z="8" spawntime="32"/>
     <monster name="Mutated Blizard" x="13" y="-7" z="8" spawntime="110"/>
     <monster name="Mutated Blizard" x="6" y="-6" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-16" y="-5" z="8" spawntime="32"/>
     <monster name="Mutated Blizard" x="-4" y="-4" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-1" y="-4" z="8" spawntime="32"/>
     <monster name="Mutated Blizard" x="-9" y="-3" z="8" spawntime="110"/>
     <monster name="Mutated Blizard" x="5" y="-3" z="8" spawntime="110"/>
     <monster name="Mutated Blizard" x="9" y="-3" z="8" spawntime="110"/>
     <monster name="Mutated Blizard" x="14" y="-3" z="8" spawntime="110"/>
     <monster name="Mutated Blizard" x="-14" y="-2" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="17" y="-2" z="8" spawntime="32"/>
+    <monster name="Mutated Blizard" x="4" y="-1" z="8" spawntime="32"/>
+    <monster name="Mutated Blizard" x="11" y="-1" z="8" spawntime="32"/>
+    <monster name="Mutated Blizard" x="-7" y="0" z="8" spawntime="32"/>
+    <monster name="Mutated Blizard" x="-17" y="1" z="8" spawntime="32"/>
     <monster name="Mutated Blizard" x="-8" y="1" z="8" spawntime="110"/>
     <monster name="Mutated Blizard" x="8" y="2" z="8" spawntime="110"/>
     <monster name="Mutated Blizard" x="14" y="2" z="8" spawntime="110"/>
     <monster name="Mutated Blizard" x="-13" y="3" z="8" spawntime="110"/>
     <monster name="Mutated Blizard" x="-2" y="3" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="17" y="3" z="8" spawntime="32"/>
     <monster name="Mutated Blizard" x="4" y="4" z="8" spawntime="110"/>
     <monster name="Mutated Blizard" x="-11" y="5" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="13" y="5" z="8" spawntime="32"/>
     <monster name="Mutated Blizard" x="16" y="5" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-15" y="6" z="8" spawntime="32"/>
     <monster name="Mutated Blizard" x="-7" y="7" z="8" spawntime="110"/>
     <monster name="Mutated Blizard" x="9" y="7" z="8" spawntime="110"/>
     <monster name="Mutated Blizard" x="-5" y="8" z="8" spawntime="110"/>
     <monster name="Mutated Blizard" x="1" y="8" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="15" y="8" z="8" spawntime="32"/>
+    <monster name="Mutated Blizard" x="-8" y="9" z="8" spawntime="32"/>
     <monster name="Mutated Blizard" x="11" y="9" z="8" spawntime="110"/>
     <monster name="Mutated Blizard" x="-12" y="10" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="0" y="10" z="8" spawntime="32"/>
+    <monster name="Mutated Blizard" x="7" y="10" z="8" spawntime="32"/>
   </spawn>
   <spawn centerx="110" centery="184" centerz="8" radius="5">
     <monster name="Cave Rat" x="-1" y="1" z="8" spawntime="60"/>
