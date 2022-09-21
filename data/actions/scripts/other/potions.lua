@@ -1,107 +1,77 @@
-local ultimateHealthPot = 8473
-local greatHealthPot = 7591
-local greatManaPot = 7590
-local greatSpiritPot = 8472
-local strongHealthPot = 7588
-local strongManaPot = 7589
-local healthPot = 7618
-local manaPot = 7620
-local smallHealthPot = 8704
-local antidotePot = 8474
-local greatEmptyPot = 7635
-local strongEmptyPot = 7634
-local emptyPot = 7636
+local berserk = Condition(CONDITION_ATTRIBUTES)
+berserk:setParameter(CONDITION_PARAM_TICKS, 10 * 60 * 1000)
+berserk:setParameter(CONDITION_PARAM_SKILL_MELEE, 5)
+berserk:setParameter(CONDITION_PARAM_SKILL_SHIELD, -10)
+berserk:setParameter(CONDITION_PARAM_BUFF_SPELL, true)
 
-local antidote = createCombatObject()
-setCombatParam(antidote, COMBAT_PARAM_TYPE, COMBAT_HEALING)
-setCombatParam(antidote, COMBAT_PARAM_EFFECT, CONST_ME_MAGIC_BLUE)
-setCombatParam(antidote, COMBAT_PARAM_TARGETCASTERORTOPMOST, TRUE)
-setCombatParam(antidote, COMBAT_PARAM_AGGRESSIVE, FALSE)
-setCombatParam(antidote, COMBAT_PARAM_DISPEL, CONDITION_POISON)
+local mastermind = Condition(CONDITION_ATTRIBUTES)
+mastermind:setParameter(CONDITION_PARAM_TICKS, 10 * 60 * 1000)
+mastermind:setParameter(CONDITION_PARAM_STAT_MAGICPOINTS, 3)
+mastermind:setParameter(CONDITION_PARAM_BUFF_SPELL, true)
 
-local exhaust = createConditionObject(CONDITION_EXHAUST_HEAL)
-setConditionParam(exhaust, CONDITION_PARAM_TICKS, getConfigInfo('timeBetweenExActions'))
+local bullseye = Condition(CONDITION_ATTRIBUTES)
+bullseye:setParameter(CONDITION_PARAM_TICKS, 10 * 60 * 1000)
+bullseye:setParameter(CONDITION_PARAM_SKILL_DISTANCE, 5)
+bullseye:setParameter(CONDITION_PARAM_SKILL_SHIELD, -10)
+bullseye:setParameter(CONDITION_PARAM_BUFF_SPELL, true)
 
-function onUse(cid, item, fromPosition, itemEx, toPosition)
-	if(itemEx.uid ~= cid or itemEx.itemid ~= 1) then
-		return TRUE
+local potions = {
+	[6558] = {transform = {7588, 7589}, effect = CONST_ME_DRAWBLOOD},
+	[7439] = {condition = berserk, vocations = {4, 8}, effect = CONST_ME_MAGIC_RED, description = "Somente knights podem beber esta poção.", text = "Você se sente mais forte."},
+	[7440] = {condition = mastermind, vocations = {1, 2, 5, 6}, effect = CONST_ME_MAGIC_BLUE, description = "Somente sorcerers e druids podem beber esta poção.", text = "Você se sente mais esperto."},
+	[7443] = {condition = bullseye, vocations = {3, 7}, effect = CONST_ME_MAGIC_GREEN, description = "Somente paladins pode beber esta poção.", text = "Você se sente mais preciso."},
+	[7588] = {health = {250, 350}, vocations = {3, 4, 7, 8}, level = 50, flask = 7634, description = "Somente knights e paladins de level 50 ou maior podem beber esta poção."},
+	[7589] = {mana = {155, 285}, vocations = {1, 2, 3, 5, 6, 7}, level = 50, flask = 7634, description = "Somente sorcerers, druids e paladins de level 50 ou maior podem beber esta poção."},
+	[7590] = {mana = {250, 350}, vocations = {1, 2, 5, 6}, level = 80, flask = 7635, description = "Somente druids e sorcerers de level 80 ou acima pode beber este líquido."},
+	[7591] = {health = {425, 775}, vocations = {4, 8}, level = 80, flask = 7635, description = "Somente knights de level 80 ou superior pode beber este líquido."},
+	[7618] = {health = {225, 375}, flask = 7636},
+	[7620] = {mana = {125, 175}, flask = 7636},
+	[8472] = {health = {350, 550}, mana = {100, 200}, vocations = {3, 7}, level = 80, flask = 7635, description = "Somente paladins de level 80 ou superior pode beber este líquido."},
+	[8473] = {health = {750, 990}, vocations = {4, 8}, level = 130, flask = 7635, description = "Somente knights de level 130 ou superior pode beber este líquido."},
+	[8474] = {antidote = true, flask = 7636},
+	[8704] = {health = {60, 90}, flask = 7636},
+}
+
+function onUse(player, item, fromPosition, target, toPosition, isHotkey)
+	if type(target) == "userdata" and not target:isPlayer() then
+		return false
 	end
 
-	if(getCreatureCondition(cid, CONDITION_EXHAUST_HEAL) == TRUE) then
-		doPlayerSendDefaultCancel(cid, RETURNVALUE_YOUAREEXHAUSTED)
-		return TRUE
+	local potion = potions[item:getId()]
+	if potion.level and player:getLevel() < potion.level or potion.vocations and not table.contains(potion.vocations, player:getVocation():getId()) then
+		player:say(potion.description, TALKTYPE_MONSTER_SAY)
+		return true
 	end
 
-	if(item.itemid == antidotePot) then
-		if(doCombat(cid, antidote, numberToVariant(cid)) == LUA_ERROR) then
-			return FALSE
+	if potion.condition then
+		player:addCondition(potion.condition)
+		player:say(potion.text, TALKTYPE_MONSTER_SAY)
+		player:getPosition():sendMagicEffect(potion.effect)
+	elseif potion.transform then
+		item:transform(potion.transform[math.random(#potion.transform)])
+		item:getPosition():sendMagicEffect(potion.effect)
+		return true
+	else
+		if potion.health then
+			doTargetCombat(player, target, COMBAT_HEALING, potion.health[1], potion.health[2])
 		end
-		doAddCondition(cid, exhaust)
-		doCreatureSay(cid, "Aaaah...", TALKTYPE_ORANGE_1)
-		doTransformItem(item.uid, emptyPot)
-	elseif(item.itemid == smallHealthPot) then
-		if(doTargetCombatHealth(0, cid, COMBAT_HEALING, 50, 100, CONST_ME_MAGIC_BLUE) == LUA_ERROR) then
-			return FALSE
+
+		if potion.mana then
+			doTargetCombat(player, target, COMBAT_MANADRAIN, potion.mana[1], potion.mana[2])
 		end
-		doAddCondition(cid, exhaust)
-		doCreatureSay(cid, "Aaaah...", TALKTYPE_ORANGE_1)
-		doTransformItem(item.uid, emptyPot)
-	elseif(item.itemid == healthPot) then
-		if(doTargetCombatHealth(0, cid, COMBAT_HEALING, 100, 200, CONST_ME_MAGIC_BLUE) == LUA_ERROR) then
-			return FALSE
+
+		if potion.antidote then
+			target:removeCondition(CONDITION_POISON)
 		end
-		doAddCondition(cid, exhaust)
-		doCreatureSay(cid, "Aaaah...", TALKTYPE_ORANGE_1)
-		doTransformItem(item.uid, emptyPot)
-	elseif(item.itemid == manaPot) then
-		if(doTargetCombatMana(0, cid, 70, 130, CONST_ME_MAGIC_BLUE) == LUA_ERROR) then
-			return FALSE
-		end
-		doAddCondition(cid, exhaust)
-		doCreatureSay(cid, "Aaaah...", TALKTYPE_ORANGE_1)
-		doTransformItem(item.uid, emptyPot)
-	elseif(item.itemid == strongHealthPot) then
-		if(doTargetCombatHealth(0, cid, COMBAT_HEALING, 200, 400, CONST_ME_MAGIC_BLUE) == LUA_ERROR) then
-			return FALSE
-		end
-		doAddCondition(cid, exhaust)
-		doCreatureSay(cid, "Aaaah...", TALKTYPE_ORANGE_1)
-		doTransformItem(item.uid, strongEmptyPot)
-	elseif(item.itemid == strongManaPot) then
-		if(doTargetCombatMana(0, cid, 110, 190, CONST_ME_MAGIC_BLUE) == LUA_ERROR) then
-			return FALSE
-		end
-		doAddCondition(cid, exhaust)
-		doCreatureSay(cid, "Aaaah...", TALKTYPE_ORANGE_1)
-		doTransformItem(item.uid, strongEmptyPot)
-	elseif(item.itemid == greatSpiritPot) then
-		if(doTargetCombatHealth(0, cid, COMBAT_HEALING, 200, 400, CONST_ME_MAGIC_BLUE) == LUA_ERROR or doTargetCombatMana(0, cid, 110, 190, CONST_ME_MAGIC_BLUE) == LUA_ERROR) then
-			return FALSE
-		end
-		doAddCondition(cid, exhaust)
-		doCreatureSay(cid, "Aaaah...", TALKTYPE_ORANGE_1)
-		doTransformItem(item.uid, greatEmptyPot)
-	elseif(item.itemid == greatHealthPot) then
-		if(doTargetCombatHealth(0, cid, COMBAT_HEALING, 500, 700, CONST_ME_MAGIC_BLUE) == LUA_ERROR) then
-			return FALSE
-		end
-		doAddCondition(cid, exhaust)
-		doCreatureSay(cid, "Aaaah...", TALKTYPE_ORANGE_1)
-		doTransformItem(item.uid, greatEmptyPot)
-	elseif(item.itemid == greatManaPot) then
-		if(doTargetCombatMana(0, cid, 300, 500, CONST_ME_MAGIC_BLUE) == LUA_ERROR) then
-			return FALSE
-		end
-		doAddCondition(cid, exhaust)
-		doCreatureSay(cid, "Aaaah...", TALKTYPE_ORANGE_1)
-		doTransformItem(item.uid, greatEmptyPot)
-	elseif(item.itemid == ultimateHealthPot) then
-		if(doTargetCombatHealth(0, cid, COMBAT_HEALING, 1300, 1700, CONST_ME_MAGIC_BLUE) == LUA_ERROR) then
-			return FALSE
-		end
-		doAddCondition(cid, exhaust)
-		doCreatureSay(cid, "Aaaah...", TALKTYPE_ORANGE_1)
-		doTransformItem(item.uid, greatEmptyPot)
+
+		target:say("Aaaah...", TALKTYPE_MONSTER_SAY)
+		target:getPosition():sendMagicEffect(CONST_ME_MAGIC_BLUE)
 	end
-	return TRUE
+	
+	if not configManager.getBoolean(configKeys.REMOVE_POTION_CHARGES) then
+		return true
+	end
+
+	item:remove(1)
+	return true
 end

@@ -3,9 +3,10 @@ local maxDeathRecords = 5
 local maxBless = 5
 
 function onDeath(player, corpse, killer, mostDamageKiller, unjustified, mostDamageUnjustified)
+	local experience = (PLAYERLOSS_EXPERIENCE / 10)
 	local loss = getConfigValue('deathLostPercent')
 		if(loss ~= nil) then
-		doPlayerSetLossPercent(cid, PLAYERLOSS_EXPERIENCE, loss * 10)
+		doPlayerSetLossPercent(cid, experience, loss * 20)
 	end
 	local playerId = player:getId()
 	if nextUseStaminaTime[playerId] then

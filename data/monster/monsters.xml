@@ -357,6 +357,8 @@
 	<monster name="Lizard Templar" file="Lizards/lizard templar.xml"/>
 	<monster name="Lizard Zaogun" file="Lizards/lizard zaogun.xml"/>
 	<monster name="Wyvern" file="Lizards/wyvern.xml"/>
+	<monster name="Mutated Blizard" file="Lizards/mutated_blizard.xml"/>
+	
 
 	<!-- Minotaurs -->
 	<monster name="Minotaur Archer" file="Minotaurs/minotaur archer.xml"/>
@@ -528,6 +530,7 @@
 	<monster name="Medusa" file="Sorcerers/medusa.xml"/>
 	<monster name="Warlock" file="Sorcerers/warlock.xml"/>
 	<monster name="Witch" file="Sorcerers/witch.xml"/>
+	<monster name="Rowena" file="Sorcerers/rowena.xml"/>
 
 	<!-- Tortoises -->
 	<monster name="Thornback Tortoise" file="Tortoises/thornback tortoise.xml"/>

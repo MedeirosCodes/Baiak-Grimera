@@ -13,13 +13,23 @@
         <vocation name="Elder Druid" />
         <vocation name="Master Sorcerer" />
 	</wand>
+		<wand id="7409" mana="15" min="100" max="900" type="fire"> <!-- WITCH STAFF -->
+        <vocation name="Druid" />
+        <vocation name="Sorcerer" />
+        <vocation name="Elder Druid" />
+        <vocation name="Master Sorcerer" />
+	</wand>
 	<wand id="7879" mana="25" script="thunderWand.lua">
 		<vocation name="Druid" />
 		<vocation name="Sorcerer" />
+		<vocation name="Elder Druid" />
+        <vocation name="Master Sorcerer" />
 	</wand>
 		<wand id="7429" mana="25" script="blessedWand.lua">
 		<vocation name="Druid" />
 		<vocation name="Sorcerer" />
+		<vocation name="Elder Druid" />
+        <vocation name="Master Sorcerer" />
 	</wand>
 	<melee id="7872">
 		<vocation name="Knight" />

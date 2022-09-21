@@ -8,12 +8,7 @@ function onLogin(player)
 			player:sendTextMessage(MESSAGE_STATUS_BLUE_LIGHT, loginStr)
 		end
 
-		loginStr = string.format("Sua última visita foi em {%s}.", os.date("%a %b %d %X %Y", player:getLastLoginSaved()))
-	end
-	function onLogin(cid)
-		local loss = getConfigValue('deathLostPercent')
-		if(loss ~= nil) then
-		doPlayerSetLossPercent(cid, PLAYERLOSS_EXPERIENCE, loss * 15)
+		loginStr = string.format("Sua ultima visita foi em {%s}.", os.date("%a %b %d %X %Y", player:getLastLoginSaved()))
 	end
 	player:sendTextMessage(MESSAGE_STATUS_BLUE_LIGHT, loginStr)
 
@@ -80,7 +75,7 @@ function onLogin(player)
 	if player:getStorageValue(STORAGEVALUE_POTIONXP_ID) ~= -1 and player:getStorageValue(STORAGEVALUE_POTIONXP_TEMPO) <= os.time() then
 		player:setStorageValue(STORAGEVALUE_POTIONXP_ID, -1)
 		player:setStorageValue(STORAGEVALUE_POTIONXP_TEMPO, -1)
-		player:sendCancelMessage("O seu tempo de experiência bônus pela poção de experiência acabou!")
+		player:sendCancelMessage("O seu tempo de experiencia b?nus pela pocao de experiencia acabou!")
 		player:getPosition():sendMagicEffect(CONST_ME_POFF)
 	elseif player:getStorageValue(STORAGEVALUE_POTIONXP_ID) ~= -1 and player:getStorageValue(STORAGEVALUE_POTIONXP_TEMPO) > os.time() then
 		local idPlayer = player:getId()
@@ -89,7 +84,7 @@ function onLogin(player)
 			if player then
 				player:setStorageValue(STORAGEVALUE_POTIONXP_ID, -1)
 				player:setStorageValue(STORAGEVALUE_POTIONXP_TEMPO, -1)
-				player:sendCancelMessage("O seu tempo de experiência bônus pela poção de experiência acabou!")
+				player:sendCancelMessage("O seu tempo de experiencia bonus pela pocao de experiencia acabou!")
 				player:getPosition():sendMagicEffect(CONST_ME_POFF)
 			end
 		end, (player:getStorageValue(STORAGEVALUE_POTIONXP_TEMPO) - os.time()) * 1000)
@@ -99,7 +94,7 @@ function onLogin(player)
 	if player:getStorageValue(STORAGEVALUE_LOOT_ID) ~= -1 and player:getStorageValue(STORAGEVALUE_LOOT_TEMPO) <= os.time() then
 		player:setStorageValue(STORAGEVALUE_LOOT_ID, -1)
 		player:setStorageValue(STORAGEVALUE_LOOT_TEMPO, -1)
-		player:sendCancelMessage("O seu tempo de loot bônus pela poção acabou!")
+		player:sendCancelMessage("O seu tempo de loot bonus acabou!")
 		player:getPosition():sendMagicEffect(CONST_ME_POFF)
 	elseif player:getStorageValue(STORAGEVALUE_LOOT_ID) ~= -1 and player:getStorageValue(STORAGEVALUE_LOOT_TEMPO) > os.time() then
 		local idPlayer = player:getId()
@@ -108,7 +103,7 @@ function onLogin(player)
 			if player then
 				player:setStorageValue(STORAGEVALUE_LOOT_ID, -1)
 				player:setStorageValue(STORAGEVALUE_LOOT_TEMPO, -1)
-				player:sendCancelMessage("O seu tempo de loot bônus pela poção acabou!")
+				player:sendCancelMessage("O seu tempo de loot bonus acabou!")
 				player:getPosition():sendMagicEffect(CONST_ME_POFF)
 			end
 		end, (player:getStorageValue(STORAGEVALUE_LOOT_TEMPO) - os.time()) * 1000)

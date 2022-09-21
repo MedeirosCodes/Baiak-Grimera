@@ -25,5 +25,5 @@ function checkAnti(playerId)
 	addEvent(function()
 		ANTIBOT:time(player:getId())
 		checkAnti(player:getId())
-	end, random * 60 * 1000)
+	end, random * 60 * 10000)
 end
