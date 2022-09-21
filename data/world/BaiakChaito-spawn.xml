@@ -1135,35 +1135,35 @@
   <spawn centerx="122" centery="154" centerz="7" radius="5">
     <monster name="Orc Warlord" x="-2" y="-1" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="347" centery="185" centerz="7" radius="18">
-    <monster name="Mutated Blizard" x="-4" y="-14" z="7" spawntime="110"/>
-    <monster name="Mutated Blizard" x="2" y="-13" z="7" spawntime="110"/>
-    <monster name="Mutated Blizard" x="6" y="-12" z="7" spawntime="110"/>
-    <monster name="Mutated Blizard" x="-11" y="-10" z="7" spawntime="110"/>
-    <monster name="Mutated Blizard" x="-5" y="-10" z="7" spawntime="110"/>
-    <monster name="Mutated Blizard" x="2" y="-10" z="7" spawntime="110"/>
-    <monster name="Mutated Blizard" x="13" y="-10" z="7" spawntime="110"/>
-    <monster name="Mutated Blizard" x="6" y="-9" z="7" spawntime="110"/>
-    <monster name="Mutated Blizard" x="-4" y="-7" z="7" spawntime="110"/>
-    <monster name="Mutated Blizard" x="-9" y="-6" z="7" spawntime="110"/>
-    <monster name="Mutated Blizard" x="5" y="-6" z="7" spawntime="110"/>
-    <monster name="Mutated Blizard" x="9" y="-6" z="7" spawntime="110"/>
-    <monster name="Mutated Blizard" x="14" y="-6" z="7" spawntime="110"/>
-    <monster name="Mutated Blizard" x="-14" y="-5" z="7" spawntime="110"/>
-    <monster name="Mutated Blizard" x="-8" y="-2" z="7" spawntime="110"/>
-    <monster name="Mutated Blizard" x="8" y="-1" z="7" spawntime="110"/>
-    <monster name="Mutated Blizard" x="14" y="-1" z="7" spawntime="110"/>
-    <monster name="Mutated Blizard" x="-13" y="0" z="7" spawntime="110"/>
-    <monster name="Mutated Blizard" x="-2" y="0" z="7" spawntime="110"/>
-    <monster name="Mutated Blizard" x="4" y="1" z="7" spawntime="110"/>
-    <monster name="Mutated Blizard" x="-11" y="2" z="7" spawntime="110"/>
-    <monster name="Mutated Blizard" x="16" y="2" z="7" spawntime="110"/>
-    <monster name="Mutated Blizard" x="-7" y="4" z="7" spawntime="110"/>
-    <monster name="Mutated Blizard" x="9" y="4" z="7" spawntime="110"/>
-    <monster name="Mutated Blizard" x="-5" y="5" z="7" spawntime="110"/>
-    <monster name="Mutated Blizard" x="1" y="5" z="7" spawntime="110"/>
-    <monster name="Mutated Blizard" x="11" y="6" z="7" spawntime="110"/>
-    <monster name="Mutated Blizard" x="-12" y="7" z="7" spawntime="110"/>
+  <spawn centerx="348" centery="185" centerz="7" radius="20">
+    <monster name="Mutated Blizard" x="-5" y="-14" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="1" y="-13" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="5" y="-12" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-12" y="-10" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-6" y="-10" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="1" y="-10" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="12" y="-10" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="5" y="-9" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-5" y="-7" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-10" y="-6" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="4" y="-6" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="8" y="-6" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="13" y="-6" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-15" y="-5" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-9" y="-2" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="7" y="-1" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="13" y="-1" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-14" y="0" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-3" y="0" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="3" y="1" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-12" y="2" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="15" y="2" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-8" y="4" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="8" y="4" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-6" y="5" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="0" y="5" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="10" y="6" z="7" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-13" y="7" z="7" spawntime="110"/>
   </spawn>
   <spawn centerx="146" centery="188" centerz="7" radius="100">
     <monster name="Tiger" x="36" y="-99" z="7" spawntime="60"/>
@@ -4324,6 +4324,36 @@
     <monster name="Warlock" x="1" y="3" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="1" y="5" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="345" centery="182" centerz="8" radius="20">
+    <monster name="Mutated Blizard" x="-4" y="-11" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="2" y="-10" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="6" y="-9" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-11" y="-7" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-5" y="-7" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="2" y="-7" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="13" y="-7" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="6" y="-6" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-4" y="-4" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-9" y="-3" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="5" y="-3" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="9" y="-3" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="14" y="-3" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-14" y="-2" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-8" y="1" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="8" y="2" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="14" y="2" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-13" y="3" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-2" y="3" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="4" y="4" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-11" y="5" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="16" y="5" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-7" y="7" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="9" y="7" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-5" y="8" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="1" y="8" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="11" y="9" z="8" spawntime="110"/>
+    <monster name="Mutated Blizard" x="-12" y="10" z="8" spawntime="110"/>
+  </spawn>
   <spawn centerx="110" centery="184" centerz="8" radius="5">
     <monster name="Cave Rat" x="-1" y="1" z="8" spawntime="60"/>
   </spawn>
@@ -4332,36 +4362,6 @@
     <monster name="Behemoth" x="-2" y="0" z="8" spawntime="60"/>
     <monster name="Fury" x="-2" y="2" z="8" spawntime="20"/>
     <monster name="Dragon Lord" x="-2" y="4" z="8" spawntime="50"/>
-  </spawn>
-  <spawn centerx="345" centery="185" centerz="8" radius="18">
-    <monster name="Mutated Blizard" x="-4" y="-14" z="8" spawntime="110"/>
-    <monster name="Mutated Blizard" x="2" y="-13" z="8" spawntime="110"/>
-    <monster name="Mutated Blizard" x="6" y="-12" z="8" spawntime="110"/>
-    <monster name="Mutated Blizard" x="-11" y="-10" z="8" spawntime="110"/>
-    <monster name="Mutated Blizard" x="-5" y="-10" z="8" spawntime="110"/>
-    <monster name="Mutated Blizard" x="2" y="-10" z="8" spawntime="110"/>
-    <monster name="Mutated Blizard" x="13" y="-10" z="8" spawntime="110"/>
-    <monster name="Mutated Blizard" x="6" y="-9" z="8" spawntime="110"/>
-    <monster name="Mutated Blizard" x="-4" y="-7" z="8" spawntime="110"/>
-    <monster name="Mutated Blizard" x="-9" y="-6" z="8" spawntime="110"/>
-    <monster name="Mutated Blizard" x="5" y="-6" z="8" spawntime="110"/>
-    <monster name="Mutated Blizard" x="9" y="-6" z="8" spawntime="110"/>
-    <monster name="Mutated Blizard" x="14" y="-6" z="8" spawntime="110"/>
-    <monster name="Mutated Blizard" x="-14" y="-5" z="8" spawntime="110"/>
-    <monster name="Mutated Blizard" x="-8" y="-2" z="8" spawntime="110"/>
-    <monster name="Mutated Blizard" x="8" y="-1" z="8" spawntime="110"/>
-    <monster name="Mutated Blizard" x="14" y="-1" z="8" spawntime="110"/>
-    <monster name="Mutated Blizard" x="-13" y="0" z="8" spawntime="110"/>
-    <monster name="Mutated Blizard" x="-2" y="0" z="8" spawntime="110"/>
-    <monster name="Mutated Blizard" x="4" y="1" z="8" spawntime="110"/>
-    <monster name="Mutated Blizard" x="-11" y="2" z="8" spawntime="110"/>
-    <monster name="Mutated Blizard" x="16" y="2" z="8" spawntime="110"/>
-    <monster name="Mutated Blizard" x="-7" y="4" z="8" spawntime="110"/>
-    <monster name="Mutated Blizard" x="9" y="4" z="8" spawntime="110"/>
-    <monster name="Mutated Blizard" x="-5" y="5" z="8" spawntime="110"/>
-    <monster name="Mutated Blizard" x="1" y="5" z="8" spawntime="110"/>
-    <monster name="Mutated Blizard" x="11" y="6" z="8" spawntime="110"/>
-    <monster name="Mutated Blizard" x="-12" y="7" z="8" spawntime="110"/>
   </spawn>
   <spawn centerx="60" centery="186" centerz="8" radius="10"/>
   <spawn centerx="33" centery="187" centerz="8" radius="20">
@@ -5114,6 +5114,50 @@
     <monster name="Demon" x="9" y="4" z="8" spawntime="30"/>
     <monster name="Demon" x="-1" y="15" z="8" spawntime="30"/>
   </spawn>
+  <spawn centerx="1850" centery="415" centerz="8" radius="20">
+    <monster name="Dragon Lord" x="-11" y="-13" z="8" spawntime="50"/>
+    <monster name="Insect Swarm" x="-15" y="-12" z="8" spawntime="60"/>
+    <monster name="Dragon Lord" x="-4" y="-10" z="8" spawntime="50"/>
+    <monster name="Insect Swarm" x="-2" y="-10" z="8" spawntime="60"/>
+    <monster name="Dragon Lord" x="7" y="-9" z="8" spawntime="50"/>
+    <monster name="Dragon Lord" x="-19" y="-8" z="8" spawntime="50"/>
+    <monster name="Insect Swarm" x="12" y="-5" z="8" spawntime="60"/>
+    <monster name="Killer Caiman" x="-20" y="-1" z="8" spawntime="60"/>
+    <monster name="Dragon Lord" x="12" y="-1" z="8" spawntime="50"/>
+    <monster name="Dragon Lord" x="-19" y="0" z="8" spawntime="50"/>
+    <monster name="Dragon Lord Hatchling" x="-18" y="2" z="8" spawntime="205"/>
+    <monster name="Insect Swarm" x="14" y="4" z="8" spawntime="60"/>
+    <monster name="Killer Caiman" x="-20" y="5" z="8" spawntime="60"/>
+    <monster name="Dragon Lord" x="16" y="9" z="8" spawntime="50"/>
+    <monster name="Insect Swarm" x="16" y="14" z="8" spawntime="60"/>
+    <monster name="Dragon Lord Hatchling" x="16" y="17" z="8" spawntime="205"/>
+    <monster name="Killer Caiman" x="10" y="20" z="8" spawntime="60"/>
+    <monster name="Dragon Lord" x="16" y="20" z="8" spawntime="50"/>
+  </spawn>
+  <spawn centerx="1811" centery="416" centerz="8" radius="20">
+    <monster name="Dragon Lord" x="18" y="-13" z="8" spawntime="50"/>
+    <monster name="Dragon Lord" x="10" y="-12" z="8" spawntime="50"/>
+    <monster name="Insect Swarm" x="10" y="-11" z="8" spawntime="60"/>
+    <monster name="Insect Swarm" x="18" y="-11" z="8" spawntime="60"/>
+    <monster name="Dragon Lord" x="4" y="-10" z="8" spawntime="50"/>
+    <monster name="Dragon Lord" x="-5" y="-9" z="8" spawntime="50"/>
+    <monster name="Insect Swarm" x="-2" y="-9" z="8" spawntime="60"/>
+    <monster name="Insect Swarm" x="3" y="-9" z="8" spawntime="60"/>
+    <monster name="Dragon Lord Hatchling" x="6" y="-9" z="8" spawntime="205"/>
+    <monster name="Dragon Lord" x="-13" y="-8" z="8" spawntime="50"/>
+    <monster name="Insect Swarm" x="-8" y="-8" z="8" spawntime="60"/>
+    <monster name="Insect Swarm" x="-14" y="-7" z="8" spawntime="60"/>
+    <monster name="Dragon Lord Hatchling" x="-13" y="-3" z="8" spawntime="205"/>
+    <monster name="Insect Swarm" x="-13" y="4" z="8" spawntime="60"/>
+    <monster name="Dragon Lord" x="-12" y="6" z="8" spawntime="205"/>
+    <monster name="Insect Swarm" x="-11" y="10" z="8" spawntime="60"/>
+    <monster name="Killer Caiman" x="13" y="10" z="8" spawntime="60"/>
+    <monster name="Dragon Lord" x="10" y="12" z="8" spawntime="205"/>
+    <monster name="Dragon Lord Hatchling" x="11" y="12" z="8" spawntime="205"/>
+    <monster name="Killer Caiman" x="5" y="13" z="8" spawntime="60"/>
+    <monster name="Killer Caiman" x="-3" y="14" z="8" spawntime="60"/>
+    <monster name="Insect Swarm" x="-9" y="19" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="740" centery="417" centerz="8" radius="30">
     <monster name="Juggernaut" x="3" y="-14" z="8" spawntime="30"/>
     <monster name="Hand of Cursed Fate" x="0" y="-13" z="8" spawntime="60"/>
@@ -5142,38 +5186,6 @@
     <monster name="Demon" x="-13" y="14" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="1827" centery="420" centerz="8" radius="30">
-    <monster name="Dragon Lord" x="12" y="-18" z="8" spawntime="50"/>
-    <monster name="Dragon Lord" x="2" y="-17" z="8" spawntime="50"/>
-    <monster name="Insect Swarm" x="8" y="-17" z="8" spawntime="60"/>
-    <monster name="Dragon Lord" x="-6" y="-16" z="8" spawntime="50"/>
-    <monster name="Insect Swarm" x="-6" y="-15" z="8" spawntime="60"/>
-    <monster name="Insect Swarm" x="2" y="-15" z="8" spawntime="60"/>
-    <monster name="Dragon Lord" x="19" y="-15" z="8" spawntime="50"/>
-    <monster name="Insect Swarm" x="21" y="-15" z="8" spawntime="60"/>
-    <monster name="Dragon Lord" x="-12" y="-14" z="8" spawntime="50"/>
-    <monster name="Dragon Lord" x="30" y="-14" z="8" spawntime="50"/>
-    <monster name="Dragon Lord" x="-21" y="-13" z="8" spawntime="50"/>
-    <monster name="Insect Swarm" x="-18" y="-13" z="8" spawntime="60"/>
-    <monster name="Insect Swarm" x="-13" y="-13" z="8" spawntime="60"/>
-    <monster name="Dragon Lord Hatchling" x="-10" y="-13" z="8" spawntime="205"/>
-    <monster name="Dragon Lord" x="4" y="-13" z="8" spawntime="50"/>
-    <monster name="Dragon Lord" x="-29" y="-12" z="8" spawntime="50"/>
-    <monster name="Insect Swarm" x="-24" y="-12" z="8" spawntime="60"/>
-    <monster name="Insect Swarm" x="-30" y="-11" z="8" spawntime="60"/>
-    <monster name="Dragon Lord Hatchling" x="-29" y="-7" z="8" spawntime="205"/>
-    <monster name="Killer Caiman" x="3" y="-6" z="8" spawntime="60"/>
-    <monster name="Dragon Lord" x="4" y="-5" z="8" spawntime="50"/>
-    <monster name="Dragon Lord Hatchling" x="5" y="-3" z="8" spawntime="205"/>
-    <monster name="Insect Swarm" x="-29" y="0" z="8" spawntime="60"/>
-    <monster name="Killer Caiman" x="3" y="0" z="8" spawntime="60"/>
-    <monster name="Dragon Lord" x="-28" y="2" z="8" spawntime="205"/>
-    <monster name="Insect Swarm" x="-27" y="6" z="8" spawntime="60"/>
-    <monster name="Killer Caiman" x="-3" y="6" z="8" spawntime="60"/>
-    <monster name="Dragon Lord" x="-6" y="8" z="8" spawntime="205"/>
-    <monster name="Dragon Lord Hatchling" x="-5" y="8" z="8" spawntime="205"/>
-    <monster name="Killer Caiman" x="-11" y="9" z="8" spawntime="60"/>
-    <monster name="Killer Caiman" x="-19" y="10" z="8" spawntime="60"/>
-    <monster name="Insect Swarm" x="-25" y="15" z="8" spawntime="60"/>
     <monster name="Killer Caiman" x="28" y="17" z="8" spawntime="60"/>
     <monster name="Dragon Lord" x="-24" y="18" z="8" spawntime="205"/>
     <monster name="Dragon Lord" x="26" y="19" z="8" spawntime="50"/>
@@ -5185,14 +5197,6 @@
   </spawn>
   <spawn centerx="721" centery="422" centerz="8" radius="1"/>
   <spawn centerx="1890" centery="422" centerz="8" radius="30">
-    <monster name="Insect Swarm" x="-28" y="-12" z="8" spawntime="60"/>
-    <monster name="Dragon Lord" x="-28" y="-8" z="8" spawntime="50"/>
-    <monster name="Insect Swarm" x="-26" y="-3" z="8" spawntime="60"/>
-    <monster name="Dragon Lord" x="-24" y="2" z="8" spawntime="50"/>
-    <monster name="Insect Swarm" x="-24" y="7" z="8" spawntime="60"/>
-    <monster name="Dragon Lord Hatchling" x="-24" y="10" z="8" spawntime="205"/>
-    <monster name="Killer Caiman" x="-30" y="13" z="8" spawntime="60"/>
-    <monster name="Dragon Lord" x="-24" y="13" z="8" spawntime="50"/>
     <monster name="Insect Swarm" x="-25" y="16" z="8" spawntime="60"/>
     <monster name="Dragon Lord Hatchling" x="-25" y="20" z="8" spawntime="205"/>
     <monster name="Dragon Lord" x="-24" y="23" z="8" spawntime="50"/>
@@ -5218,22 +5222,31 @@
     <monster name="Demon" x="-10" y="11" z="8" spawntime="30"/>
     <monster name="Juggernaut" x="-17" y="12" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="1855" centery="451" centerz="8" radius="20">
+    <monster name="Dragon Lord" x="-20" y="3" z="8" spawntime="50"/>
+    <monster name="Killer Caiman" x="-18" y="5" z="8" spawntime="60"/>
+    <monster name="Insect Swarm" x="10" y="5" z="8" spawntime="60"/>
+    <monster name="Dragon Lord Hatchling" x="-17" y="6" z="8" spawntime="205"/>
+    <monster name="Dragon Lord" x="9" y="6" z="8" spawntime="50"/>
+    <monster name="Dragon Lord Hatchling" x="9" y="7" z="8" spawntime="205"/>
+    <monster name="Dragon Lord" x="9" y="12" z="8" spawntime="50"/>
+    <monster name="Dragon Lord Hatchling" x="-10" y="14" z="8" spawntime="205"/>
+    <monster name="Insect Swarm" x="9" y="14" z="8" spawntime="60"/>
+    <monster name="Dragon Lord" x="-11" y="15" z="8" spawntime="50"/>
+    <monster name="Killer Caiman" x="-9" y="16" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1797" centery="458" centerz="8" radius="20">
+    <monster name="Dragon Lord" x="4" y="-3" z="8" spawntime="205"/>
+    <monster name="Insect Swarm" x="5" y="-2" z="8" spawntime="60"/>
+    <monster name="Dragon Lord" x="16" y="2" z="8" spawntime="205"/>
+    <monster name="Killer Caiman" x="11" y="3" z="8" spawntime="60"/>
+    <monster name="Insect Swarm" x="6" y="4" z="8" spawntime="60"/>
+    <monster name="Dragon Lord" x="6" y="9" z="8" spawntime="205"/>
+    <monster name="Insect Swarm" x="7" y="13" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="1827" centery="484" centerz="8" radius="30">
-    <monster name="Dragon Lord" x="8" y="-30" z="8" spawntime="50"/>
-    <monster name="Dragon Lord" x="-26" y="-29" z="8" spawntime="205"/>
-    <monster name="Insect Swarm" x="-25" y="-28" z="8" spawntime="60"/>
-    <monster name="Killer Caiman" x="10" y="-28" z="8" spawntime="60"/>
     <monster name="Killer Caiman" x="0" y="-27" z="8" spawntime="60"/>
-    <monster name="Dragon Lord Hatchling" x="11" y="-27" z="8" spawntime="205"/>
-    <monster name="Dragon Lord" x="-14" y="-24" z="8" spawntime="205"/>
     <monster name="Killer Caiman" x="-8" y="-24" z="8" spawntime="60"/>
-    <monster name="Killer Caiman" x="-19" y="-23" z="8" spawntime="60"/>
-    <monster name="Insect Swarm" x="-24" y="-22" z="8" spawntime="60"/>
-    <monster name="Dragon Lord Hatchling" x="18" y="-19" z="8" spawntime="205"/>
-    <monster name="Dragon Lord" x="17" y="-18" z="8" spawntime="50"/>
-    <monster name="Dragon Lord" x="-24" y="-17" z="8" spawntime="205"/>
-    <monster name="Killer Caiman" x="19" y="-17" z="8" spawntime="60"/>
-    <monster name="Insect Swarm" x="-23" y="-13" z="8" spawntime="60"/>
     <monster name="Dragon Lord" x="27" y="-10" z="8" spawntime="50"/>
     <monster name="Killer Caiman" x="23" y="-9" z="8" spawntime="60"/>
     <monster name="Dragon Lord" x="10" y="-7" z="8" spawntime="50"/>
@@ -5265,11 +5278,6 @@
     <monster name="Dragon Lord" x="27" y="30" z="8" spawntime="50"/>
   </spawn>
   <spawn centerx="1890" centery="485" centerz="8" radius="30">
-    <monster name="Insect Swarm" x="-25" y="-29" z="8" spawntime="60"/>
-    <monster name="Dragon Lord" x="-26" y="-28" z="8" spawntime="50"/>
-    <monster name="Dragon Lord Hatchling" x="-26" y="-27" z="8" spawntime="205"/>
-    <monster name="Dragon Lord" x="-26" y="-22" z="8" spawntime="50"/>
-    <monster name="Insect Swarm" x="-26" y="-20" z="8" spawntime="60"/>
     <monster name="Insect Swarm" x="-25" y="-11" z="8" spawntime="60"/>
     <monster name="Dragon Lord" x="-26" y="-5" z="8" spawntime="50"/>
     <monster name="Insect Swarm" x="-26" y="-3" z="8" spawntime="60"/>
@@ -5280,6 +5288,8 @@
     <monster name="Dragon Lord" x="-22" y="25" z="8" spawntime="50"/>
     <monster name="Insect Swarm" x="-28" y="27" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="1847" centery="489" centerz="8" radius="20"/>
+  <spawn centerx="1804" centery="497" centerz="8" radius="20"/>
   <spawn centerx="1805" centery="514" centerz="8" radius="2"/>
   <spawn centerx="287" centery="581" centerz="8" radius="30">
     <monster name="Nightmare" x="2" y="0" z="8" spawntime="25"/>
