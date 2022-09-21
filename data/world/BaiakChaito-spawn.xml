@@ -1518,7 +1518,7 @@
     <monster name="Warlock" x="0" y="6" z="7" spawntime="30"/>
   </spawn>
   <spawn centerx="722" centery="406" centerz="7" radius="3">
-    <monster name="Minishabaal" x="1" y="-2" z="7" spawntime="40"/>
+    <monster name="Rowena" x="1" y="-2" z="7" spawntime="110"/>
     <monster name="Morgaroth" x="1" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="697" centery="410" centerz="7" radius="30">
@@ -5123,16 +5123,20 @@
     <monster name="Hand of Cursed Fate" x="15" y="-9" z="8" spawntime="30"/>
     <monster name="Hand of Cursed Fate" x="15" y="0" z="8" spawntime="30"/>
     <monster name="Juggernaut" x="17" y="1" z="8" spawntime="60"/>
+    <monster name="Demon (Goblin)" x="9" y="2" z="8" spawntime="109"/>
     <monster name="Demon" x="12" y="3" z="8" spawntime="60"/>
     <monster name="Hand of Cursed Fate" x="9" y="4" z="8" spawntime="30"/>
+    <monster name="Orshabaal" x="-20" y="5" z="8" spawntime="60"/>
     <monster name="Juggernaut" x="4" y="5" z="8" spawntime="30"/>
-    <monster name="Orshabaal" x="-20" y="6" z="8" spawntime="60"/>
     <monster name="Hand of Cursed Fate" x="2" y="8" z="8" spawntime="30"/>
     <monster name="Juggernaut" x="6" y="8" z="8" spawntime="30"/>
+    <monster name="Demon (Goblin)" x="-20" y="9" z="8" spawntime="109"/>
+    <monster name="Demon (Goblin)" x="0" y="9" z="8" spawntime="109"/>
     <monster name="Juggernaut" x="-4" y="10" z="8" spawntime="60"/>
     <monster name="Juggernaut" x="-20" y="12" z="8" spawntime="30"/>
     <monster name="Demon" x="-17" y="13" z="8" spawntime="30"/>
     <monster name="Juggernaut" x="-7" y="13" z="8" spawntime="30"/>
+    <monster name="Demon (Goblin)" x="-28" y="14" z="8" spawntime="109"/>
     <monster name="Juggernaut" x="-22" y="14" z="8" spawntime="30"/>
     <monster name="Hand of Cursed Fate" x="-19" y="14" z="8" spawntime="60"/>
     <monster name="Demon" x="-13" y="14" z="8" spawntime="60"/>
@@ -5179,6 +5183,7 @@
     <monster name="Killer Caiman" x="18" y="26" z="8" spawntime="60"/>
     <monster name="Dragon Lord" x="16" y="28" z="8" spawntime="50"/>
   </spawn>
+  <spawn centerx="721" centery="422" centerz="8" radius="1"/>
   <spawn centerx="1890" centery="422" centerz="8" radius="30">
     <monster name="Insect Swarm" x="-28" y="-12" z="8" spawntime="60"/>
     <monster name="Dragon Lord" x="-28" y="-8" z="8" spawntime="50"/>
@@ -5208,6 +5213,7 @@
     <monster name="Destroyer" x="-19" y="9" z="8" spawntime="30"/>
     <monster name="Hand of Cursed Fate" x="-17" y="9" z="8" spawntime="60"/>
     <monster name="Juggernaut" x="-13" y="9" z="8" spawntime="30"/>
+    <monster name="Demon (Goblin)" x="1" y="9" z="8" spawntime="109"/>
     <monster name="Plaguesmith" x="-17" y="10" z="8" spawntime="30"/>
     <monster name="Demon" x="-10" y="11" z="8" spawntime="30"/>
     <monster name="Juggernaut" x="-17" y="12" z="8" spawntime="60"/>
