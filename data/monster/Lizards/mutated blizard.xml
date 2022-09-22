@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<monster name="Mutated Blizard" nameDescription="a blizard" race="blood" experience="15000" speed="800" manacost="560">
-	<health now="6265" max="6265" />
-	<look type="114" corpse="6040" />
+<monster name="Mutated Blizard" nameDescription="a blizard" race="blood" experience="10000" speed="800" manacost="560">
+	<health now="3265" max="3265" />
+	<look type="115" corpse="6041" />
 	<targetchange interval="4000" chance="10" />
 	<flags>
 		<flag summonable="0" />
@@ -19,20 +19,48 @@
 		<flag canwalkonfire="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="800" min="-100" max="-500" />
-		<attack name="physical" interval="900" chance="30" range="7" min="-300" max="-700">
-			<attribute key="shootEffect" value="spear" />
+		<attack name="melee" interval="1000" min="-100" max="-352" />
+		<attack name="fire" interval="1000" chance="10" length="4" spread="3" min="-240" max="-480">
+			<attribute key="areaEffect" value="explosion" />
+		</attack>
+		<attack name="fire" interval="1000" chance="10" range="7" target="1" min="-400" max="-650">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
+		<attack name="energy" interval="1000" chance="10" range="7" target="1" min="-350" max="-700">
+			<attribute key="shootEffect" value="energy" />
+			<attribute key="areaEffect" value="energy" />
+		</attack>
+		<attack name="earth" interval="1000" chance="10" target="1" radius="4" min="-400" max="-980">
+			<attribute key="areaEffect" value="poff" />
+		</attack>
+		<attack name="monster soulfire" interval="2000" chance="10" />
+		<attack name="poisoncondition" interval="1000" chance="10" target="1" min="-380" max="-560">
+			<attribute key="shootEffect" value="poison" />
 		</attack>
 	</attacks>
-	<defenses armor="15" defense="15" />
+	<defenses armor="25" defense="25">
+		<defense name="invisible" interval="2000" chance="10" duration="5000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+		<defense name="healing" interval="1000" chance="15" min="270" max="530">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
 	<elements>
-		<element energyPercent="10" />
-		<element icePercent="20" />
-		<element firePercent="-10" />
+		<element deathPercent="-15" />
+		<element holyPercent="-5" />
+		<element energyPercent="-10" />
+		<element icePercent="-10" />
+		<element physicalPercent="90" />
 	</elements>
 	<immunities>
 		<immunity invisible="1" />
 		<immunity earth="1" />
+		<immunity lifedrain="1" />
+		<immunity paralyze="1" />
+		<immunity outfit="1" />
+		<immunity drunk="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
 		<voice sentence="Tssss!" />
