@@ -47,7 +47,7 @@
 		<defense name="healing" interval="1000" chance="17" min="200" max="1700">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
-		<defense name="speed" interval="1000" chance="5" speedchange="1901" duration="7000">
+		<defense name="speed" interval="200" chance="5" speedchange="1901" duration="700">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</defense>
 	</defenses>

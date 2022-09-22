@@ -3992,13 +3992,14 @@
 		<attribute key="armor" value="9" />
 		<attribute key="slotType" value="head" />
 	</item>
-	<item id="2507" name="blessed legs">
-		<attribute key="weight" value="3300" />
-		<attribute key="armor" value="4" />
-		<attribute key="absorbPercentAll" value="4"/>
-		<attribute key="magiclevelpoints" value="15" />
+	<item id="2507" article="uma" name="blessed mage legs">
+		<attribute key="weight" value="1800" />
+		<attribute key="armor" value="13" />
+		<attribute key="absorbPercentAll" value="3"/>
+		<attribute key="magiclevelpoints" value="13" />
 		<attribute key="showattributes" value="1" />
 		<attribute key="slotType" value="legs" />
+		<attribute key="description" value="Pode ser usado por mages." />
 	</item>
 	<item id="2508" article="a" name="native armor">
 		<attribute key="weight" value="8000" />
@@ -13560,7 +13561,7 @@
 		<attribute key="writeOnceItemId" value="7726" />
 	</item>
 	<item fromid="7728" toid="7729" name="" />
-	<item id="7730" article="uma" name="thunder mage legs">
+	<item id="7730" article="uma" name="blue legs">
 		<attribute key="weight" value="1800" />
 		<attribute key="armor" value="13" />
 		<attribute key="absorbPercentAll" value="1"/>
