@@ -86,6 +86,11 @@
 		<vocation name="Elder Druid" />
 		<vocation name="Ancient Druid" />
 	</instant>
+	<instant group="attack" spellid="220" name="Eternal Paralyze" words="exevo paralisator" level="500" mana="2500" premium="0" selftarget="1" exhaustion="2000" groupcooldown="4000" needlearn="0" script="attack/eternal_paralyse.lua">
+		<vocation name="Druid" />
+		<vocation name="Elder Druid" />
+		<vocation name="Ancient Druid" />
+	</instant>
 	<instant group="attack" spellid="111" name="Ethereal Spear" words="exori con" level="23" mana="25" premium="0" range="7" needtarget="1" exhaustion="2000" groupcooldown="1000" blockwalls="1" needlearn="0" script="attack/ethereal_spear.lua">
 		<vocation name="Paladin" />
 		<vocation name="Royal Paladin" />
@@ -201,16 +206,7 @@
 		<vocation name="Rageful Knight" />
 	</instant>
 	<instant group="healing" spellid="147" name="Cure Curse" words="exana mort" level="10" mana="50" aggressive="0" selftarget="1" exhaustion="2000" groupcooldown="1000" needlearn="0" script="healing/cure_curse.lua">
-		<vocation name="Sorcerer" />
-		<vocation name="Druid" />
-		<vocation name="Paladin" />
 		<vocation name="Knight" />
-		<vocation name="Master Sorcerer" />
-		<vocation name="Masterful Sorcerer" />
-		<vocation name="Elder Druid" />
-		<vocation name="Ancient Druid" />
-		<vocation name="Royal Paladin" />
-		<vocation name="Glorious Paladin" />
 		<vocation name="Elite Knight" />
 		<vocation name="Rageful Knight" />
 	</instant>
@@ -259,6 +255,9 @@
 		<vocation name="Ancient Druid" />
 		<vocation name="Royal Paladin" />
 		<vocation name="Glorious Paladin" />
+		<vocation name="Knight" />
+		<vocation name="Elite Knight" />
+		<vocation name="Rageful Knight" />
 	</instant>
 	<instant group="healing" spellid="82" name="Mass Healing" words="exura gran mas res" level="36" mana="150" premium="0" aggressive="0" exhaustion="2000" groupcooldown="1000" needlearn="0" script="healing/mass_healing.lua">
 		<vocation name="Druid" />
