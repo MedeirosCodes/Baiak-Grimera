@@ -1,6 +1,6 @@
 local combat = Combat()
-combat:setParameter(COMBAT_PARAM_TYPE, COMBAT_PARAM_TARGETCASTERORTOPMOST)
-combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_FIREWORK_BLUE)
+combat:setParameter(combat, COMBAT_PARAM_TARGETCASTERORTOPMOST, true)
+combat:setParameter(combat, COMBAT_PARAM_EFFECT, CONST_ME_FIREWORK_BLUE)
 combat:setArea(createCombatArea(AREA_CIRCLE5X5))
 
 function onGetFormulaValues(player, level, magicLevel)
