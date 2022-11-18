@@ -29,6 +29,7 @@
 	<action actionid="7011" script="quests/manarune.lua"/>
 	<action actionid="7012" script="quests/thunder.lua"/>
 	<action actionid="7013" script="quests/baiakmana.lua"/>
+	<action actionid="9530" script="quests/nativearmor.lua"/>
 	<action fromaid="34589" toaid="34592" script="quests/medusaAnihiPremio.lua" />
 
 	<action fromaid="46571" toaid="46573" script="quests/quests.lua" />
@@ -304,6 +305,7 @@
 <action uniqueid="7511" script="dwarfschest.lua" />
 <action uniqueid="7512" script="dwarfschest.lua" />
 <action uniqueid="7513" script="dwarfschest.lua" />
+<action uniqueid="2487" script="bkchest.lua" />
 
 <action uniqueid="7944" script="quests/firewalker.lua" />
 <action uniqueid="4787" script="quests/boots.lua" />

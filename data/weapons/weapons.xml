@@ -7,13 +7,21 @@
 		<vocation name="Elder Druid" />
 		<vocation name="Master Sorcerer" />
 	</wand>
+	
+	<wand id="2185" level="100" mana="25" min="30" max="53" type="death"> <!-- Necrotic staff -->
+		<vocation name="Druid" />
+		<vocation name="Sorcerer" />
+		<vocation name="Elder Druid" />
+		<vocation name="Master Sorcerer" />
+	</wand>
+	
 	<wand id="2453" mana="15" min="120" max="300" type="holy"> <!-- Arcane Staff POI -->
         <vocation name="Druid" />
         <vocation name="Sorcerer" />
         <vocation name="Elder Druid" />
         <vocation name="Master Sorcerer" />
 	</wand>
-		<wand id="7409" mana="15" min="100" max="900" type="fire"> <!-- WITCH STAFF -->
+		<wand id="7409" mana="15" min="100" max="500" type="fire"> <!-- WITCH STAFF -->
         <vocation name="Druid" />
         <vocation name="Sorcerer" />
         <vocation name="Elder Druid" />
@@ -52,9 +60,6 @@
 		<vocation name="Druid" />
 	</wand>
 	<wand id="2186" level="13" mana="3" min="13" max="25" type="ice"> <!-- Moonlight Rod -->
-		<vocation name="Druid" />
-	</wand>
-	<wand id="2185" level="19" mana="5" min="27" max="33" type="death"> <!-- Necrotic Rod -->
 		<vocation name="Druid" />
 	</wand>
 	<wand id="8911" level="22" mana="5" min="27" max="33" type="ice"> <!-- Northwind Rod -->

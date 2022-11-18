@@ -330,6 +330,7 @@
 
 	<!-- Insects -->
 	<monster name="Ancient Scarab" file="Insects/ancient scarab.xml"/>
+	<monster name="Fleshcrawler" file="Insects/fleshcrawler.xml"/>
 	<monster name="Blue Butterfly" file="Insects/blue butterfly.xml"/>
 	<monster name="Bug" file="Insects/bug.xml"/>
 	<monster name="Centipede" file="Insects/centipede.xml"/>
@@ -485,6 +486,7 @@
 	<!-- Reptiles -->
 	<monster name="Crocodile" file="Reptiles/crocodile.xml"/>
 	<monster name="Hydra" file="Reptiles/hydra.xml"/>
+	<monster name="Hyper Hydra" file="Reptiles/hyper hydra.xml"/>
 	<monster name="Killer Caiman" file="Reptiles/Killer Caiman.xml"/>
 
 	<!-- Rifts -->
@@ -558,6 +560,7 @@
 	<monster name="Blightwalker" file="Undead Humanoids/blightwalker.xml"/>
 	<monster name="Crypt Shambler" file="Undead Humanoids/crypt shambler.xml"/>
 	<monster name="Ghoul" file="Undead Humanoids/ghoul.xml"/>
+	<monster name="Mutated Ghoul" file="Undead Humanoids/mutated ghoul.xml"/>
 	<monster name="Grim Reaper" file="Undead Humanoids/grim reaper.xml"/>
 	<monster name="Grim Reaper Master" file="Undead Humanoids/grim_reaper_master.xml"/>
 	<monster name="Lich" file="Undead Humanoids/lich.xml"/>

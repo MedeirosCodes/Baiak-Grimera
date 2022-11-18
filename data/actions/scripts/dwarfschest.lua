@@ -23,8 +23,8 @@ function onUse(cid, item, frompos, item2, topos)
    	elseif item.uid == 7512 then
    		queststatus = getPlayerStorageValue(cid,7512)
    		if queststatus == -1 then
-   			doPlayerSendTextMessage(cid,22,"You have found Dwarven Armor.")
-   			doPlayerAddItem(cid,2503,1)
+   			doPlayerSendTextMessage(cid,22,"You have found Knight Armor.")
+   			doPlayerAddItem(cid,12642,1)
    			setPlayerStorageValue(cid,7512,1)
    		else
    			doPlayerSendTextMessage(cid,22,"It is empty.")

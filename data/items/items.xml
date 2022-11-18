@@ -2314,12 +2314,12 @@
 		<attribute key="shootType" value="fire" />
 		<attribute key="range" value="7" />
 	</item>
-	<item id="2185" article="a" name="necrotic rod">
+	<item id="2185" article="a" name="necrotic staff">
 		<attribute key="description" value="It was brought up from hell to deliver death." />
 		<attribute key="weight" value="2300" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="death" />
-		<attribute key="range" value="3" />
+		<attribute key="range" value="4" />
 	</item>
 	<item id="2186" article="a" name="moonlight rod">
 		<attribute key="description" value="Icecold rays of moonlight shimmer on its tip." />
@@ -4004,7 +4004,11 @@
 	<item id="2508" article="a" name="native armor">
 		<attribute key="weight" value="8000" />
 		<attribute key="slotType" value="body" />
-		<attribute key="armor" value="7" />
+		<attribute key="armor" value="6" />
+		<attribute key="skillDist" value="4" />
+		<attribute key="absorbPercentAll" value="2"/>
+		<attribute key="magiclevelpoints" value="2" />
+		<attribute key="showattributes" value="1" />
 	</item>
 	<item id="2509" article="a" name="steel shield">
 		<attribute key="weight" value="6900" />
@@ -4182,7 +4186,7 @@
 	</item>
 	<item id="2542" article="a" name="tempest shield">
 		<attribute key="weight" value="5100" />
-		<attribute key="defense" value="36" />
+		<attribute key="defense" value="56" />
 		<attribute key="weaponType" value="shield" />
 	</item>
 	<item id="2543" article="a" name="bolt">
@@ -7447,7 +7451,7 @@
 	</item>
 	<item id="3975" article="a" name="salamander shield">
 		<attribute key="weight" value="5900" />
-		<attribute key="defense" value="26" />
+		<attribute key="defense" value="36" />
 		<attribute key="weaponType" value="shield" />
 	</item>
 	<item id="3976" article="a" name="worm">
@@ -11254,7 +11258,7 @@
 	<item id="6391" article="a" name="nightmare shield">
 		<attribute key="description" value="It was crafted by the ancient order of the nightmare knights." />
 		<attribute key="weight" value="3200" />
-		<attribute key="defense" value="37" />
+		<attribute key="defense" value="47" />
 		<attribute key="weaponType" value="shield" />
 	</item>
 	<item id="6392" article="a" name="hawser" />
@@ -15814,6 +15818,7 @@
 		<attribute key="ammoType" value="arrow" />
 		<attribute key="range" value="7" />
 		<attribute key="hitChance" value="7" />
+		<attribute key="attack" value="72" />
 	</item>
 	<item id="8857" article="a" name="silkweaver bow">
 		<attribute key="weight" value="2200" />
@@ -18428,7 +18433,7 @@
 		<attribute key="description" value="Someone has sharpened this carrot to inflict some nasty damage especially on rabbits." />
 		<attribute key="weight" value="160" />
 		<attribute key="defense" value="8" />
-		<attribute key="attack" value="16" />
+		<attribute key="attack" value="60" />
 		<attribute key="weaponType" value="sword" />
 	</item>
 	<item id="10293" article="a" name="stale bread of ancientness">

@@ -68,7 +68,7 @@
   <house name="" houseid="121" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="55"/>
   <house name="" houseid="122" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="59"/>
   <house name="" houseid="123" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="39"/>
-  <house name="" houseid="124" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="44"/>
+  <house name="" houseid="124" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="39"/>
   <house name="" houseid="125" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="108"/>
   <house name="" houseid="127" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="19"/>
   <house name="" houseid="129" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="19"/>
@@ -85,6 +85,8 @@
   <house name="" houseid="140" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="15"/>
   <house name="" houseid="141" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="15"/>
   <house name="" houseid="142" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="32"/>
+  <house name="" houseid="351" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="25"/>
+  <house name="" houseid="352" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="17"/>
   <house name="" houseid="1380" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0"/>
   <house name="" houseid="1381" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0"/>
   <house name="" houseid="1382" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0"/>

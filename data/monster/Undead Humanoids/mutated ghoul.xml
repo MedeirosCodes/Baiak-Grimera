@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mutated Ghoul" nameDescription="a mutated ghoul" race="blood" experience="85" speed="440" manacost="4500">
+	<health now="5000" max="5000"/>
+	<look type="18" corpse="5976"/>
+	<targetchange interval="1000" chance="0"/>
+	<strategy attack="100" defense="50"/>
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="800" skill="90" attack="68"/>
+		<attack name="lifedrain" interval="2000" chance="12" range="1" min="-150" max="-250"/>
+	</attacks>
+	<defenses armor="8" defense="17">
+		<defense name="healing" interval="500" chance="13" min="90" max="1500">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element deathPercent="100"/>
+		<element energyPercent="20"/>
+		<element earthPercent="20"/>
+		<element icePercent="10"/>
+		<element holyPercent="-25"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<loot>
+		<item id="5913" countmax="20" chance="10000"/><!-- brown piece of cloth -->
+		<item id="2403" chance="15250"/><!-- knife -->
+	</loot>
+</monster>
