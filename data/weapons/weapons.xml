@@ -21,24 +21,35 @@
         <vocation name="Elder Druid" />
         <vocation name="Master Sorcerer" />
 	</wand>
-		<wand id="7409" mana="15" min="100" max="500" type="fire"> <!-- WITCH STAFF -->
+	
+	<wand id="7451" mana="25" min="120" max="350" type="holy"> <!-- magic ice sceptre -->
         <vocation name="Druid" />
         <vocation name="Sorcerer" />
         <vocation name="Elder Druid" />
         <vocation name="Master Sorcerer" />
 	</wand>
+	
+	<wand id="7409" mana="15" min="100" max="500" type="fire"> <!-- WITCH STAFF -->
+        <vocation name="Druid" />
+        <vocation name="Sorcerer" />
+        <vocation name="Elder Druid" />
+        <vocation name="Master Sorcerer" />
+	</wand>
+	
 	<wand id="7879" mana="25" script="thunderWand.lua">
 		<vocation name="Druid" />
 		<vocation name="Sorcerer" />
 		<vocation name="Elder Druid" />
         <vocation name="Master Sorcerer" />
 	</wand>
-		<wand id="7429" mana="25" script="blessedWand.lua">
+	
+	<wand id="7429" mana="25" script="blessedWand.lua">
 		<vocation name="Druid" />
 		<vocation name="Sorcerer" />
 		<vocation name="Elder Druid" />
         <vocation name="Master Sorcerer" />
 	</wand>
+	
 	<melee id="7872">
 		<vocation name="Knight" />
 	</melee>

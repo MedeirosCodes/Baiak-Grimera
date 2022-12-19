@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Grynch Clan Goblin" nameDescription="a Grynch Clan Goblin" race="blood" experience="4" speed="870" manacost="0">
-	<health now="80" max="80"/>
+	<health now="4000" max="4000"/>
 	<look type="61" corpse="6002"/>
 	<targetchange interval="5000" chance="0"/>
 	<strategy attack="0" defense="100"/>
@@ -18,6 +18,10 @@
 		<flag runonhealth="80"/>
 	</flags>
 	<attacks>
+		<attack name="melee" interval="1000" skill="60" attack="100"/>
+		<attack name="physical" interval="4000" chance="15" range="7" min="-20" max="-185">
+			<attribute key="shootEffect" value="largerock"/>
+		</attack>
 	</attacks>
 	<defenses armor="10" defense="12">
 		<defense name="speed" interval="1000" chance="15" speedchange="500" duration="5000">

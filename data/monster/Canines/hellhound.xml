@@ -65,7 +65,6 @@
 		<item id="2230" chance="25000"/><!-- bone -->
 		<item id="6558" chance="6500"/><!-- concentrated demonic blood -->
 		<item id="6500" chance="15000"/><!-- demonic essence -->
-		<item id="9971" chance="1000"/><!-- gold ingot -->
 		<item id="1987" chance="100000"><!-- bag -->
 			<inside>
 				<item id="9808" chance="1500"/><!-- rusty armor -->

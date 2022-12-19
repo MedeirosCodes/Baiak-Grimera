@@ -2,7 +2,7 @@
 
 <monster name="deathslicer" nameDescription="a deathslicer" race="undead" experience="340" speed="370" manacost="0">
 
-  <health now="2000" max="2000"/>
+  <health now="1000" max="1000"/>
 
   <look type="102" corpse="2253"/>
 
@@ -48,7 +48,7 @@
 
   </attacks>
 
-  <defenses armor="1999" defense="1999"/>
+  <defenses armor="999" defense="999"/>
 
   <immunities>
 

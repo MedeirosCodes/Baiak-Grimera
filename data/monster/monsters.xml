@@ -36,6 +36,7 @@
 
 	<!-- Arachnids -->
 	<monster name="Crystal Spider" file="Arachnids/crystal spider.xml"/>
+	<monster name="Mutated Crystal Spider" file="Arachnids/mutated crystal spider.xml"/>
 	<monster name="Giant Spider" file="Arachnids/giant spider.xml"/>
 	<monster name="Poison Spider" file="Arachnids/poison spider.xml"/>
 	<monster name="Scorpion" file="Arachnids/scorpion.xml"/>
@@ -307,6 +308,7 @@
 
 	<!-- Giants -->
 	<monster name="Behemoth" file="Giants/behemoth.xml"/>
+	<monster name="Stonecracker" file="Giants/stonecracker.xml"/>
 	<monster name="Cyclops" file="Giants/cyclops.xml"/>
 	<monster name="Cyclops Drone" file="Giants/cyclops drone.xml"/>
 	<monster name="Cyclops Smith" file="Giants/cyclops smith.xml"/>

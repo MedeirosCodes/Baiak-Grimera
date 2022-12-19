@@ -24,14 +24,7 @@
   <house name="Safe House IV" houseid="55" entryx="87" entryy="34" entryz="7" rent="0" townid="1" size="6"/>
   <house name="Port house I" houseid="56" entryx="122" entryy="66" entryz="7" rent="0" townid="1" size="15"/>
   <house name="Port house II" houseid="57" entryx="119" entryy="70" entryz="7" rent="0" townid="1" size="13"/>
-  <house name="Hydraland I" houseid="59" entryx="114" entryy="179" entryz="7" rent="0" townid="3" size="30"/>
-  <house name="Hydraland II" houseid="60" entryx="114" entryy="185" entryz="7" rent="0" townid="3" size="30"/>
-  <house name="Hydraland III" houseid="61" entryx="113" entryy="202" entryz="7" rent="0" townid="3" size="42"/>
-  <house name="Hydraland IV" houseid="62" entryx="121" entryy="202" entryz="7" rent="0" townid="3" size="42"/>
-  <house name="Hydraland V" houseid="63" entryx="126" entryy="190" entryz="7" rent="0" townid="3" size="30"/>
-  <house name="Hydraland VI" houseid="64" entryx="136" entryy="187" entryz="7" rent="0" townid="3" size="15"/>
-  <house name="Hydraland VII" houseid="65" entryx="141" entryy="187" entryz="7" rent="0" townid="3" size="15"/>
-  <house name="Hydraland VIII" houseid="66" entryx="152" entryy="186" entryz="7" rent="0" townid="3" size="27"/>
+  <house name="Hydraland VIII" houseid="66" entryx="152" entryy="186" entryz="7" rent="0" townid="3" size="13"/>
   <house name="Liberty Bay IV" houseid="73" entryx="277" entryy="70" entryz="6" rent="0" townid="2" size="37"/>
   <house name="Liberty Bay V" houseid="74" entryx="291" entryy="67" entryz="6" rent="0" townid="2" size="86"/>
   <house name="Liberty Bay VI" houseid="75" entryx="310" entryy="70" entryz="6" rent="0" townid="2" size="38"/>
@@ -87,6 +80,61 @@
   <house name="" houseid="142" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="32"/>
   <house name="" houseid="351" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="25"/>
   <house name="" houseid="352" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="17"/>
+  <house name="" houseid="367" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0"/>
+  <house name="" houseid="1271" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="12"/>
+  <house name="" houseid="1276" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="11"/>
+  <house name="" houseid="1277" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="16"/>
+  <house name="" houseid="1278" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="51"/>
+  <house name="" houseid="1279" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="65"/>
+  <house name="" houseid="1280" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="47"/>
+  <house name="" houseid="1281" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="77"/>
+  <house name="" houseid="1282" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="29"/>
+  <house name="" houseid="1283" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="65"/>
+  <house name="" houseid="1284" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="145"/>
+  <house name="" houseid="1285" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="43"/>
+  <house name="" houseid="1286" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="22"/>
+  <house name="" houseid="1288" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="20"/>
+  <house name="" houseid="1289" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="30"/>
+  <house name="" houseid="1290" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="26"/>
+  <house name="" houseid="1291" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="59"/>
+  <house name="" houseid="1292" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="20"/>
+  <house name="" houseid="1293" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="53"/>
+  <house name="" houseid="1294" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="81"/>
+  <house name="" houseid="1295" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="27"/>
+  <house name="" houseid="1296" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="46"/>
+  <house name="" houseid="1297" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="17"/>
+  <house name="" houseid="1298" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="17"/>
+  <house name="" houseid="1299" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="20"/>
+  <house name="" houseid="1300" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="27"/>
+  <house name="" houseid="1301" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="35"/>
+  <house name="" houseid="1302" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="98"/>
+  <house name="" houseid="1303" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="16"/>
+  <house name="" houseid="1304" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="25"/>
+  <house name="" houseid="1305" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="15"/>
+  <house name="" houseid="1306" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="34"/>
+  <house name="" houseid="1307" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="35"/>
+  <house name="" houseid="1308" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="70"/>
+  <house name="" houseid="1309" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="83"/>
+  <house name="" houseid="1310" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="23"/>
+  <house name="" houseid="1311" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="275"/>
+  <house name="" houseid="1312" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="20"/>
+  <house name="" houseid="1313" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="23"/>
+  <house name="" houseid="1314" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="33"/>
+  <house name="" houseid="1315" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="27"/>
+  <house name="" houseid="1316" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="23"/>
+  <house name="" houseid="1317" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="23"/>
+  <house name="" houseid="1318" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="22"/>
+  <house name="" houseid="1319" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="8"/>
+  <house name="" houseid="1320" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="8"/>
+  <house name="" houseid="1323" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="10"/>
+  <house name="" houseid="1324" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="10"/>
+  <house name="" houseid="1325" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="8"/>
+  <house name="" houseid="1362" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="17"/>
+  <house name="" houseid="1364" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="82"/>
+  <house name="" houseid="1365" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="7"/>
+  <house name="" houseid="1366" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="5"/>
+  <house name="" houseid="1367" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="7"/>
+  <house name="" houseid="1368" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="7"/>
   <house name="" houseid="1380" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0"/>
   <house name="" houseid="1381" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0"/>
   <house name="" houseid="1382" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0"/>
@@ -114,4 +162,81 @@
   <house name="" houseid="1486" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="30"/>
   <house name="" houseid="1487" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="37"/>
   <house name="" houseid="1488" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="78"/>
+  <house name="" houseid="1606" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="101"/>
+  <house name="" houseid="1607" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="14"/>
+  <house name="" houseid="1608" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="68"/>
+  <house name="" houseid="1609" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="54"/>
+  <house name="" houseid="1610" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="48"/>
+  <house name="" houseid="1611" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="68"/>
+  <house name="" houseid="1613" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="95"/>
+  <house name="" houseid="1615" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="56"/>
+  <house name="" houseid="1616" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="20"/>
+  <house name="" houseid="1617" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="22"/>
+  <house name="" houseid="1618" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="52"/>
+  <house name="" houseid="1619" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="23"/>
+  <house name="" houseid="1620" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="22"/>
+  <house name="" houseid="1621" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="22"/>
+  <house name="" houseid="1622" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="23"/>
+  <house name="" houseid="1623" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="36"/>
+  <house name="" houseid="1624" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="24"/>
+  <house name="" houseid="1625" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="40"/>
+  <house name="" houseid="1626" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="23"/>
+  <house name="" houseid="1627" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="23"/>
+  <house name="" houseid="1628" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="34"/>
+  <house name="" houseid="1629" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="22"/>
+  <house name="" houseid="1630" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="33"/>
+  <house name="" houseid="1631" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="69"/>
+  <house name="" houseid="1632" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="61"/>
+  <house name="" houseid="1633" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="207"/>
+  <house name="" houseid="1634" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="177"/>
+  <house name="" houseid="1635" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="20"/>
+  <house name="" houseid="1636" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="22"/>
+  <house name="" houseid="1637" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="33"/>
+  <house name="" houseid="1638" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="20"/>
+  <house name="" houseid="1639" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="34"/>
+  <house name="" houseid="1640" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="22"/>
+  <house name="" houseid="1641" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="22"/>
+  <house name="" houseid="1642" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="23"/>
+  <house name="" houseid="1643" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="10"/>
+  <house name="" houseid="1644" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="25"/>
+  <house name="" houseid="1645" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="10"/>
+  <house name="" houseid="1646" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="26"/>
+  <house name="" houseid="1647" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="21"/>
+  <house name="" houseid="1648" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="21"/>
+  <house name="" houseid="1649" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="22"/>
+  <house name="" houseid="1650" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="56"/>
+  <house name="" houseid="1651" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="22"/>
+  <house name="" houseid="1652" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="40"/>
+  <house name="" houseid="1653" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="54"/>
+  <house name="" houseid="1654" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="37"/>
+  <house name="" houseid="1655" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="22"/>
+  <house name="" houseid="1656" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="26"/>
+  <house name="" houseid="1657" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="10"/>
+  <house name="" houseid="1658" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="25"/>
+  <house name="" houseid="1659" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="14"/>
+  <house name="" houseid="1660" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="22"/>
+  <house name="" houseid="1661" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="14"/>
+  <house name="" houseid="1662" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="22"/>
+  <house name="" houseid="1663" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="10"/>
+  <house name="" houseid="1664" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="44"/>
+  <house name="" houseid="1665" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="22"/>
+  <house name="" houseid="1666" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="47"/>
+  <house name="" houseid="1667" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="21"/>
+  <house name="" houseid="1668" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="36"/>
+  <house name="" houseid="1669" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="32"/>
+  <house name="" houseid="1670" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="37"/>
+  <house name="" houseid="1671" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="34"/>
+  <house name="" houseid="1673" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="52"/>
+  <house name="" houseid="1674" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="22"/>
+  <house name="" houseid="1675" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="37"/>
+  <house name="" houseid="1676" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="38"/>
+  <house name="" houseid="1677" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="50"/>
+  <house name="" houseid="1678" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="23"/>
+  <house name="" houseid="1679" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="48"/>
+  <house name="" houseid="1680" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="22"/>
+  <house name="" houseid="1681" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="37"/>
+  <house name="" houseid="1683" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="32"/>
+  <house name="" houseid="1684" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="34"/>
+  <house name="" houseid="1685" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="37"/>
+  <house name="" houseid="1873" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="73"/>
 </houses>

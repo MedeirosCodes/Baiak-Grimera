@@ -17,11 +17,13 @@
 		<flag runonhealth="15" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="0" />
+		<attack name="melee" interval="2000" min="1000" max="2000" />
 	</attacks>
 	<defenses armor="1" defense="2" />
 	<loot>
 		<item name="meat" countmax="2" chance="20000" />
 		<item id="2684" countmax="2" chance="9000" /><!-- carrot -->
+		<item id="7431" countmax="1" chance="90" /><!-- demonbone -->
+		<item id="8877" countmax="1" chance="90" /><!-- Lavos Armor -->
 	</loot>
 </monster>

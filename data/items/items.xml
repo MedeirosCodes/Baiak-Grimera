@@ -3295,10 +3295,10 @@
 	<item id="2396" article="an" name="ice rapier">
 		<attribute key="description" value="A deadly but fragile weapon." />
 		<attribute key="weight" value="1500" />
-		<attribute key="attack" value="42" />
+		<attribute key="attack" value="32" />
 		<attribute key="defense" value="1" />
 		<attribute key="weaponType" value="sword" />
-		<attribute key="elementIce" value="18" />
+		<attribute key="elementIce" value="10" />
 		<attribute key="charges" value="1" />
 	</item>
 	<item id="2397" article="a" name="longsword">
@@ -3640,7 +3640,7 @@
 	<item id="2445" article="a" name="crystal mace">
 		<attribute key="weight" value="8000" />
 		<attribute key="defense" value="16" />
-		<attribute key="attack" value="38" />
+		<attribute key="attack" value="58" />
 		<attribute key="extradef" value="1" />
 		<attribute key="weaponType" value="club" />
 	</item>
@@ -4165,7 +4165,7 @@
 	</item>
 	<item id="2538" article="an" name="eagle shield">
 		<attribute key="weight" value="6200" />
-		<attribute key="defense" value="32" />
+		<attribute key="defense" value="42" />
 		<attribute key="weaponType" value="shield" />
 	</item>
 	<item id="2539" article="a" name="phoenix shield">
@@ -12725,9 +12725,9 @@
 	<item id="7407" article="a" name="haunted blade">
 		<attribute key="weight" value="3100" />
 		<attribute key="defense" value="12" />
-		<attribute key="attack" value="40" />
+		<attribute key="attack" value="48" />
+		<attribute key="elementIce" value="15" />
 		<attribute key="weaponType" value="sword" />
-		<attribute key="slotType" value="two-handed" />
 	</item>
 	<item id="7408" article="a" name="wyvern fang">
 		<attribute key="weight" value="2000" />
@@ -12875,7 +12875,6 @@
 		<attribute key="description" value="This spectre is magic, use wisely." />
 		<attribute key="weight" value="3900" />
 		<attribute key="weaponType" value="wand" />
-		<attribute key="shootType" value="ice" />
 		<attribute key="shootType" value="death" />
 		<attribute key="range" value="6" />
 		<attribute key="extradef" value="3" />
@@ -12891,7 +12890,7 @@
 		<attribute key="weight" value="18000" />
 		<attribute key="defense" value="38" />
 		<attribute key="extradef" value="-2" />
-		<attribute key="attack" value="48" />
+		<attribute key="attack" value="55" />
 		<attribute key="weaponType" value="club" />
 	</item>
 	<item id="7432" article="a" name="furry club">
@@ -12993,11 +12992,13 @@
 		<attribute key="weaponType" value="club" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
-	<item id="7451" article="a" name="shadow sceptre">
-		<attribute key="weight" value="4100" />
-		<attribute key="defense" value="17" />
-		<attribute key="attack" value="39" />
-		<attribute key="weaponType" value="club" />
+	<item id="7451" article="a" name="magic ice sceptre">
+		<attribute key="description" value="This spectre is magic, use wisely." />
+		<attribute key="weight" value="3900" />
+		<attribute key="weaponType" value="wand" />
+		<attribute key="shootType" value="ice" />
+		<attribute key="range" value="6" />
+		<attribute key="extradef" value="3" />
 	</item>
 	<item id="7452" article="a" name="spiked squelcher">
 		<attribute key="weight" value="6800" />
@@ -13024,6 +13025,7 @@
 		<attribute key="weight" value="5500" />
 		<attribute key="defense" value="28" />
 		<attribute key="attack" value="48" />
+		<attribute key="elementIce" value="15" />
 		<attribute key="weaponType" value="axe" />
 		<attribute key="extradef" value="2" />
 	</item>
@@ -13752,10 +13754,10 @@
 	<item id="7755" article="a" name="fiery crystal mace">
 		<attribute key="weight" value="8000" />
 		<attribute key="defense" value="16" />
-		<attribute key="attack" value="31" />
+		<attribute key="attack" value="41" />
 		<attribute key="weaponType" value="club" />
 		<attribute key="extradef" value="1" />
-		<attribute key="elementFire" value="7" />
+		<attribute key="elementFire" value="20" />
 		<attribute key="charges" value="1000" />
 		<attribute key="showcharges" value="1" />
 		<attribute key="decayTo" value="2445" />
@@ -13929,10 +13931,10 @@
 	<item id="7774" article="an" name="icy crystal mace">
 		<attribute key="weight" value="8000" />
 		<attribute key="defense" value="16" />
-		<attribute key="attack" value="31" />
+		<attribute key="attack" value="41" />
 		<attribute key="weaponType" value="club" />
 		<attribute key="extradef" value="1" />
-		<attribute key="elementIce" value="7" />
+		<attribute key="elementIce" value="20" />
 		<attribute key="charges" value="1000" />
 		<attribute key="showcharges" value="1" />
 		<attribute key="decayTo" value="2445" />
@@ -14228,12 +14230,12 @@
 	<item id="7839" article="a" name="shiver arrow">
 		<attribute key="weight" value="70" />
 		<attribute key="slotType" value="ammo" />
-		<attribute key="attack" value="14" />
-		<attribute key="elementIce" value="14" />
+		<attribute key="attack" value="74" />
+		<attribute key="elementIce" value="24" />
 		<attribute key="weaponType" value="ammunition" />
 		<attribute key="ammoType" value="arrow" />
 		<attribute key="shootType" value="shiverarrow" />
-		<attribute key="maxHitChance" value="91" />
+		<attribute key="maxHitChance" value="98" />
 	</item>
 	<item id="7840" article="a" name="flaming arrow">
 		<attribute key="weight" value="70" />
@@ -14419,10 +14421,10 @@
 	<item id="7865" article="an" name="earth crystal mace">
 		<attribute key="weight" value="8000" />
 		<attribute key="defense" value="16" />
-		<attribute key="attack" value="31" />
+		<attribute key="attack" value="41" />
 		<attribute key="weaponType" value="club" />
 		<attribute key="extradef" value="1" />
-		<attribute key="elementEarth" value="7" />
+		<attribute key="elementEarth" value="20" />
 		<attribute key="charges" value="1000" />
 		<attribute key="showcharges" value="1" />
 		<attribute key="decayTo" value="2445" />
@@ -14574,10 +14576,10 @@
 	<item id="7880" article="an" name="energy crystal mace">
 		<attribute key="weight" value="8000" />
 		<attribute key="defense" value="16" />
-		<attribute key="attack" value="31" />
+		<attribute key="attack" value="42" />
 		<attribute key="weaponType" value="club" />
 		<attribute key="extradef" value="1" />
-		<attribute key="elementEnergy" value="7" />
+		<attribute key="elementEnergy" value="20" />
 		<attribute key="charges" value="1000" />
 		<attribute key="showcharges" value="1" />
 		<attribute key="decayTo" value="2445" />
@@ -15928,7 +15930,7 @@
 	<item id="8877" article="a" name="lavos armor">
 		<attribute key="weight" value="8500" />
 		<attribute key="armor" value="13" />
-		<attribute key="absorbPercentFire" value="3" />
+		<attribute key="absorbPercentFire" value="10" />
 		<attribute key="absorbPercentIce" value="-3" />
 		<attribute key="slotType" value="body" />
 	</item>
